@@ -1,0 +1,60 @@
+\documentclass[11pt,a4paper,oneside]{article}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{pst-eucl,pstricks,pstricks-add,multido, pst-plot}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[spanish,activeacute]{babel}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{titlesec}
+\usepackage{url}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{lmodern}
+\usepackage{epstopdf}
+\parindent=0mm
+\usepackage{color, colortbl}
+\definecolor{azul}{rgb}{0.63, 0.79, 0.95}
+
+\newcommand*{\titleBOOK}{\begingroup
+%\raggedleft
+\centering
+\vspace*{\baselineskip}
+\vspace*{\baselineskip}
+{\Huge\scshape Apuntes Máster}\\[10mm]
+%{\Large \includegraphics[scale=0.25]{uah.pdf}}\\[35mm]
+{\Huge\scshape Seguros  \\[5mm]
+de no Vida} \\ [\baselineskip]
+{\Large\bfseries Primera Edición}\\[0.3 \textheight]
+{\Large Deskito Polanco.}\\
+%{\large\scshape MS-PLUS, Inc.}\par
+\vfill
+\begin{center}
+{\scshape Quito-Ecuador}\\
+\rule{\textwidth}{0.5pt}
+\end{center}
+\vspace*{\baselineskip}
+\endgroup}
+
+
+
+\begin{document}
+\titleBOOK
+\newpage
+
+\tableofcontents
+\newpage
+
+
+\section{Inicio}
+
+Hola
+
+
+\end{document}

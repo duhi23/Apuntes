@@ -52,9 +52,11 @@ de no Vida} \\ [\baselineskip]
 \newpage
 
 
-\section{Inicio}
+\section{Individual Risk and Distributions}
+A non negative random variable is called a \textbf{loss} and it its distribution a \textbf{loss distribution}.\\
+SOme importante classes of loss distributions are the following:
+\item $X~Exponential(\alpha)$ means that $X$ has density $f_X(x)=\alphae\{.\alphax}$
 
-Loss Function
 
 
 \end{document}

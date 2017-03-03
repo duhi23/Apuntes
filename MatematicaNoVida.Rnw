@@ -27,16 +27,16 @@
 \centering
 \vspace*{\baselineskip}
 \vspace*{\baselineskip}
-{\Huge\scshape Apuntes Máster}\\[10mm]
+{\Huge\scshape Lecture Notes}\\[10mm]
 %{\Large \includegraphics[scale=0.25]{uah.pdf}}\\[35mm]
-{\Huge\scshape Seguros  \\[5mm]
-de no Vida} \\ [\baselineskip]
-{\Large\bfseries Primera Edición}\\[0.3 \textheight]
-{\Large Deskito Polanco.}\\
+{\Huge\scshape Non Life  \\[5mm]
+Insurance} \\ [\baselineskip]
+{\Large\bfseries First Draft}\\[0.3 \textheight]
+{\Large Prof. Dr. Ricardo Gatto}\\
 %{\large\scshape MS-PLUS, Inc.}\par
 \vfill
 \begin{center}
-{\scshape Quito-Ecuador}\\
+{\scshape Switzerland-Spain-Ecuador}\\
 \rule{\textwidth}{0.5pt}
 \end{center}
 \vspace*{\baselineskip}
@@ -55,8 +55,24 @@ de no Vida} \\ [\baselineskip]
 
 \section{Individual Risk and Distributions}
 A non negative random variable is called a \textbf{loss} and it its distribution a \textbf{loss distribution}.\\
-$X~Exponential(\alpha)$ means that $X$ has density $f_X(x)=\alpha e^{-\alpha x}$
+$X\sim Exponential(\alpha)$ means that $X$ has density $f_X(x)=\alpha e^{-\alpha x}$ and distribution function (d.f) $F_X(x)=1-e^{-\alpha x}$ $\forall x>0$ and $\alpha>0$.\\
 
 
+Let $Y=e^x$, 
+\begin{align*}
+F_Y(Y) &= F_X(log Y)\\
+&=1-e^{\alpha log (y)}\\
+&=1-y^{-\alpha}
+\end{align*}
+Is called the \textbf{Pareto Distribution}. If $Y$ follows a Pareto distribution, denoted  $Y\sim Pareto(\alpha)$
+
+
+
+
+<<examplePlot, fig=TRUE>>=
+x <- rnorm(100)
+y <- rnorm(100)
+plot(x,y)
+@
 
 \end{document}

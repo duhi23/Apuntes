@@ -54,7 +54,7 @@ de no Vida} \\ [\baselineskip]
 
 \section{Inicio}
 
-Hola
+Loss Function
 
 
 \end{document}

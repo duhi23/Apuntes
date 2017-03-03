@@ -66,13 +66,25 @@ F_Y(Y) &= F_X(log Y)\\
 \end{align*}
 Is called the \textbf{Pareto Distribution}. If $Y$ follows a Pareto distribution, denoted  $Y\sim Pareto(\alpha)$
 
+<<examplePlot, fig=TRUE,echo=FALSE>>=
+x <- seq(0,8,0.01)
+y <- exp(-0.5*x)
+y1 <- exp(-1.5*x)
+y2 <- exp(-1*x)
 
-
-
-<<examplePlot, fig=TRUE>>=
-x <- rnorm(100)
-y <- rnorm(100)
-plot(x,y)
+plot(x,y,type="l",main=expression(paste("Exponential distribution with parameter ",alpha)))
+lines(x,y1,type="l",col="red")
+lines(x,y2,type="l",col="blue")
+grid()
 @
+
+$X\sim Exponential (\lambda)$ and $Y\sim X^{\frac{1}{\tau}}$ $\forall \tau>0$
+\begin{align*}
+F_Y(Y) &= F_X(Y^{\tau})\\
+&=1-e^{-\lambda y^{\tau}} \ \ \ \ \forall y>0\\
+\end{align*}
+$Y$ follows the \textbf{Weibull distribution}, $\tau$ is called the Weibull index.\\ It is denoted by $Y\sim Weibull(\tau,\lambda)$
+
+
 
 \end{document}

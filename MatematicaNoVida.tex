@@ -77,5 +77,51 @@ F_Y(Y) &= F_X(Y^{\tau})\\
 $Y$ follows the \textbf{Weibull distribution}, $\tau$ is called the Weibull index.\\ It is denoted by $Y\sim Weibull(\tau,\lambda)$
 
 
+\section{Thursday 09/03/17}
 
+\subsection{Distribution of the largest claim amount}
+
+The distribution of the largest loss is very important in \textbf{risk management}.
+
+We will derive asymptotic aproximation of standardized maxima.
+
+Let $X_1,...,X_n$ be independent losses with distribution function (d.f) $F$ and define $$M_n=max\{X_1,...,X_n\}$$
+
+
+\begin{align*}
+P[M_n\leq n] &=P[X_1\leqx,..,X_n\leq x]\\
+&=F^n(x) \ \ \forall x>0\\
+\end{align*}
+
+Let $\bar{x}=sup\{x>0|F(x)<1\}$.
+
+Assume $E[M_n]<\infty$, then $E[M_n]=\displaystyle\int_{0}^{\bar{x}}\{1-F^n(x)\}dx\xrightarrow{n\rightarrow \infty}{\bar{x}}$.
+
+Assume $E[M^2_n]<\infty$, then $E[M_n^2]=\displaystyle\int_{0}^{\bar{x}}x\{1-F^n(x)\}dx\xrightarrow{n\rightarrow \infty}{\bar{x}^2}$
+
+$Var(M_n)=E[M^2_n]-E^2[M_n]\xrightarrow{n\rightarrow \infty}{\bar{x}^2-\bar{x}^2}=0$, assuming $\bar{x}=0$.
+
+Thus the asymptotic distribution of $M_n$ is degenerate (the total mass is over $\bar{x}$). SO if we want to compute this asymptotic distribution, we must consider the standardization $\frac{M_n-b_n}{a_n}$.
+
+Before studying these asymptotic approximation we give some examples with finite sample.
+\subsection{Examples}
+The distribution  of the monthly largest loss is Gumbel $F(x)=G(\frac{x-\mu}{\sigma})$ where $G(x)=exp\{-e^{-x}\}\ \ x\in\mathbb{R}$, what is the distribution of the annual maximum?
+\begin{align*}
+F^12&=exp\{-12e^{-\frac{x-\mu}{\sigma}}\}\\
+&=exp\{-e^{-\frac{x-\mu}{\sigma}+log 12}\}\\
+&=exp\{-e^{-\frac{x-(\mu+\sigma log 12)}{\sigma}}\}
+\end{align*}
+It is thus agian GUmbel, with another location parameter with Frechet monthly largest loss, viz. with $G(x)=exp\{-x^{-\alpha}\}\ \ x>0$, we have $F^{12}(x)=exp\{-12\(\frac{x-\mu}{\sigma}\)^{-\alpha}\}=exp\{-(\frac{x-\mu}{12^{\frac{1}{\alpha}}\sigma})^{-\alpha}\}$
+It is again Fréchet with another scale parameter. Because of this algebraic closure property, the Gumbel and the Frechet distributions are called max-stable.
+We consider the slight generalization where the sample size is the random variable $N$.
+
+Let $M_N=max\{X_1,...,X_N\}$. Assume $N$ independent of $X_1,X_2,....$
+\begin{align*}
+P[M_N\leq x]&=\displaystyle\sum_{n=0}^{\infty}P[M_N\leq x|N=n]P[N=n]\\
+&=\displaystyle\sum_{n=0}^{\infty}F^n(x)P[N=n]\\
+&=G_N(F(x))\ \ \ \forall x\geq 0\\
+\end{align*}
+Where $M_0=0$ and $G_N(v)=\displaystyle\sum_{n=0}^{\infty}v^nP[N=n]$ is the generating function of $N$.
+
+Thus $P[M_N\leq 0]$ if $F(0)=0$
 \end{document}

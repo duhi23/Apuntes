@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.30)  9 MAR 2017 15:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.30)  9 MAR 2017 16:40
 entering extended mode
 **./MatematicaNoVida.tex
 (MatematicaNoVida.tex
@@ -1183,24 +1183,24 @@ LaTeX Info: Redefining \% on input line 7.
 )
 \openout1 = `MatematicaNoVida.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 49.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    ... okay on input line 49.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1216,8 +1216,8 @@ LaTeX Font Info:    ... okay on input line 48.
 \makeMPintoPDFobject=\count170
 \everyMPtoPDFconversion=\toks51
 )
-LaTeX Info: Redefining \. on input line 48.
-LaTeX Info: Redefining \% on input line 48.
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1311,7 +1311,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `MatematicaNoVida.toc'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
 
@@ -1319,14 +1319,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--60
 File: MatematicaNoVida-examplePlot.pdf Graphic file (type pdf)
 
 <use MatematicaNoVida-examplePlot.pdf>
-Package pdftex.def Info: MatematicaNoVida-examplePlot.pdf used on input line 70
+Package pdftex.def Info: MatematicaNoVida-examplePlot.pdf used on input line 71
 .
 (pdftex.def)             Requested size: 364.19667pt x 364.21185pt.
  [3 <./MatematicaNoVida-examplePlot.pdf>]
 ! Undefined control sequence.
 <argument>  P[M_n\leq n] &=P[X_1\leqx 
                                       ,..,X_n\leq x]\\ &=F^n(x) \ \ \forall ...
-l.94 \end{align*}
+l.95 \end{align*}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1337,7 +1337,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument>  P[M_n\leq n] &=P[X_1\leqx 
                                       ,..,X_n\leq x]\\ &=F^n(x) \ \ \forall ...
-l.94 \end{align*}
+l.95 \end{align*}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1346,7 +1346,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (18.48679pt too wide) in paragraph at lines 108--109
+Overfull \hbox (18.48679pt too wide) in paragraph at lines 109--110
 []\T1/aer/m/n/10.95 The dis-tri-bu-tion of the monthly lar-gest loss is Gum-bel
  $\OML/lmm/m/it/10.95 F\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10
 .95 ) = \OML/lmm/m/it/10.95 G\OT1/lmr/m/n/10.95 ([])$ \T1/aer/m/n/10.95 whe-re 
@@ -1362,7 +1362,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 ...\}\ \ x>0$, we have $F^{12}(x)=exp\{-12\(
+l.115 ...\}\ \ x>0$, we have $F^{12}(x)=exp\{-12\(
                                                   \frac{x-\mu}{\sigma}\)^{-\...
 
 Your command was ignored.
@@ -1372,20 +1372,109 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.114 ...{12}(x)=exp\{-12\(\frac{x-\mu}{\sigma}\)^
+l.115 ...{12}(x)=exp\{-12\(\frac{x-\mu}{\sigma}\)^
                                                   {-\alpha}\}=exp\{-(\frac{x...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[4] [5] (MatematicaNoVida.aux
+[4]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.166 \begin{exm}F(x)=1-x^
+                          {-\alpha}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \end{exm} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 \end{exm}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 \end{exm}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 \end{exm}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.168 \end{exm}
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+l.175  Notation $f\in\R
+                       _{\delta}$ Thus $F$ is of Pareto-type if and only if ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[5]
+File: MatematicaNoVida-examplePlot.pdf Graphic file (type pdf)
+ <use MatematicaNoVida-examplePlot.pdf>
+Package pdftex.def Info: MatematicaNoVida-examplePlot.pdf used on input line 19
+9.
+(pdftex.def)             Requested size: 364.19667pt x 364.21185pt.
+ [6]
+
+LaTeX Warning: Command \' invalid in math mode on input line 209.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.211 ...alpha}M_n\xrightarrow{d}Fr{echet(\alpha)$
+                                                   as  can be expressed in t...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 228.
+
+[7] (MatematicaNoVida.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 15707 strings out of 493334
- 255790 string characters out of 3139249
- 501025 words of memory out of 3000000
- 18857 multiletter control sequences out of 15000+200000
+ 15720 strings out of 493334
+ 255954 string characters out of 3139249
+ 501061 words of memory out of 3000000
+ 18870 multiletter control sequences out of 15000+200000
  42904 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,12n,68p,608b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1395,21 +1484,22 @@ nts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/
 lm-rm.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
-bols/msbm10.pfb>
-Output written on MatematicaNoVida.pdf (5 pages, 223349 bytes).
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
+/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msb
+m10.pfb>
+Output written on MatematicaNoVida.pdf (7 pages, 232206 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
+ 109 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  10 words of extra memory for PDF output out of 10000 (max. 10000000)
 

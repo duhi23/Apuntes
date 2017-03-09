@@ -21,7 +21,8 @@
 \parindent=0mm
 \usepackage{color, colortbl}
 \definecolor{azul}{rgb}{0.63, 0.79, 0.95}
-\newtheorem{exm}{Example}[section]
+\newtheorem{exm}{Example}[subsection]
+\newtheorem{defi}[subsection]{Definition}
 \newcommand*{\titleBOOK}{\begingroup
 %\raggedleft
 \centering
@@ -158,15 +159,88 @@ P[M_{N_k}\leq x]&=exp\{k\lambda(\frac{x}{\sigma}+1)^{-\alpha}\}\\
 \end{align*}
 
 Which is the Fréchet distribution.
-
-
+\end{exm}
 \section{Pareto Type Distributions}
 Extreme value theory is the analysis of the asymptotic distributions of standardized maxima.
 We search for $a_1,a_2,...>0$, $b_1,b_2,....\in\mathbb{R}$ and for d.f $G$ s. t
 $$P[\frac{M_n-b_n}{a_n}\leq x]\xrightarrow{n\rightarrow\infty}G(x)$$
 at all continuity points $x\in\mathbb{R}$ of $G$
 
+We consider distributions of Pareto-type.
+\begin{defi}
+The d.f F is of Pareto type if $$\lim_{x\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}=t^{-\alpha}\ \ \forall t>0$$
+for some $\alpha>0$
+\end{defi}
 
+\begin{exm}F(x)=1-x^{-\alpha}\\
+\frac{1-F(tx)}{1-F(x)}=\frac{(tx)^{-\alpha}}{x^{-\alpha}}=t^{\alpha}\ \ \forall x>1
 \end{exm}
 
+\begin{defi}
+THe function $f:\mathbb{R}_{+}\rightarrow \mathbb{R}_{+}$ has regular variation (to infinity) with index $\delta\in\mathbb{R}$,
+$$\frac{f(tx)}{f(x)}\xrightarrow{x\rightarrow\infty}t^{\delta}$$
+\end{defi}
+This means that $f(tx)\sim t^{\delta}f(x)$, as $x\rightarrow\infty$ (Remember that a homogeneous function f of degree $\delta$ satisfies $f(tx)=t^{\delta}f(x)\ \ \forall x$).
+ Notation $f\in\R_{\delta}$ Thus $F$ is of Pareto-type if and only if $1-F\in\mathbb{R}_{\alpha}$
+ 
+ \begin{defi}
+ The function $f:\mathbb{R}_+\rightarrow\mathbb{R}_+$ is a slow varying function if
+ $$\frac{f(tx)}{f(x)}\xrightarrow{x\rightarrow\infty}1\ \ \forall t>0$$
+ \end{defi}
+ 
+ $f\in\mathbb{R}_{\delta}<=> f(x)=x^{\delta}l(x)$ where $l\in\mathbb{R}_0$\\
+ =>
+$$\frac{(tx)^{-\delta}f(tx)}{x^{-\delta}f(x)}=t^{-\delta}\frac{f(tx)}{f(x)}\xrightarrow{x\rightarrow\infty}t^{-\delta}t^{\delta}=1$$
+  
+  <=
+ $$\frac{f(tx)}{f(x)}
+  =\frac{(tx)^{\delta}l(tx)}{x^{\delta}l(x)}
+ =t^{\delta}\frac{l(tx)}{l(x)}\xrightarrow{x\rightarrow\infty}t^{\delta}
+$$
+
+We want to show that if the distribution of the individual losses is of Pareto type, then the simple maxima is Fréchet distribution.
+
+\begin{align*}
+log P[\frac{M_n-b_n}{a_n}\leq x]&=log F^n(a_nx+b_n)\\
+&=nlogF(a_nx+b_n)\\
+&\sim\{1-F(a_nx+b_n)\}
+\end{align*}
+<<examplePlot, fig=TRUE,echo=FALSE>>=
+x<-c(0:10)
+plot(x,log(x),type="l",ylim = c(-5,4))
+lines(x,x-1)
+legend(x = 2,y=2.8,legend = "x-1")
+legend(x = 5,y=1.5,legend = "log x")
+grid()
+@
+
+as $n\rightarrow \infty$, provided that $a_nx+b_n\xrightarrow{n\rightarrow\infty}\infty$ where
+$a_1,a_2,...>0$ and $b_1,b_2,...\in\mathbb{R}$. Let us consider $F(x)=1-x^{-\alpha}\ \ \forall x \geq 1$ and $b_1=b_2=...=0$.
+
+$$n\{1-F(a_nx)\}=n(a_nx)^{-\alpha}=x^{-\alpha}$$
+would give us 
+$$log P[\frac{M_n}{a_n}\leq x]\xrightarrow{n\rightarrow\infty}exp\{-x^{-\alpha}\}$$
+<=>
+$$P[\frac{M_n}{a_n}\leq x]\xrightarrow{n\rightarrow\infty}exp\{-x^{-\alpha}\}$$
+$$\frac{M_n}{a_n}\xrightarrow{d}Fréchet(\alpha)$$
+$$na_n^{-\alpha}=1<=>a_n^{-\alpha}=n^{-1}<=>a_n=n^{1/\alpha}$$
+Thus $n^{1/\alpha}M_n\xrightarrow{d}Fr{echet(\alpha)$ as  can be expressed in terms of $F$ as follows.
+
+$$1-x^{-\alpha}=u<=>x=(1-u)^{-1/\alpha}$$
+$$F^{(-1)}(u)=(1-u)^{-1/\alpha}$$
+$$F^{-1}(1-\frac{1}{n})=(1-\{1-\\frac{1}{n}\})^{-\frac{1}{\alpha}}=(\frac{1}{n})^{-\frac{1}{\alpha}}$$
+$$=n^{\frac{1}{\alpha}}=a_n$$
+
+Thus $1-\frac{1}{n}=F(a_n)<=>$ $$\frac{1}{n}<=>1-F(a_n)<=>n=\{1-F(a_n)\}^{-1}$$
+
+Let us keep this relation  for a more general distribution function $F$.
+
+Thus
+$$n\{1-F(a_nx)\}=\frac{1-F(a_nx)}{1-F(a_n)}$$
+$$\xrightarrow{n\rightarrow\infty}x^{-\alpha}$$
+if $F$ is of Pareto-type.
+
+Therefore, from the previous computations
+$$M_n\xrightarrow{d}Fréchet (\alpha)$$
+where $a_n=F^{(-1)}(1-\frac{1}{n})$
 \end{document}

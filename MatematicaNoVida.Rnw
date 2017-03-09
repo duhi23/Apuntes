@@ -21,7 +21,7 @@
 \parindent=0mm
 \usepackage{color, colortbl}
 \definecolor{azul}{rgb}{0.63, 0.79, 0.95}
-
+\newtheorem{exm}{Example}[section]
 \newcommand*{\titleBOOK}{\begingroup
 %\raggedleft
 \centering
@@ -133,4 +133,40 @@ P[M_N\leq x]&=\displaystyle\sum_{n=0}^{\infty}P[M_N\leq x|N=n]P[N=n]\\
 Where $M_0=0$ and $G_N(v)=\displaystyle\sum_{n=0}^{\infty}v^nP[N=n]$ is the generating function of $N$.
 
 Thus $P[M_N\leq 0]$ if $F(0)=0$
+
+\begin{exm}$N_k\sim Poisson(k,\lambda)$, the number of claim amounts during $k$ years.
+\begin{align*}
+G_{N_k}(v)&=E[v^{N_k}]\\
+&=\displaystyle\sum_{n=0}^{\infty}v^ne^{-k\lambda}\frac{(k\lambda)^n}{n!}\\
+&=e^{-k\lambda}\displaystyle\sum_{n=0}^{\infty}\frac{(\lambda kv)^n}{n!}\\
+&=exp\{-k\lambda+\lambda k v\}\\
+&=exp(\{k\lambda(v-1)\}\ \ \ \forall v\in\mathbb{R}\\
+\end{align*}
+Let $F(x)=1-e^{-\frac{x}{\sigma}}$
+\begin{align*}
+P[M_{N_k}\leq x])&=G_{N_k}(F(x))\\
+&=exp\{-k\lambda e^{-\frac{x}{\sigma}}\}\\
+&=exp\{-exp\{-\frac{x}{\sigma+log k\lambda}\}\}\\
+&=exp\{-exp\{-\frac{x-\sigma log  k\lambda}{\sigma}\}\}\\
+\end{align*}
+$\forall x\geq 0 $ which is the Gumbel distribution.
+
+Let $F(x)=1-(\frac{x}{\sigma}+1)^{-\alpha}\ \ \forall x\geq 0$
+\begin{align*}
+P[M_{N_k}\leq x]&=exp\{k\lambda(\frac{x}{\sigma}+1)^{-\alpha}\}\\
+&=exp\{-(\frac{x}{\sigma(k\lambda)^{\frac{1}{\alpha}}}+1)^{-\alpha}\}\ \ \ \forall x \geq 0\\
+\end{align*}
+
+Which is the Fréchet distribution.
+
+
+\section{Pareto Type Distributions}
+Extreme value theory is the analysis of the asymptotic distributions of standardized maxima.
+We search for $a_1,a_2,...>0$, $b_1,b_2,....\in\mathbb{R}$ and for d.f $G$ s. t
+$$P[\frac{M_n-b_n}{a_n}\leq x]\xrightarrow{n\rightarrow\infty}G(x)$$
+at all continuity points $x\in\mathbb{R}$ of $G$
+
+
+\end{exm}
+
 \end{document}

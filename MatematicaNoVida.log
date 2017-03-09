@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.30)  9 MAR 2017 16:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.30)  9 MAR 2017 16:50
 entering extended mode
 **./MatematicaNoVida.tex
 (MatematicaNoVida.tex
@@ -1442,13 +1442,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[5]
-File: MatematicaNoVida-examplePlot.pdf Graphic file (type pdf)
- <use MatematicaNoVida-examplePlot.pdf>
-Package pdftex.def Info: MatematicaNoVida-examplePlot.pdf used on input line 19
-9.
+[5] <MatematicaNoVida-plot.pdf, id=42, 433.62pt x 433.62pt>
+File: MatematicaNoVida-plot.pdf Graphic file (type pdf)
+
+<use MatematicaNoVida-plot.pdf>
+Package pdftex.def Info: MatematicaNoVida-plot.pdf used on input line 199.
 (pdftex.def)             Requested size: 364.19667pt x 364.21185pt.
- [6]
+ [6 <./MatematicaNoVida-plot.pdf>]
 
 LaTeX Warning: Command \' invalid in math mode on input line 209.
 
@@ -1471,10 +1471,10 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 15720 strings out of 493334
- 255954 string characters out of 3139249
+ 15725 strings out of 493334
+ 256098 string characters out of 3139249
  501061 words of memory out of 3000000
- 18870 multiletter control sequences out of 15000+200000
+ 18874 multiletter control sequences out of 15000+200000
  42904 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,12n,68p,608b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1497,9 +1497,9 @@ es/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
 /lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb>
-Output written on MatematicaNoVida.pdf (7 pages, 232206 bytes).
+Output written on MatematicaNoVida.pdf (7 pages, 249791 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 116 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 10 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 15 words of extra memory for PDF output out of 10000 (max. 10000000)
 

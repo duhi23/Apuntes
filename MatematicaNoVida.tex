@@ -196,7 +196,7 @@ log P[\frac{M_n-b_n}{a_n}\leq x]&=log F^n(a_nx+b_n)\\
 &=nlogF(a_nx+b_n)\\
 &\sim\{1-F(a_nx+b_n)\}
 \end{align*}
-\includegraphics{MatematicaNoVida-examplePlot}
+\includegraphics{MatematicaNoVida-plot}
 
 as $n\rightarrow \infty$, provided that $a_nx+b_n\xrightarrow{n\rightarrow\infty}\infty$ where
 $a_1,a_2,...>0$ and $b_1,b_2,...\in\mathbb{R}$. Let us consider $F(x)=1-x^{-\alpha}\ \ \forall x \geq 1$ and $b_1=b_2=...=0$.
@@ -227,4 +227,18 @@ if $F$ is of Pareto-type.
 Therefore, from the previous computations
 $$M_n\xrightarrow{d}Fréchet (\alpha)$$
 where $a_n=F^{(-1)}(1-\frac{1}{n})$
+
+
+This result is the Fréchet limit theorem for maxima, when the individual losses are of Pareto-type, then the sample  maximum is asymptotically Fréchet.
+
+Some computations
+
+$$\lim_{x\rightarrow\infty}\frac{log(tx)}{log x}=\lim_{x\rightarrow\infty}\frac{log t}{log x}+\frac{logx}{log x}=1\ \ \log \in R_0$$
+
+
+$$log^{(0)}x=x, log^{(1)}=log x$$
+$log^{(k)}=log log^{(k-1)}x$ for $k=1,2,...$
+
+$$\lim_{x\rightarrow\infty}\frac{log^{(k)tx}}{log^{(k)}x}=\lim_{x\rightarrow\infty}\frac{2}{1}$$
+
 \end{document}

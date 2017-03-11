@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.30)  9 MAR 2017 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.30)  11 MAR 2017 14:54
 entering extended mode
 **./MatematicaNoVida.tex
 (MatematicaNoVida.tex
@@ -1471,10 +1471,10 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 15725 strings out of 493334
- 256098 string characters out of 3139249
+ 15726 strings out of 493334
+ 256113 string characters out of 3139249
  501061 words of memory out of 3000000
- 18874 multiletter control sequences out of 15000+200000
+ 18875 multiletter control sequences out of 15000+200000
  42904 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,12n,68p,608b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1497,7 +1497,7 @@ es/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
 /lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb>
-Output written on MatematicaNoVida.pdf (7 pages, 249791 bytes).
+Output written on MatematicaNoVida.pdf (7 pages, 250074 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

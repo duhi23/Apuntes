@@ -47,6 +47,7 @@ Insurance} \\ [\baselineskip]
 
 \begin{document}
 \SweaveOpts{concordance=TRUE}
+%\SweaveOpts{concordance=TRUE}
 \titleBOOK
 \newpage
 
@@ -56,33 +57,33 @@ Insurance} \\ [\baselineskip]
 
 \section{Individual Risk and Distributions}
 A non negative random variable is called a \textbf{loss} and it its distribution a \textbf{loss distribution}.\\
-$X\sim Exponential(\alpha)$ means that $X$ has density $f_X(x)=\alpha e^{-\alpha x}$ and distribution function (d.f) $F_X(x)=1-e^{-\alpha x}$ $\forall x>0$ and $\alpha>0$.\\
+$X\sim Exponential(\alpha)$ means that $X$ has density $f_X(x)=\alpha e^{-\alpha x}$ and distribution function (d.f) $F_X(x)=1-e^{-\alpha x}$, $\forall x>0$ and $\alpha>0$.\\
 
 
 Let $Y=e^x$, 
 \begin{align*}
-F_Y(Y) &= F_X(log Y)\\
-&=1-e^{\alpha log (y)}\\
+F_Y(Y) &= F_X(\log Y)\\
+&=1-e^{\alpha \log (y)}\\
 &=1-y^{-\alpha}
 \end{align*}
 Is called the \textbf{Pareto Distribution}. If $Y$ follows a Pareto distribution, denoted  $Y\sim Pareto(\alpha)$
 
-<<examplePlot, fig=TRUE,echo=FALSE>>=
+<<echo=FALSE, fig.align='center', fig.height=4.5, fig.width=5>>=
 x <- seq(0,8,0.01)
 y <- exp(-0.5*x)
 y1 <- exp(-1.5*x)
 y2 <- exp(-1*x)
 
-plot(x,y,type="l",main=expression(paste("Exponential distribution with parameter ",alpha)))
+plot(x,y,type="l",main=expression(paste("Exponential distribution with parameter ",alpha)), xlab='X', ylab='F(X)')
 lines(x,y1,type="l",col="red")
 lines(x,y2,type="l",col="blue")
 grid()
 @
 
-$X\sim Exponential (\lambda)$ and $Y\sim X^{\frac{1}{\tau}}$ $\forall \tau>0$
+$X\sim Exponential (\lambda)$ and $Y\sim X^{\frac{1}{\tau}}$, $\forall \tau>0$
 \begin{align*}
 F_Y(Y) &= F_X(Y^{\tau})\\
-&=1-e^{-\lambda y^{\tau}} \ \ \ \ \forall y>0\\
+&=1-e^{-\lambda y^{\tau}}, \quad \forall y>0\\
 \end{align*}
 $Y$ follows the \textbf{Weibull distribution}, $\tau$ is called the Weibull index.\\ It is denoted by $Y\sim Weibull(\tau,\lambda)$
 
@@ -95,21 +96,21 @@ The distribution of the largest loss is very important in \textbf{risk managemen
 
 We will derive asymptotic aproximation of standardized maxima.
 
-Let $X_1,...,X_n$ be independent losses with distribution function (d.f) $F$ and define $$M_n=max\{X_1,...,X_n\}$$
-
+Let $X_1,\ldots,X_n$ be independent losses with distribution function (d.f) $F$ and define 
+\[M_n=\max\{X_1,\ldots,X_n\}\]
 
 \begin{align*}
-P[M_n\leq n] &=P[X_1\leqx,..,X_n\leq x]\\
-&=F^n(x) \ \ \forall x>0\\
+P[M_n\leq n] &= P[X_1\leqx,..,X_n\leq x]\\
+&=F^n(x), \quad  \forall x>0\\
 \end{align*}
 
-Let $\bar{x}=sup\{x>0|F(x)<1\}$.
+Let $\bar{x}=\sup\{x>0|F(x)<1\}$.
 
 Assume $E[M_n]<\infty$, then $E[M_n]=\displaystyle\int_{0}^{\bar{x}}\{1-F^n(x)\}dx\xrightarrow{n\rightarrow \infty}{\bar{x}}$.
 
 Assume $E[M^2_n]<\infty$, then $E[M_n^2]=\displaystyle\int_{0}^{\bar{x}}x\{1-F^n(x)\}dx\xrightarrow{n\rightarrow \infty}{\bar{x}^2}$
 
-$Var(M_n)=E[M^2_n]-E^2[M_n]\xrightarrow{n\rightarrow \infty}{\bar{x}^2-\bar{x}^2}=0$, assuming $\bar{x}=0$.
+$Var(M_n)=E[M^2_n]-E^2[M_n]\xrightarrow{n\rightarrow \infty}{\bar{x}^2-\bar{x}^2}=0$, assuming $\bar{x}=0$.\newline
 
 Thus the asymptotic distribution of $M_n$ is degenerate (the total mass is over $\bar{x}$). SO if we want to compute this asymptotic distribution, we must consider the standardization $\frac{M_n-b_n}{a_n}$.
 
@@ -117,20 +118,22 @@ Before studying these asymptotic approximation we give some examples with finite
 \subsection{Examples}
 The distribution  of the monthly largest loss is Gumbel $F(x)=G(\frac{x-\mu}{\sigma})$ where $G(x)=exp\{-e^{-x}\}\ \ x\in\mathbb{R}$, what is the distribution of the annual maximum?
 \begin{align*}
-F^12&=exp\{-12e^{-\frac{x-\mu}{\sigma}}\}\\
-&=exp\{-e^{-\frac{x-\mu}{\sigma}+log 12}\}\\
-&=exp\{-e^{-\frac{x-(\mu+\sigma log 12)}{\sigma}}\}
+F^{12}&=\exp\{-12e^{-\frac{x-\mu}{\sigma}}\}\\
+&=\exp\{-e^{-\frac{x-\mu}{\sigma}+log 12}\}\\
+&=\exp\{-e^{-\frac{x-(\mu+\sigma log 12)}{\sigma}}\}
 \end{align*}
-It is thus agian GUmbel, with another location parameter with Frechet monthly largest loss, viz. with $G(x)=exp\{-x^{-\alpha}\}\ \ x>0$, we have $F^{12}(x)=exp\{-12\(\frac{x-\mu}{\sigma}\)^{-\alpha}\}=exp\{-(\frac{x-\mu}{12^{\frac{1}{\alpha}}\sigma})^{-\alpha}\}$
+
+It is thus agian Gumbel, with another location parameter with Frechet monthly largest loss, with $G(x)=\exp\{-x^{-\alpha}\}, \ x>0$, we have $F^{12}(x)=\exp\{-12\(\frac{x-\mu}{\sigma}\)^{-\alpha}\}=\exp\{-(\frac{x-\mu}{12^{\frac{1}{\alpha}}\sigma})^{-\alpha}\}$.
 It is again Fréchet with another scale parameter. Because of this algebraic closure property, the Gumbel and the Frechet distributions are called max-stable.
 We consider the slight generalization where the sample size is the random variable $N$.
 
-Let $M_N=max\{X_1,...,X_N\}$. Assume $N$ independent of $X_1,X_2,....$
+Let $M_N=\max\{X_1,\ldots,X_N\}$. Assume $N$ independent of $X_1,X_2,\ldots$
 \begin{align*}
 P[M_N\leq x]&=\displaystyle\sum_{n=0}^{\infty}P[M_N\leq x|N=n]P[N=n]\\
 &=\displaystyle\sum_{n=0}^{\infty}F^n(x)P[N=n]\\
-&=G_N(F(x))\ \ \ \forall x\geq 0\\
+&=G_N(F(x)), \quad \forall x\geq 0
 \end{align*}
+
 Where $M_0=0$ and $G_N(v)=\displaystyle\sum_{n=0}^{\infty}v^nP[N=n]$ is the generating function of $N$.
 
 Thus $P[M_N\leq 0]$ if $F(0)=0$
@@ -140,22 +143,23 @@ Thus $P[M_N\leq 0]$ if $F(0)=0$
 G_{N_k}(v)&=E[v^{N_k}]\\
 &=\displaystyle\sum_{n=0}^{\infty}v^ne^{-k\lambda}\frac{(k\lambda)^n}{n!}\\
 &=e^{-k\lambda}\displaystyle\sum_{n=0}^{\infty}\frac{(\lambda kv)^n}{n!}\\
-&=exp\{-k\lambda+\lambda k v\}\\
-&=exp(\{k\lambda(v-1)\}\ \ \ \forall v\in\mathbb{R}\\
+&=\exp\{-k\lambda+\lambda k v\}\\
+&=\exp(\{k\lambda(v-1)\}\ \ \ \forall v\in\mathbb{R}\\
 \end{align*}
+
 Let $F(x)=1-e^{-\frac{x}{\sigma}}$
 \begin{align*}
-P[M_{N_k}\leq x])&=G_{N_k}(F(x))\\
-&=exp\{-k\lambda e^{-\frac{x}{\sigma}}\}\\
-&=exp\{-exp\{-\frac{x}{\sigma+log k\lambda}\}\}\\
-&=exp\{-exp\{-\frac{x-\sigma log  k\lambda}{\sigma}\}\}\\
+P[M_{N_k}\leq x]&=G_{N_k}(F(x))\\
+&=\exp\{-k\lambda e^{-\frac{x}{\sigma}}\}\\
+&=\exp\{-\exp\{-\frac{x}{\sigma+\log k\lambda}\}\}\\
+&=\exp\{-\exp\{-\frac{x-\sigma \log  k\lambda}{\sigma}\}\}\\
 \end{align*}
-$\forall x\geq 0 $ which is the Gumbel distribution.
+$\forall x\geq 0$ which is the Gumbel distribution.
 
 Let $F(x)=1-(\frac{x}{\sigma}+1)^{-\alpha}\ \ \forall x\geq 0$
 \begin{align*}
-P[M_{N_k}\leq x]&=exp\{k\lambda(\frac{x}{\sigma}+1)^{-\alpha}\}\\
-&=exp\{-(\frac{x}{\sigma(k\lambda)^{\frac{1}{\alpha}}}+1)^{-\alpha}\}\ \ \ \forall x \geq 0\\
+P[M_{N_k}\leq x]&=\exp\{k\lambda(\frac{x}{\sigma}+1)^{-\alpha}\}\\
+&=\exp\{-(\frac{x}{\sigma(k\lambda)^{\frac{1}{\alpha}}}+1)^{-\alpha}\}\ \ \ \forall x \geq 0\\
 \end{align*}
 
 Which is the Fréchet distribution.
@@ -163,7 +167,7 @@ Which is the Fréchet distribution.
 \section{Pareto Type Distributions}
 Extreme value theory is the analysis of the asymptotic distributions of standardized maxima.
 We search for $a_1,a_2,...>0$, $b_1,b_2,....\in\mathbb{R}$ and for d.f $G$ s. t
-$$P[\frac{M_n-b_n}{a_n}\leq x]\xrightarrow{n\rightarrow\infty}G(x)$$
+$$P\left[\frac{M_n-b_n}{a_n}\leq x\right]\xrightarrow{n\rightarrow\infty}G(x)$$
 at all continuity points $x\in\mathbb{R}$ of $G$
 
 We consider distributions of Pareto-type.
@@ -172,12 +176,14 @@ The d.f F is of Pareto type if $$\lim_{x\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}
 for some $\alpha>0$
 \end{defi}
 
-\begin{exm}F(x)=1-x^{-\alpha}\\
+\begin{exm}
+F(x)=1-x^{-\alpha}\\
 \frac{1-F(tx)}{1-F(x)}=\frac{(tx)^{-\alpha}}{x^{-\alpha}}=t^{\alpha}\ \ \forall x>1
 \end{exm}
 
+
 \begin{defi}
-THe function $f:\mathbb{R}_{+}\rightarrow \mathbb{R}_{+}$ has regular variation (to infinity) with index $\delta\in\mathbb{R}$,
+The function $f:\mathbb{R}_{+}\rightarrow \mathbb{R}_{+}$ has regular variation (to infinity) with index $\delta\in\mathbb{R}$,
 $$\frac{f(tx)}{f(x)}\xrightarrow{x\rightarrow\infty}t^{\delta}$$
 \end{defi}
 This means that $f(tx)\sim t^{\delta}f(x)$, as $x\rightarrow\infty$ (Remember that a homogeneous function f of degree $\delta$ satisfies $f(tx)=t^{\delta}f(x)\ \ \forall x$).
@@ -201,11 +207,11 @@ $$
 We want to show that if the distribution of the individual losses is of Pareto type, then the simple maxima is Fréchet distribution.
 
 \begin{align*}
-log P[\frac{M_n-b_n}{a_n}\leq x]&=log F^n(a_nx+b_n)\\
-&=nlogF(a_nx+b_n)\\
+\log P\left[\frac{M_n-b_n}{a_n}\leq x\right] &= \log F^n(a_nx+b_n)\\
+&=n\log F(a_nx+b_n)\\
 &\sim\{1-F(a_nx+b_n)\}
 \end{align*}
-<<plot, fig=TRUE,echo=FALSE>>=
+<<echo=FALSE, fig.align='center', fig.height=4.5, fig.width=5>>=
 x<-c(0:10)
 plot(x,log(x),type="l",ylim = c(-5,4))
 lines(x,x-1)
@@ -219,16 +225,16 @@ $a_1,a_2,...>0$ and $b_1,b_2,...\in\mathbb{R}$. Let us consider $F(x)=1-x^{-\alp
 
 $$n\{1-F(a_nx)\}=n(a_nx)^{-\alpha}=x^{-\alpha}$$
 would give us 
-$$log P[\frac{M_n}{a_n}\leq x]\xrightarrow{n\rightarrow\infty}exp\{-x^{-\alpha}\}$$
+$$log P[\frac{M_n}{a_n}\leq x]\xrightarrow{n\rightarrow\infty}\exp\{-x^{-\alpha}\}$$
 <=>
-$$P[\frac{M_n}{a_n}\leq x]\xrightarrow{n\rightarrow\infty}exp\{-x^{-\alpha}\}$$
-$$\frac{M_n}{a_n}\xrightarrow{d}Fréchet(\alpha)$$
+$$P[\frac{M_n}{a_n}\leq x]\xrightarrow{n\rightarrow\infty}\exp\{-x^{-\alpha}\}$$
+$$\frac{M_n}{a_n}\xrightarrow{d} Fréchet(\alpha)$$
 $$na_n^{-\alpha}=1<=>a_n^{-\alpha}=n^{-1}<=>a_n=n^{1/\alpha}$$
-Thus $n^{1/\alpha}M_n\xrightarrow{d}Fr{echet(\alpha)$ as  can be expressed in terms of $F$ as follows.
+Thus $n^{1/\alpha}M_n\xrightarrow{d}Frechet(\alpha)$ as  can be expressed in terms of $F$ as follows.
 
 $$1-x^{-\alpha}=u<=>x=(1-u)^{-1/\alpha}$$
 $$F^{(-1)}(u)=(1-u)^{-1/\alpha}$$
-$$F^{-1}(1-\frac{1}{n})=(1-\{1-\\frac{1}{n}\})^{-\frac{1}{\alpha}}=(\frac{1}{n})^{-\frac{1}{\alpha}}$$
+$$F^{-1}(1-\frac{1}{n})=(1-\{1-\frac{1}{n}\})^{-\frac{1}{\alpha}}=(\frac{1}{n})^{-\frac{1}{\alpha}}$$
 $$=n^{\frac{1}{\alpha}}=a_n$$
 
 Thus $1-\frac{1}{n}=F(a_n)<=>$ $$\frac{1}{n}<=>1-F(a_n)<=>n=\{1-F(a_n)\}^{-1}$$
@@ -241,7 +247,7 @@ $$\xrightarrow{n\rightarrow\infty}x^{-\alpha}$$
 if $F$ is of Pareto-type.
 
 Therefore, from the previous computations
-$$M_n\xrightarrow{d}Fréchet (\alpha)$$
+$$M_n\xrightarrow{d} Fréchet (\alpha)$$
 where $a_n=F^{(-1)}(1-\frac{1}{n})$
 
 
@@ -249,14 +255,18 @@ This result is the Fréchet limit theorem for maxima, when the individual losses
 
 Some computations
 
-$$\lim_{x\rightarrow\infty}\frac{log(tx)}{log x}=\lim_{x\rightarrow\infty}\frac{log t}{log x}+\frac{logx}{log x}=1\ \ \log \in R_0$$
+$$\lim_{x\rightarrow\infty}\frac{\log(tx)}{\log x}=\lim_{x\rightarrow\infty}\frac{\log t}{\log x}+\frac{\log x}{\log x}=1\ \ \log \in R_0$$
 
 
-$$log^{(0)}x=x, log^{(1)}=log x$$
-$log^{(k)}=log log^{(k-1)}x$ for $k=1,2,...$
+$$\log^{(0)}x=x, \log^{(1)}=\log x$$
+$\log^{(k)}=\log \log^{(k-1)}x$ for $k=1,2,\ldots$
 
+<<<<<<< HEAD
 $$\lim_{x\rightarrow\infty}\frac{log^{(k)tx}}{log^{(k)}x}
 =\lim_{x\rightarrow\infty}\frac{\frac{t}{log^{(k-1)}tx...log tx tx}}{\frac{1}{log^{(k-1)}x...log x x}}=1$$
 Then $log^{(k)}\in R_0$
+=======
+$$\lim_{x\rightarrow\infty}\frac{\log^{(k)tx}}{\log^{(k)}x}=\lim_{x\rightarrow\infty}\frac{2}{1}$$
+>>>>>>> 38dce5fb2130fb226717e173a7f317c8dac0ed01
 
 \end{document}

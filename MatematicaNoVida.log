@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.30)  11 MAR 2017 20:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.31)  2 APR 2017 04:55
 entering extended mode
 **./MatematicaNoVida.tex
 (MatematicaNoVida.tex
@@ -21,9 +21,60 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\framed\framed.sty"
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip43
+\fb@frw=\dimen105
+\fb@frh=\dimen106
+\FrameRule=\dimen107
+\FrameSep=\dimen108
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\alltt.sty"
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/06/28 v2.15d AMS math features
-\@mathmargin=\skip43
+\@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -31,65 +82,65 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks14
-\ex@=\dimen103
+\@emptytoks=\toks15
+\ex@=\dimen109
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen104
+\pmbraise@=\dimen110
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count87
+\inf@bad=\count88
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count88
-\leftroot@=\count89
+\uproot@=\count89
+\leftroot@=\count90
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count90
-\DOTSCASE@=\count91
+\classnum@=\count91
+\DOTSCASE@=\count92
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
-\big@size=\dimen105
+\big@size=\dimen111
 LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
-\macc@depth=\count92
-\c@MaxMatrixCols=\count93
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
-\c@parentequation=\count94
-\dspbrk@lvl=\count95
-\tag@help=\toks15
-\row@=\count96
-\column@=\count97
-\maxfields@=\count98
-\andhelp@=\toks16
-\eqnshift@=\dimen106
-\alignsep@=\dimen107
-\tagshift@=\dimen108
-\tagwidth@=\dimen109
-\totwidth@=\dimen110
-\lineht@=\dimen111
-\@envbody=\toks17
-\multlinegap=\skip44
-\multlinetaggap=\skip45
-\mathdisplay@stack=\toks18
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen112
+\alignsep@=\dimen113
+\tagshift@=\dimen114
+\tagwidth@=\dimen115
+\totwidth@=\dimen116
+\lineht@=\dimen117
+\@envbody=\toks18
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2015/03/04 v2.20.2
-\thm@style=\toks19
-\thm@bodyfont=\toks20
-\thm@headfont=\toks21
-\thm@notefont=\toks22
-\thm@headpunct=\toks23
-\thm@preskip=\skip46
-\thm@postskip=\skip47
-\thm@headsep=\skip48
-\dth@everypar=\toks24
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip47
+\thm@postskip=\skip48
+\thm@headsep=\skip49
+\dth@everypar=\toks25
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -112,18 +163,7 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count99
-)
+LaTeX Info: Redefining \color on input line 709.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -143,10 +183,9 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks25
-\XKV@tempa@toks=\toks26
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\keyval.tex"))
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
 \XKV@depth=\count100
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
@@ -163,30 +202,30 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \pstFP@times=\count109
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
-\pgfutil@everybye=\toks27
-\pgfutil@tempdima=\dimen112
-\pgfutil@tempdimb=\dimen113
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen118
+\pgfutil@tempdimb=\dimen119
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
 x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks28
-\pgfkeys@temptoks=\toks29
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
 x"
-\pgfkeys@tmptoks=\toks30
+\pgfkeys@tmptoks=\toks31
 )) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex"
-\pgf@x=\dimen114
-\pgf@xa=\dimen115
-\pgf@xb=\dimen116
-\pgf@xc=\dimen117
-\pgf@y=\dimen118
-\pgf@ya=\dimen119
-\pgf@yb=\dimen120
-\pgf@yc=\dimen121
+\pgf@x=\dimen120
+\pgf@xa=\dimen121
+\pgf@xb=\dimen122
+\pgf@xc=\dimen123
+\pgf@y=\dimen124
+\pgf@ya=\dimen125
+\pgf@yb=\dimen126
+\pgf@yc=\dimen127
 \c@pgf@counta=\count110
 \c@pgf@countb=\count111
 \c@pgf@countc=\count112
@@ -195,12 +234,12 @@ x"
 \pgfutil@tempcntb=\count115
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen122
+\pgfmath@dimen=\dimen128
 \pgfmath@count=\count116
 \pgfmath@box=\box28
-\pgfmath@toks=\toks31
-\pgfmath@stack@operand=\toks32
-\pgfmath@stack@operation=\toks33
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
@@ -222,24 +261,24 @@ hmetics.code.tex")))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count117
 ))
-\pgffor@iter=\dimen123
-\pgffor@skip=\dimen124
-\pgffor@stack=\toks34
-\pgffor@toks=\toks35
+\pgffor@iter=\dimen129
+\pgffor@skip=\dimen130
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
 )
 \psLoopIndex=\count118
 
 `PSTricks' v2.70  <2016/09/23> (tvz)
-\pst@dima=\dimen125
-\pst@dimb=\dimen126
-\pst@dimc=\dimen127
-\pst@dimd=\dimen128
-\pst@dimg=\dimen129
-\pst@dimh=\dimen130
-\pst@dimm=\dimen131
-\pst@dimn=\dimen132
-\pst@dimo=\dimen133
-\pst@dimp=\dimen134
+\pst@dima=\dimen131
+\pst@dimb=\dimen132
+\pst@dimc=\dimen133
+\pst@dimd=\dimen134
+\pst@dimg=\dimen135
+\pst@dimh=\dimen136
+\pst@dimm=\dimen137
+\pst@dimn=\dimen138
+\pst@dimo=\dimen139
+\pst@dimp=\dimen140
 \pst@hbox=\box29
 \pst@ibox=\box30
 \pst@boxg=\box31
@@ -254,26 +293,26 @@ hmetics.code.tex")))
 \pst@cnto=\count127
 \pst@cntp=\count128
 \@zero=\count129
-\pst@toks=\toks36
+\pst@toks=\toks37
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\pstricks.con")
-\psunit=\dimen135
-\psxunit=\dimen136
-\psyunit=\dimen137
+\psunit=\dimen141
+\psxunit=\dimen142
+\psyunit=\dimen143
 \pst@C@@rType=\count130
-\pslinewidth=\dimen138
-\psk@startLW=\dimen139
-\psk@endLW=\dimen140
-\pst@customdefs=\toks37
-\pslinearc=\dimen141
-\pst@symbolStep=\dimen142
-\pst@symbolWidth=\dimen143
-\pst@symbolLinewidth=\dimen144
-\everypsbox=\toks38
-\psframesep=\dimen145
-\pslabelsep=\dimen146
-\sh@wgridXunit=\dimen147
-\sh@wgridYunit=\dimen148
-\pst@shift=\dimen149
+\pslinewidth=\dimen144
+\psk@startLW=\dimen145
+\psk@endLW=\dimen146
+\pst@customdefs=\toks38
+\pslinearc=\dimen147
+\pst@symbolStep=\dimen148
+\pst@symbolWidth=\dimen149
+\pst@symbolLinewidth=\dimen150
+\everypsbox=\toks39
+\psframesep=\dimen151
+\pslabelsep=\dimen152
+\sh@wgridXunit=\dimen153
+\sh@wgridYunit=\dimen154
+\pst@shift=\dimen155
 )
 File: pstricks.tex 2016/09/23 v2.70 `PSTricks' (tvz,hv)
 
@@ -289,8 +328,8 @@ Package: pst-node 2010/04/22 package wrapper for pst-node.tex
 \psrow=\count131
 \pscol=\count132
 \psmatrixcnt=\count133
-\psrowsep=\skip49
-\pscolsep=\skip50
+\psrowsep=\skip50
+\pscolsep=\skip51
 \pst@args=\count134
 \num@pts=\count135
 \pst@argcnt=\count136
@@ -309,20 +348,20 @@ Package: pst-eucl 2014/05/17 package wrapper for PSTricks pst-eucl.tex
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pst-eucl\pst-eucl.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pst-arrow\pst-arrow.tex"
 `pst-arrow' v0.01, 2016/09/01 (dr,hv)
-\pshooklength=\dimen150
-\pshookwidth=\dimen151
+\pshooklength=\dimen156
+\pshookwidth=\dimen157
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\multido\multido.tex"
  v1.42, 2010/05/14 <tvz>
 \multido@count=\count137
 \multidocount=\count138
-\multido@stuff=\toks39
+\multido@stuff=\toks40
 ) `PST-Euclide v1.54, 2016/09/01 (dr,hv)
  This version uses the pst-xkey package for managing parameters
  Please read the doc, some macros have a new syntax
  use option old for upward compatibility
-\psMarkHashLength=\dimen152
-\psMarkHashSep=\dimen153
+\psMarkHashLength=\dimen158
+\psMarkHashSep=\dimen159
 )
 File: pst-eucl.tex 2016/09/01 v1.54 `PST-eucl' (dr,hv)
 )
@@ -346,37 +385,37 @@ Package: pst-plot 2011/04/13 package wrapper for pst-plot.tex (hv)
 `PST-3d' v1.11, 2010/02/14 (tvz))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pst-math\pst-math.tex"
 `pst-math' v0.63 , (CJ,hv)) `pstricks-add' v3.82, 2016/09/01 (dr,hv)
-\psparallelogramsep=\dimen154
+\psparallelogramsep=\dimen160
 \pst@cntC=\count139
-\chart@ColorIndex=\dimen155
-\chart@ColorStep=\dimen156
-\pst@chartHeight=\dimen157
-\pst@chartStackDepth=\dimen158
-\pst@chartStackWidth=\dimen159
+\chart@ColorIndex=\dimen161
+\chart@ColorStep=\dimen162
+\pst@chartHeight=\dimen163
+\pst@chartStackDepth=\dimen164
+\pst@chartStackWidth=\dimen165
 \chart@Toggle=\count140
 \psVectorCtr=\count141
 )
  v1.75, 2016/05/18 (tvz,hv)
-\pstRadUnit=\dimen160
-\pstRadUnitInv=\dimen161
+\pstRadUnit=\dimen166
+\pstRadUnitInv=\dimen167
 \pst@linecnt=\count142
 \RCD@file=\read1
-\psxlabelsep=\dimen162
-\psylabelsep=\dimen163
-\psk@subticksize=\dimen164
-\pst@xticksizeA=\dimen165
-\pst@xticksizeB=\dimen166
-\pst@xticksizeC=\dimen167
-\pst@yticksizeA=\dimen168
-\pst@yticksizeB=\dimen169
-\pst@yticksizeC=\dimen170
+\psxlabelsep=\dimen168
+\psylabelsep=\dimen169
+\psk@subticksize=\dimen170
+\pst@xticksizeA=\dimen171
+\pst@xticksizeB=\dimen172
+\pst@xticksizeC=\dimen173
+\pst@yticksizeA=\dimen174
+\pst@yticksizeB=\dimen175
+\pst@yticksizeC=\dimen176
 \@digitcounter=\count143
-\psk@llx=\dimen171
-\psk@lly=\dimen172
-\psk@urx=\dimen173
-\psk@ury=\dimen174
-\pst@xunit=\dimen175
-\pst@yunit=\dimen176
+\psk@llx=\dimen177
+\psk@lly=\dimen178
+\psk@urx=\dimen179
+\psk@ury=\dimen180
+\pst@xunit=\dimen181
+\pst@yunit=\dimen182
 )
 File: pst-plot.tex 2016/05/18 1.75 `pst-plot' (tvz,hv)
 )
@@ -405,8 +444,8 @@ File: pstricks-add.cfg 2005/01/10 v0.1 addtional user stuff (hv)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks40
-\inpenc@posthook=\toks41
+\inpenc@prehook=\toks41
+\inpenc@posthook=\toks42
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
@@ -727,21 +766,17 @@ Package: babel 2016/04/23 3.9r The Babel package
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf"
-Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+Language: english 2012/08/20 v3.3p English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count144
-\U@D=\dimen177
+\U@D=\dimen183
 )
-\es@quottoks=\toks42
-\es@quotdepth=\count145
-Package babel Info: Making " an active character on input line 561.
-Package babel Info: Making . an active character on input line 662.
-Package babel Info: Making < an active character on input line 707.
-Package babel Info: Making > an active character on input line 707.
-Package babel Info: Making ' an active character on input line 725.
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -756,22 +791,55 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count146
-\Gm@cntv=\count147
-\c@Gm@tempcnt=\count148
-\Gm@bindingoffset=\dimen178
-\Gm@wd@mp=\dimen179
-\Gm@odd@mp=\dimen180
-\Gm@even@mp=\dimen181
-\Gm@layoutwidth=\dimen182
-\Gm@layoutheight=\dimen183
-\Gm@layouthoffset=\dimen184
-\Gm@layoutvoffset=\dimen185
+\Gm@cnth=\count145
+\Gm@cntv=\count146
+\c@Gm@tempcnt=\count147
+\Gm@bindingoffset=\dimen184
+\Gm@wd@mp=\dimen185
+\Gm@odd@mp=\dimen186
+\Gm@even@mp=\dimen187
+\Gm@layoutwidth=\dimen188
+\Gm@layoutheight=\dimen189
+\Gm@layouthoffset=\dimen190
+\Gm@layoutvoffset=\dimen191
 \Gm@dimlist=\toks43
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\times.sty"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty"
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count148
+\calc@Bcount=\count149
+\calc@Adimen=\dimen192
+\calc@Bdimen=\dimen193
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count150
+\calc@Cskip=\skip54
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty"
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count151
+\l_MT_multwidth_dim=\dimen194
+\origjot=\skip55
+\l_MT_shortvdotswithinadjustabove_dim=\dimen195
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen196
+\l_MT_above_intertext_sep=\dimen197
+\l_MT_below_intertext_sep=\dimen198
+\l_MT_above_shortintertext_sep=\dimen199
+\l_MT_below_shortintertext_sep=\dimen256
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
@@ -783,85 +851,75 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box32
-\beforetitleunit=\skip51
-\aftertitleunit=\skip52
-\ttl@plus=\dimen186
-\ttl@minus=\dimen187
+\beforetitleunit=\skip56
+\aftertitleunit=\skip57
+\ttl@plus=\dimen257
+\ttl@minus=\dimen258
 \ttl@toksa=\toks44
-\titlewidth=\dimen188
-\titlewidthlast=\dimen189
-\titlewidthfirst=\dimen190
+\titlewidth=\dimen259
+\titlewidthlast=\dimen260
+\titlewidthfirst=\dimen261
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip58
+\enit@outerparindent=\dimen262
+\enit@toks=\toks45
+\enit@inbox=\box33
+\enitdp@description=\count152
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count149
-\float@exts=\toks45
-\float@box=\box33
-\@float@everytoks=\toks46
-\@floatcapt=\box34
+\c@float@type=\count153
+\float@exts=\toks46
+\float@box=\box34
+\@float@everytoks=\toks47
+\@floatcapt=\box35
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-)
-\Gin@req@height=\dimen191
-\Gin@req@width=\dimen192
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
-\wrapoverhang=\dimen193
-\WF@size=\dimen194
-\c@WF@wrappedlines=\count150
-\WF@box=\box35
-\WF@everypar=\toks47
+\wrapoverhang=\dimen263
+\WF@size=\dimen264
+\c@WF@wrappedlines=\count154
+\WF@box=\box36
+\WF@everypar=\toks48
 Package: wrapfig 2003/01/31  v 3.6
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count151
+\c@lips@count=\count155
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
-\c@tracingmulticols=\count152
-\mult@box=\box36
-\multicol@leftmargin=\dimen195
-\c@unbalance=\count153
-\c@collectmore=\count154
-\doublecol@number=\count155
-\multicoltolerance=\count156
-\multicolpretolerance=\count157
-\full@width=\dimen196
-\page@free=\dimen197
-\premulticols=\dimen198
-\postmulticols=\dimen199
-\multicolsep=\skip53
-\multicolbaselineskip=\skip54
-\partial@page=\box37
-\last@line=\box38
-\maxbalancingoverflow=\dimen256
-\mult@rightbox=\box39
-\mult@grightbox=\box40
-\mult@gfirstbox=\box41
-\mult@firstbox=\box42
-\@tempa=\box43
+\c@tracingmulticols=\count156
+\mult@box=\box37
+\multicol@leftmargin=\dimen265
+\c@unbalance=\count157
+\c@collectmore=\count158
+\doublecol@number=\count159
+\multicoltolerance=\count160
+\multicolpretolerance=\count161
+\full@width=\dimen266
+\page@free=\dimen267
+\premulticols=\dimen268
+\postmulticols=\dimen269
+\multicolsep=\skip59
+\multicolbaselineskip=\skip60
+\partial@page=\box38
+\last@line=\box39
+\maxbalancingoverflow=\dimen270
+\mult@rightbox=\box40
+\mult@grightbox=\box41
+\mult@gfirstbox=\box42
+\mult@firstbox=\box43
 \@tempa=\box44
 \@tempa=\box45
 \@tempa=\box46
@@ -878,14 +936,15 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \@tempa=\box57
 \@tempa=\box58
 \@tempa=\box59
-\c@columnbadness=\count158
-\c@finalcolumnbadness=\count159
-\last@try=\dimen257
-\multicolovershoot=\dimen258
-\multicolundershoot=\dimen259
-\mult@nat@firstbox=\box60
-\colbreak@box=\box61
-\mc@col@check@num=\count160
+\@tempa=\box60
+\c@columnbadness=\count162
+\c@finalcolumnbadness=\count163
+\last@try=\dimen271
+\multicolovershoot=\dimen272
+\multicolundershoot=\dimen273
+\mult@nat@firstbox=\box61
+\colbreak@box=\box62
+\mc@col@check@num=\count164
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
@@ -972,35 +1031,24 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen260
-\extrarowheight=\dimen261
-\NC@list=\toks48
-\extratabsurround=\skip55
-\backup@length=\skip56
+\col@sep=\dimen274
+\extrarowheight=\dimen275
+\NC@list=\toks49
+\extratabsurround=\skip61
+\backup@length=\skip62
 )
-\everycr=\toks49
-\minrowclearance=\skip57
+\everycr=\toks50
+\minrowclearance=\skip63
 )
-\c@exm=\count161
+\c@thm=\count165
+\c@exm=\count166
+\c@coro=\count167
 
-(C:/PROGRA~1/R/R-33~1.2/share/texmf/tex/latex\Sweave.sty
-Package: Sweave 
+("C:\Program Files\MiKTeX 2.9\tex\latex\upquote\upquote.sty"
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\fancyvrb\fancyvrb.sty"
-Package: fancyvrb 2008/02/07
-
-Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
-<2008/02/07> (tvz)
-\FV@CodeLineNo=\count162
-\FV@InFile=\read2
-\FV@TabBox=\box62
-\c@FancyVerbLine=\count163
-\FV@StepNumber=\count164
-\FV@OutFile=\write3
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2016/06/19 v1.99m Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -1155,70 +1203,47 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\ae\ae.sty"
-Package: ae 2001/02/12 1.3 Almost European Computer Modern
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)
-LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
-File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
-)))) (MatematicaNoVida.aux
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-)
+(MatematicaNoVida.aux)
 \openout1 = `MatematicaNoVida.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 49.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 122.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 122.
+
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 49.
-
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 122.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count165
-\scratchdimen=\dimen262
+\scratchcounter=\count168
+\scratchdimen=\dimen276
 \scratchbox=\box63
-\nofMPsegments=\count166
-\nofMParguments=\count167
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count168
-\MPscratchDim=\dimen263
-\MPnumerator=\count169
-\makeMPintoPDFobject=\count170
-\everyMPtoPDFconversion=\toks51
+\nofMPsegments=\count169
+\nofMParguments=\count170
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count171
+\MPscratchDim=\dimen277
+\MPnumerator=\count172
+\makeMPintoPDFobject=\count173
+\everyMPtoPDFconversion=\toks52
 )
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1253,7 +1278,7 @@ LaTeX Info: Redefining \% on input line 49.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(MatematicaNoVida-concordance.tex) [1
+[1
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1270,8 +1295,6 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (MatematicaNoVida.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 4.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1307,19 +1330,740 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-\tf@toc=\write4
-\openout4 = `MatematicaNoVida.toc'.
+\tf@toc=\write3
+\openout3 = `MatematicaNoVida.toc'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Overfull \hbox (17.7625pt too wide) in paragraph at lines 141--143
+\T1/lmr/m/n/10.95 Is called the \T1/lmr/bx/n/10.95 Pareto Dis-tri-bu-tion\T1/lm
+r/m/n/10.95 . If $\OML/lmm/m/it/10.95 Y$ \T1/lmr/m/n/10.95 fol-lows a Pareto di
+s-tri-bu-tion, de-noted $\OML/lmm/m/it/10.95 Y \OMS/lmsy/m/n/10.95  \OML/lmm/m
+/it/10.95 Pareto\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 \OT1/lmr/m/n/10.95 )\O
+ML/lmm/m/it/10.95 ; \OMS/lmsy/m/n/10.95 8\OML/lmm/m/it/10.95 y >
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 145.
+
+<figure/unnamed-chunk-1-1.pdf, id=13, 361.35pt x 325.215pt>
+File: figure/unnamed-chunk-1-1.pdf Graphic file (type pdf)
+
+<use figure/unnamed-chunk-1-1.pdf>
+Package pdftex.def Info: figure/unnamed-chunk-1-1.pdf used on input line 147.
+(pdftex.def)             Requested size: 361.34912pt x 325.2142pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 163.
+
+<figure/unnamed-chunk-2-1.pdf, id=14, 361.35pt x 325.215pt>
+File: figure/unnamed-chunk-2-1.pdf Graphic file (type pdf)
+
+<use figure/unnamed-chunk-2-1.pdf>
+Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf used on input line 165.
+(pdftex.def)             Requested size: 361.34912pt x 325.2142pt.
+ [3 <./figure/unnamed-chunk-1-1.pdf>]
+! Missing } inserted.
+<inserted text> 
+                }
+l.183 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.183 \end{align*}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.183 \end{align*}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.183 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.183 \end{align*}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.183 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.183 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.183 \end{align*}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.183 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.183 \end{align*}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.183 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.183 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.183 \end{align*}
+                  
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.183 \end{align*}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.183 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.183 \end{align*}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Environment algin* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203 \begin{algin*}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.204 F_
+        Y(y)&=1-F_X(x^{-\alpha})\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.204 F_Y(y)&
+             =1-F_X(x^{-\alpha})\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.205 &
+       =1-\{1-e^{-x^{-\alpha}}\}\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.206 &
+       =exp\{-x^{-\alpha}\}\ \ \ \forall x>0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \cr.
+\math@cr@@@ ->\cr 
+                  
+l.207 \end{align*}
+                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
+                                                  {\vskip #1\relax }
+l.207 \end{align*}
+                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.207 \end{align*}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.207 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[4 <./figure/unnamed-chunk-2-1.pdf>]
+! Extra }, or forgotten \endgroup.
+\math@cr@@ ...th@cr@@@ \noalign {\vskip #1\relax }
+                                                  
+l.207 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced \noalign.
+\black@ #1->\noalign 
+                     {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
+l.207 \end{align*}
+                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra }, or forgotten \endgroup.
+\endalign ->\math@cr \black@ \totwidth@ \egroup 
+                                                \ifingather@ \restorealignst...
+l.207 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.207 \end{align*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.207 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.207 \end{align*}
+                  
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.243 \begin{exm}F_
+                   1 \  Pareto,\ \ F_2 \ Burr\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.244 &
+       =\displaystyle\lim_{x\rightarrow\infty}\frac{x^{-\alpha}}{\left(\frac...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.245 &
+       =\left(\displaystyle\lim_{x\rightarrow\infty}\frac{\beta+x^{\tau}}{\b...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.246 &
+       =\left(\frac{1}{\beta}\displaystyle\lim_{x\rightarrow\infty}x^{\tau-1...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: Command \end{exm} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 \end{exm}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 \end{exm}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 \end{exm}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.247 \end{exm}
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--248
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+
+! LaTeX Error: \begin{defi} on input line 249 ended by \end{Defi}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.254 \end{Defi}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.261 \item{i. } E[|X|]=\displaystyle
+                                     \int_0^{\infty}P[|X|>x]dx\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.262 \item
+           {ii.} E[|X|]<\infty\Rightarrow P[|X|>x]=o(x^{-1})\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.262 \item{
+            ii.} E[|X|]<\infty\Rightarrow P[|X|>x]=o(x^{-1})\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.262 \item{
+            ii.} E[|X|]<\infty\Rightarrow P[|X|>x]=o(x^{-1})\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.263 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.263 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.263 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+
+ []
+
+! Undefined control sequence.
+<argument> ...\displaystyle _{0}^{\infty }xdG(x)\<
+                                                  \infty \\ 0&=\displaystyle...
+l.276 \end{align*}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...\displaystyle _{0}^{\infty }xdG(x)\<
+                                                  \infty \\ 0&=\displaystyle...
+l.276 \end{align*}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.283 \item{i.} E[|X|^
+                      r]=r\displaystyle\int_0^{\infty}x^{r-1}P[|X|>x]dx\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.284 \item
+           {ii.} E[|X|^r]<\infty\Rightarrow =P[|X|>x]=o(x^{-r})\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.284 \item{
+            ii.} E[|X|^r]<\infty\Rightarrow =P[|X|>x]=o(x^{-r})\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.284 \item{
+            ii.} E[|X|^r]<\infty\Rightarrow =P[|X|>x]=o(x^{-r})\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \end{coro} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.285 \end{coro}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.285 \end{coro}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.285 \end{coro}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.285 \end{coro}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+
+ []
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293 \item
+            $\exists \gamma\in(0,\infty)$ s.t $M(v)<\infty,\forall v<\gamma$\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293 \item $
+             \exists \gamma\in(0,\infty)$ s.t $M(v)<\infty,\forall v<\gamma$\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293 \item $
+             \exists \gamma\in(0,\infty)$ s.t $M(v)<\infty,\forall v<\gamma$\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.293 \item $\exists
+                     \gamma\in(0,\infty)$ s.t $M(v)<\infty,\forall v<\gamma$\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[6]
+! Undefined control sequence.
+<recently read> \forallp 
+                         
+l.295 ...(0,\infty)$ s.t $E[x^p]<\infty$ $\forallp
+                                                  <k$ and $E[x^p]=\infty$ $\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--319
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 336--339
 
  []
 
 ! Undefined control sequence.
 <argument>  P[M_n\leq n] &= P[X_1\leqx 
                                        ,..,X_n\leq x]\\ &=F^n(x), \quad \for...
-l.95 \end{align*}
-                 
+l.362 \end{align*}
+                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1329,8 +2073,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument>  P[M_n\leq n] &= P[X_1\leqx 
                                        ,..,X_n\leq x]\\ &=F^n(x), \quad \for...
-l.95 \end{align*}
-                 
+l.362 \end{align*}
+                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1338,21 +2082,21 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
 
  []
 
 
-Overfull \hbox (18.48679pt too wide) in paragraph at lines 109--110
-[]\T1/aer/m/n/10.95 The dis-tri-bu-tion of the monthly lar-gest loss is Gum-bel
- $\OML/lmm/m/it/10.95 F\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10
-.95 ) = \OML/lmm/m/it/10.95 G\OT1/lmr/m/n/10.95 ([])$ \T1/aer/m/n/10.95 whe-re 
-$\OML/lmm/m/it/10.95 G\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.
-95 ) = \OML/lmm/m/it/10.95 exp\OMS/lmsy/m/n/10.95 f \OML/lmm/m/it/10.95 e[]\OMS
-/lmsy/m/n/10.95 g  \OML/lmm/m/it/10.95 x \OMS/lmsy/m/n/10.95 2
+Overfull \hbox (18.80702pt too wide) in paragraph at lines 376--377
+\T1/lmr/m/n/10.95 The dis-tri-bu-tion of the monthly largest loss is Gum-bel $\
+OML/lmm/m/it/10.95 F\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95
+ ) = \OML/lmm/m/it/10.95 G\OT1/lmr/m/n/10.95 ([])$ \T1/lmr/m/n/10.95 where $\OM
+L/lmm/m/it/10.95 G\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 )
+ = \OML/lmm/m/it/10.95 exp\OMS/lmsy/m/n/10.95 f \OML/lmm/m/it/10.95 e[]\OMS/lms
+y/m/n/10.95 g  \OML/lmm/m/it/10.95 x \OMS/lmsy/m/n/10.95 2
  []
 
-[3]
+[8]
 
 ! LaTeX Error: Bad math environment delimiter.
 
@@ -1360,7 +2104,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 ...}, \ x>0$, we have $F^{12}(x)=\exp\{-12\(
+l.383 ...}, \ x>0$, we have $F^{12}(x)=\exp\{-12\(
                                                   \frac{x-\mu}{\sigma}\)^{-\...
 
 Your command was ignored.
@@ -1370,16 +2114,16 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.116 ...12}(x)=\exp\{-12\(\frac{x-\mu}{\sigma}\)^
+l.383 ...12}(x)=\exp\{-12\(\frac{x-\mu}{\sigma}\)^
                                                   {-\alpha}\}=\exp\{-(\frac{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[4]
+[9]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.170 F(x)=1-x^
+l.437 F(x)=1-x^
                {-\alpha}\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1391,7 +2135,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.172 \end{exm}
+l.439 \end{exm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1403,7 +2147,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.172 \end{exm}
+l.439 \end{exm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1415,7 +2159,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.172 \end{exm}
+l.439 \end{exm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1423,7 +2167,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.172 \end{exm}
+l.439 \end{exm}
                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1432,7 +2176,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Undefined control sequence.
-l.180  Notation $f\in\R
+l.447  Notation $f\in\R
                        _{\delta}$ Thus $F$ is of Pareto-type if and only if ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1440,47 +2184,1143 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[5]
 
-LaTeX Warning: Command \' invalid in math mode on input line 213.
+Package xcolor Warning: Incompatible color definition on input line 473.
+
+<figure/plot1-1.pdf, id=62, 361.35pt x 325.215pt>
+File: figure/plot1-1.pdf Graphic file (type pdf)
+ <use figure/plot1-1.pdf>
+Package pdftex.def Info: figure/plot1-1.pdf used on input line 475.
+(pdftex.def)             Requested size: 361.34912pt x 325.2142pt.
+
+[10]
+
+LaTeX Warning: Command \' invalid in math mode on input line 491.
+
+[11 <./figure/plot1-1.pdf>]
+
+LaTeX Warning: Command \' invalid in math mode on input line 510.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.531 ...n\mathbb{R}_{\delta),\delta\in\mathbb{R}$
+                                                   if $\frac{f(tx)}{f(x)}\xr...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 232.
+Underfull \hbox (badness 10000) in paragraph at lines 535--536
 
-[6] [7] (MatematicaNoVida.aux
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-) ) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--537
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.544 F(x)=1-\left
+                  (\frac{\beta}{\beta+x^{\tau}}\right)^{\lambda}, \forall x>...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! Package amsmath Error: \begin{align*} allowed only in paragraph mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.545 \begin{align*}
+                    
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Argument of \align* has an extra }.
+<inserted text> 
+                \par 
+l.546 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
+                                                  &=(\lim_{x\rightarrow \inf...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+ \lim _{x\rightarrow \infty }\frac {1-F(tx)}{1-F(x)}
+! Paragraph ended before \align* was complete.
+<to be read again> 
+                   \par 
+l.546 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
+                                                  &=(\lim_{x\rightarrow \inf...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.546 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
+                                                  &=(\lim_{x\rightarrow \inf...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.546 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
+                                                  &=(\lim_{x\rightarrow \inf...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.546 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
+                                                  &=(\lim_{x\rightarrow \inf...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.546 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
+                                                  &=(\lim_{x\rightarrow \inf...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.546 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
+                                                  &=(\lim_{x\rightarrow \inf...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.546 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
+                                                  &=(\lim_{x\rightarrow \inf...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced alignment tab character &.
+l.546 ...rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}&
+                                                  =(\lim_{x\rightarrow \inft...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.546 ...rrow\infty}\frac{1-F(tx)}{1-F(x)}}&=(\lim
+                                                  _{x\rightarrow \infty}\fra...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.546 ...rac{\beta+x^{\tau}}{\beta+(tx)^{\tau}}\)^
+                                                  {\lambda}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.547 &
+       =(t^{-\tau})^{\lambda}=t^{-\lambda\tau}\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \cr.
+\math@cr@@@ ->\cr 
+                  
+l.548 \end{align*}
+                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
+                                                  {\vskip #1\relax }
+l.548 \end{align*}
+                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.548 \end{align*}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.548 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\math@cr@@ ...th@cr@@@ \noalign {\vskip #1\relax }
+                                                  
+l.548 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced \noalign.
+\black@ #1->\noalign 
+                     {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
+l.548 \end{align*}
+                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra }, or forgotten \endgroup.
+\endalign ->\math@cr \black@ \totwidth@ \egroup 
+                                                \ifingather@ \restorealignst...
+l.548 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{exm} on input line 543 ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.548 \end{align*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.548 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.548 \end{align*}
+                  
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+[12]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.549 \text{ Thus } -\alpha
+                           =\lambda\tau \text{( is the index of regular vari...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \end{document} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.551 \end{exm}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.551 \end{exm}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.551 \end{exm}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{exm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.551 \end{exm}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.551 \end{exm}
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.551 \end{exm}
+               
+Things are pretty mixed up, but I think the worst is over.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 548--552
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.554 F(x)=exp\{-x^
+                   {-\alpha}\}\ \ \forall x>0,\alpha>0\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! Package amsmath Error: \begin{align*} allowed only in paragraph mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.555 \begin{align*}
+                    
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Runaway argument?
+ \lim _{x\rightarrow {\infty }}\frac {1-F(tx)}{1-F(x)}&=\lim _{x\rightarrow \ET
+C.
+! Paragraph ended before \align* was complete.
+<to be read again> 
+                   \par 
+l.557 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.557 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.557 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.557 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.557 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.557 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced alignment tab character &.
+l.558 &
+       =\lim_{x\rightarrow\infty}\frac{\alpha(tx)^{-\alpha-1}t \ exp \{-(tx)...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.558 &=\lim
+            _{x\rightarrow\infty}\frac{\alpha(tx)^{-\alpha-1}t \ exp \{-(tx)...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.559 &
+       =t^{-\alpha}\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.560 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.560 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.560 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced alignment tab character &.
+l.561 1-F(x)&
+             =x^{-\alpha}l(x)$ \text{ where } $l(x)=x^{\alpha}(1-exp\{-x^{-\...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.561 1-F(x)&=x^
+                {-\alpha}l(x)$ \text{ where } $l(x)=x^{\alpha}(1-exp\{-x^{-\...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.562       &
+             =x^{\alpha}(1-exp\{-x^{-\alpha}\})\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.563 &
+       =x^{\alpha}(1-[1-x^{-\alpha}+\frac{1}{2}x^{-2\alpha}-\frac{1}{3!}x^{-...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.564 &
+       =1-\frac{1}{2}x^{-\alpha}+\frac{1}{3!}x^{-2\alpha}+...\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \cr.
+\math@cr@@@ ->\cr 
+                  
+l.565 \end{align*}
+                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
+                                                  {\vskip #1\relax }
+l.565 \end{align*}
+                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.565 \end{align*}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.565 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\math@cr@@ ...th@cr@@@ \noalign {\vskip #1\relax }
+                                                  
+l.565 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced \noalign.
+\black@ #1->\noalign 
+                     {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
+l.565 \end{align*}
+                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra }, or forgotten \endgroup.
+\endalign ->\math@cr \black@ \totwidth@ \egroup 
+                                                \ifingather@ \restorealignst...
+l.565 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{exm} on input line 553 ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.565 \end{align*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.565 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.565 \end{align*}
+                  
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+! LaTeX Error: \begin{document} ended by \end{exm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.566 \end{exm}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.566 \end{exm}
+               
+Things are pretty mixed up, but I think the worst is over.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--569
+
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 577.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.577 \item \rho
+                (X+Y)\leq \rho(X)+\rho(Y)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.578 \item
+            X\leq Y a.s \Rightarrow \rho(X)\leq \rho(Y)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.578 \item X
+             \leq Y a.s \Rightarrow \rho(X)\leq \rho(Y)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.578 \item X
+             \leq Y a.s \Rightarrow \rho(X)\leq \rho(Y)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.579 \item
+            \rho(cX)=c\rho(X), \forall c>0
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.579 \item \rho
+                (cX)=c\rho(X), \forall c>0
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.579 \item \rho
+                (cX)=c\rho(X), \forall c>0
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.579 \item \rho
+                (cX)=c\rho(X), \forall c>0
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.579 \item \rho
+                (cX)=c\rho(X), \forall c>0
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.580 \item
+            \rho(c+X)=c+\rho(X), \forall c>0
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.580 \item \rho
+                (c+X)=c+\rho(X), \forall c>0
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.580 \item \rho
+                (c+X)=c+\rho(X), \forall c>0
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \end{itemize} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.581 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.581 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.581 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.581 \end{itemize}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--588
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 589--592
+
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 602.
+
+[13]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 605.
+
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+LaTeX Font Warning: Font shape `T1/lmtt/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 605.
+
+
+Package xcolor Warning: Incompatible color definition on input line 605.
+
+<figure/33-1.pdf, id=82, 361.35pt x 325.215pt>
+File: figure/33-1.pdf Graphic file (type pdf)
+ <use figure/33-1.pdf>
+Package pdftex.def Info: figure/33-1.pdf used on input line 607.
+(pdftex.def)             Requested size: 361.34912pt x 325.2142pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 622--623
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.624 ...of the d.f F is any value $q_{\alpha}$\in
+                                                  \mathbb{R}$ s.t $\forall\a...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 636--639
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--644
+
+ []
+
+
+! LaTeX Error: \begin{align*} on input line 645 ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.648 \end{align}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[14 <./figure/33-1.pdf>]
+
+! LaTeX Error: \begin{align*} on input line 651 ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.654 \end{align}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 654--656
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--665
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.669   where q_
+                {\alpha} is the $\alpha-th$ quantile or $VaR$ of $X$, $\fora...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.669   where q_{\alpha} is the $\alpha
+                                       -th$ quantile or $VaR$ of $X$, $\fora...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.686 \begin{exm}X\sim
+                       Exponential(\theta)\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.687 $F(x)=1-e^
+                {-\theta x}=u\Leftrightarrow -\frac{1}{\theta}log(1-u)=x$\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.689 ..._{\alpha}=-\frac{1}{\theta}log(1-\alpha)$
+                                                  \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.695 \begin{exm}X\sim
+                      \cal{N(\mu,\sigma^2)}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.696 $VaR_
+           {\alpha(X)}=\mu+\sigma\Phi ^{(-1)}(\alpha)$ ,\ where $\Phi$ is th...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--698
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.699 \int
+          _{\alpha}^{\infty}x\Phi(x)dx=-\int_{a}^{\infty}\Phi^{'}(x)dx=-[0-\...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[15]
+
+! LaTeX Error: Command \end{exm} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.700 \end{exm}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.700 \end{exm}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.700 \end{exm}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.700 \end{exm}
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 699--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 702--703
+
+ []
+
+
+! LaTeX Error: \begin{thm} on input line 568 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.711 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[16] (MatematicaNoVida.aux) )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 568 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 15716 strings out of 493334
- 255793 string characters out of 3139249
- 501061 words of memory out of 3000000
- 18868 multiletter control sequences out of 15000+200000
- 42904 words of font info for 74 fonts, out of 3000000 for 9000
+ 15835 strings out of 493334
+ 260583 string characters out of 3139249
+ 505064 words of memory out of 3000000
+ 18990 multiletter control sequences out of 15000+200000
+ 73365 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,12n,68p,608b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fi
-les/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fo
-nts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/
-lm-rm.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
-/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msb
-m10.pfb>
-Output written on MatematicaNoVida.pdf (7 pages, 233221 bytes).
+ 44i,15n,68p,608b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/P
+rogram Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 
+2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
+ps/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.e
+nc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
+mcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr
+i10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmtko10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
+ols/msbm10.pfb>
+Output written on MatematicaNoVida.pdf (16 pages, 381240 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 160 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 5 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

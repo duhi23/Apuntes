@@ -797,7 +797,37 @@ $$
  It is tiically used to add noise to a stochastic process.
  $$Y_t=r_0+cct-Z_t+\sigma W_t \ \ \forall t \geq 0$$ perturbed risk process.
  $$Y_t=r_0+ct-Z_t+\int_{0}^tY_sds,$$ where $r$ is the fixed interest rate.
- 
+
+$$Y_t=r_0+ct-Z_t+\int_0^tY_sdR_s\ \forall t\geq 0$$ where $\{R_t\}$ is the stochastic process of the interest rates ($R_s=r$ gives the previous case).
+We can also consider the inhomogeneous Poisson process.
+
+\begin{thm}Consider the renewal risk process, then $\beta<0\Rightarrow\psi(r_0)=1$
+\begin{proof}
+FOr $n=1,2,...,$ 
+\begin{align*}
+Y_{T_n}&=r_0+cT_n-Z_{T_n}\\
+&=r_0+c\displasystyle\sum_{k=1}^{n}D_k-\displaystyle\sum_{k=1}^{K_{T_n}}X_k\\
+&=r_0+\displaystyle\sym_{k=1}^{n}V_k,\ \text{where}\\
+V_k&=cD_k-X_k, for k=1,2,...\\
+\frac{Y_{T_n}}{n}\xrightarrow{a.s} E[V_1]\\
+\end{align*}
+from the strong law of large numbers 
+$$Y_{T_n}\xrightarrow{a.s}sgnE[V_1].\infty$$.
+\begin{align*}
+\beta<0&\Leftrightarrow c<\rho\\
+&\Leftrightarrow c<\frac{E[X_1]}{E[D_1]}\\
+&\Leftrightarrow c E[D_1]-E[X_1]<0\\
+&\Leftrightarrow E[V_1]<0\\
+\end{align*}
+
+Thus $Y_{T_n}\xrightarrow{a.s}-\infty$, which means that $\{Y_t\}_{t\geq 0}$ downcrosses the null line a.s, viz $\psi(r_0=1)$.
+Note that $E[D_1]<\infty$ is an assumption of the definition ot the renewal process.\\
+We will now show in detail that in compound Poisson risk process $\frac{Z_t}{t}\xrightarrow{a.s}\rho \ \ (as t\rightarrow \infty)$ and $\psi(r_0)=1$, if $\beta\leq 0$.\\
+We define the loss process as $L_t=Z_t-ct$
+\end{proof}
+\end{thm}
  \end{section}
+
+
 
 \end{document}

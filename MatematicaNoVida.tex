@@ -308,7 +308,7 @@ M(v)&=\displaystyle\int_0^{\infty}e^{vx}\lambda e^{-\lambda x}dx\\
 \begin{exm}
 \begin{align*}X\sim Beta(\alpha,\beta)\\
 f(x)&=\frac{1}{B(\alpha,\beta)}x^{1-\alpha}(1-x)^{1-\beta}\ \ \forall x\in (0,1)\\
-Beta(\alpha,\beta)=\inf_0^1x^{1-\alpha(1-x)^{1-\beta}}dx\\
+Beta(\alpha,\beta)=\int_0^1x^{1-\alpha(1-x)^{1-\beta}}dx\\
 &=\frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}
 \end{align*}
 $Beta(1,1)$ is Uniform(0,1)\\
@@ -708,4 +708,143 @@ TVaR_{\alpha}(X)&=\frac{\int_{q_{\alpha}}^{\infty}x\frac{1}{\sigma}\Phi(\frac{x-
 &=\frac{1}{1-\alpha}\{\mu(1-\alpha)+\sigma\phi\phi^{(-1)(\alpha)}\}\\
 &=\mu+\frac{\sigma}{1-\alpha} \phi\circ\phi^{-1}(\alpha)
 \end{align*}
+
+
+
+%Thursday 06/04/2017
+
+\section{Birth Processes}
+$$p_{k,k+n}(s,t)=P[N_t-N_s=n|N_s=k]$$
+transition probability
+$$p_{k,k+n}(t,t+h)=	\left\{
+		\begin{array}{ll}
+			1-\lambda_k(t)+o(h)&if n=0 \\
+			\lambda_k(t)h+o(h)&if n=1 \\
+	    o(h) & if n=2,3,...
+		\end{array}
+	\right.
+$$
+\begin{thm}
+The transition probabilities $\{p_{k,k+n}(s,t)\}$ of the non homogeneus birth process are $\forall 0\leq s<t,K\geq 0$ and $n\geq 1$,
+$$p_{k,k}(s,t)=exp\{-\displaystyle\int_s^t\lambda_k(x)dx\}$$ and 
+$$p_{k,k+n}(s,t)=\displaystyle\int_{s}^t \lambda_{k+n-1}(y)p_{k,k+n-1}(s,y)exp\{-\displaystyle\int_{y}^t\lambda_{k+n}(x)dx\}dy$$
+\end{thm}
+
+
+A sufficient condition for $\displaystyle\sum_{n=0}^{\infty}p_{k,k+n}(s,t)=1$ $\forall 0\leq s <t$, $k\geq 0$ is $$\displaystyle\sum_{k=0}^{\infty}\frac{1}{\displaystyle\max_{t\geq 0}\lambda_k(t)}=\infty$$
+
+\begin{coro}
+The homogeneus Poisson process, which is obtained by $\lambda_0(t)=\lambda_1(t)=...=\lambda>0$ has transition probabilities $$p_{k,k+n}(s,t)=e^{-\lambda(t-s)}\frac{\{\lambda(t-s)\}^n}{n!}\ \ \ \forall 0\leqs>t,k,n\geq 0$$
+\end{coro}
+
+\begin{proof}
+This is clear for $n=0$.\\
+Assume the formula true for $n-1$, then 
+\begin{align*}
+p_{k,k+n}(s,t)&=\displaystyle\int_{s}^t\lambda e^{-\lambda(y-s)}\frac{\{\lambda(y-s)\}^{n-1}}{(n-1)!}exp\{-\displaystyle\int_y^t\lambda dx\}dy\\
+&=\displaystyle\int_s^t\lambda^ne^{-\lambda(y-s)-\lambda(t-y)}\frac{(y-s)^{n-1}}{(n-1)!}dy\\
+&=\frac{\lambda^n e^{-\lambda(t-s)}}{(n-1)!}\int_{s}^t(y-s)^{n-1}dy\\
+&=e^{-\lambda(t-s)}\frac{\{\lambda(t-s)^n\}}{n!}\\
+\end{align*}
+\end{proof}
+
+\begin{coro}
+The non homogeneus Poisson process, which is obtained by $\lambda_0(t)$=\lambda_1(t)=...=\lambda(t)$ has transition probabilities $$p_{k,k+n}(s,t)=exp\{-\displaystyle\int_s^t\lambda(x)dx\}\frac{\{\displaystyle\int_s^t\lambda(x)dx\}^n}{n!} \ \ \ \forall 0\leq s<t,\ k,n\geq 0$$
+\end{coro}
+
+One can for example compute the expected number of claims during (s,t) as $\int_s^t\lambda(x)dx$. The increments are no longer stationary but still independent.\\
+Birth processes with contagion can be used when the increments are desired dependent. We consider
+$$\lambda_k(t)=\alpha+\beta k\ \ \ with \ \ \alpha>0$$
+$\beta\neq 0 $ satisfies $\alpha+\beta k\geq 0\ \ \ for \ \ k=0,1,...$
+
+These processes are homogeneus.
+\begin{coro} THe transition probability of a contagious birth process are given by:
+$$p_{k,k+n}(s,t)=\binom{\frac{\alpha}{\beta}+k+n-1}{n}e^{-(\alpha+\beta k)(t-s)}$$
+$$\{1-e^{-\beta(t-s)}\}^n$$
+\end{coro}
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{figure/06/4-1} 
+
+}
+
+
+
+\end{knitrout}
+
+Reminder $$\binom{x}{k}=\left\{\begin{array}{ll}
+\frac{[x]_k}{k!}& if k=1,2,..\\
+1&if k=0\\
+0, &if k=-1,-2,...
+\end{array}
+$$
+$$[x]_k=x(x-1)...(x-k-1)$$
+$$\binom{x-1}{n}=\frac{n+1}{x}\binom{x}{n+1}$$
+When $n=0$ $p_{k,k(s,t)=e^{(\alpha+\beta k)(t-s)}}$, assume the formula true for $n$, then:
+\begin{align*}
+p_{k,k+n+1}(s,t)&=\int_s^t\{\alpha+\beta(k+n)\}\binom{\frac{\alpha}{\beta}+k+n-1}{n}e^{-(\alpha+\beta k)(y-s)}\{1-e^{-\beta(y-s)}\}^n\\
+&=\binom{\frac{\alpha}{\beta}+k+n}{n+1}\frac{n+1}{\frac{\alpha}{\beta}+k+n}\{\alpha+\beta(k+n)\}e^{
+-(\alpha+\beta k)(y-s)}e^{-(\alpha+\beta k)(t-y)}\\
+&=\binom{\frac{\alpha}{\beta}+k+n}{n+1}\beta(n+1)e^{-(\alha+\beta k)(t-s)}\int_s^t\{e^{-\beta(t-y)}-e^{-\beta(t-s)}\}^ne^{-\beta(t-y)}dy\\
+.......
+\end{align*}
+
+
+
+%27/04/2017
+\begin{section}{Risk Process}
+The following quantities are required to define the risk process $X_1,X_2,...$ are independent individual losses or claim amounts (non-negativa r.v) with distribution function $F$ and expectation $\mu$ finite.\\
+ $K_t$ is the number of individual claims occuring during $[0,t]\ \forall t\geq 0$.\\
+ $\{K_t\}_{t\geq 0}$ is a birth process independent of $\{X\}]_{k\geq 1}$.\\
+ The total loss or claim amount is $Z_t=\displaystyle\sum_{k=0}^{K_t}X_k$ where $X_0=0$.\\
+ Let $r_o\geq 0$ be the initial capital of the insurance and $c>0$ be the premium rate (assumed constant), the $$Y_t=r_0+ct-Z_t,\forall t\geq 0$$ is the risk process.
+ 
+ %falta plot%
+ 
+ Let $T_k$ be the time of the k-th claim, thus.
+ $$T_k=inf\{t\geq 0|K_t\geq k\}$$
+ for $k=0,1,...$\\
+ Let $D_k=T_k-T_{k-1}$ for $k=1,2,...$ be the interclaim times.\\
+ If $D_1,D_2,...$ are i.i.d, then $\{T_k\}_{k\geq 0}$ or $\{K_t\}_{t\geq 0}$ are called renewal processes.\\
+ 
+ For example, if $\{K_t\}_{t\geq 0}$ is the homogeneous Poisson process with rate $\lambda>0$, the $D_1,D_2,...$ are independent exponential $(\lamda)$, $(\lambda e^{-\lambda x})$ is the density.\\
+ We focus on renewal conting process. In this case we define 
+ $$\rho=\frac{E[X_1]}{E[D_1]}$$
+ For the Poisson process 
+ \begin{align*}
+ E[D_1]&=\frac{1}{\lambda}\int_0^{\infty}x\lambda e^{-\lambda x}d(x\lambda)\\
+ &=\frac{1}{\lambda}\Gamma(2)\\
+ &=\frac{1}{\lambda}
+ \end{align*}
+ 
+ $\rho=\frac{E[X_1]}{E[D_1]}=\lambda\mu$, we define the \textbf{security loading} (Siche heitszuschlag)$$\beta=\frac{c-\rho}{\rho}$$.
+ 
+ Let $t^{\dagger}$ be any time horizon, then $$\Psi(r_0,t^{\dagger})=P[inf_{0\leq t\leq t^{\dagger}}Y_t<0]$$ is the probability of ruin in the finite time horizon $[0,t^{\dagger}]$
+ \begin{align*}
+ \psi(r_o)&=\lim_{t^{\dagger}\rightarrow\infty}\psi(r_0,t^{\dagger})\\
+          &=P[inf_{0\leq t \leq \infty}Y_t<0]\\
+ \end{align*}
+ Is the probability of ruin in infinite time horizon or simply the probability of ruin. We define the time of first ruin as 
+ 
+$T=\left\{\begin{array}{ll}
+inf\{t\geq 0|Y_t<0\}& if the infimum is finitek\\
+\infty&otherwise\\
+\end{array}
+$$
+ Thus $\psi(r_0,t^{\dagger})=P[T\leq t^{\dagger}]\xrightarrow{t^{\dagger}\rightarrow\infty}\psi(r_0)$
+ 
+ %falta plot
+ 
+ $\psi(r_0)<1\Rightarrow T$ has a defective distribution.\\
+ Some possible generalization of the basic risk procecss (of Lundberg). A Wiener Process is a stochastic process $\{W_t\}_{t\geq 0}$ with $W_0=0$ a.s, with continuous sample paths a.s, with independent increments and with $W_t-W_s\sim N(0,t-s)\ \ \ \forall0\leq s < t < \infty$
+ 
+ %falta grafico de wiener process%
+ It is tiically used to add noise to a stochastic process.
+ $$Y_t=r_0+cct-Z_t+\sigma W_t \ \ \forall t \geq 0$$ perturbed risk process.
+ $$Y_t=r_0+ct-Z_t+\int_{0}^tY_sds,$$ where $r$ is the fixed interest rate.
+ 
+ \end{section}
+
 \end{document}

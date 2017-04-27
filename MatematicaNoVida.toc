@@ -6,3 +6,5 @@
 \contentsline {section}{\numberline {3}Pareto Type Distributions}{10}
 \contentsline {section}{\numberline {4}Thursday 16/03/17}{12}
 \contentsline {section}{\numberline {5}Pareto Type Distributions}{12}
+\contentsline {section}{\numberline {6}Birth Processes}{16}
+\contentsline {section}{\numberline {7}Risk Process}{18}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.31)  2 APR 2017 04:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.31)  27 APR 2017 15:32
 entering extended mode
 **./MatematicaNoVida.tex
 (MatematicaNoVida.tex
@@ -3273,6 +3273,101 @@ Underfull \hbox (badness 10000) in paragraph at lines 702--703
 
  []
 
+! Undefined control sequence.
+l.737 ...\lambda(t-s)\}^n}{n!}\ \ \ \forall 0\leqs
+                                                  >t,k,n\geq 0$$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[16]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.752 ...ich is obtained by $\lambda_0(t)$=\lambda
+                                                  _1(t)=...=\lambda(t)$ has ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Package xcolor Warning: Incompatible color definition on input line 767.
+
+<figure/06/4-1.pdf, id=98, 361.35pt x 325.215pt>
+File: figure/06/4-1.pdf Graphic file (type pdf)
+ <use figure/06/4-1.pdf>
+Package pdftex.def Info: figure/06/4-1.pdf used on input line 769.
+(pdftex.def)             Requested size: 361.34912pt x 325.2142pt.
+
+[17]
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.782 $
+       $
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+<argument> ...ta }+k+n}{n+1}\beta (n+1)e^{-(\alha 
+                                                  +\beta k)(t-s)}\int _s^t\{...
+l.792 \end{align*}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...ta }+k+n}{n+1}\beta (n+1)e^{-(\alha 
+                                                  +\beta k)(t-s)}\int _s^t\{...
+l.792 \end{align*}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[18 <./figure/06/4-1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 807--811
+
+ []
+
+! Undefined control sequence.
+l.812 ......$ are independent exponential $(\lamda
+                                                  )$, $(\lambda e^{-\lambda ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.835 $
+       $
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.836  Thus $\psi
+                 (r_0,t^{\dagger})=P[T\leq t^{\dagger}]\xrightarrow{t^{\dagg...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[19]
 
 ! LaTeX Error: \begin{thm} on input line 568 ended by \end{document}.
 
@@ -3280,23 +3375,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.711 \end{document}
+l.850 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[16] (MatematicaNoVida.aux) )
+[20] (MatematicaNoVida.aux) )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 568 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 15835 strings out of 493334
- 260583 string characters out of 3139249
- 505064 words of memory out of 3000000
- 18990 multiletter control sequences out of 15000+200000
- 73365 words of font info for 56 fonts, out of 3000000 for 9000
+ 15845 strings out of 493334
+ 260729 string characters out of 3139249
+ 505065 words of memory out of 3000000
+ 18997 multiletter control sequences out of 15000+200000
+ 77636 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,15n,68p,608b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/P
@@ -3306,21 +3401,21 @@ ps/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.e
 nc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
-mcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr
-i10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmtko10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
-ols/msbm10.pfb>
-Output written on MatematicaNoVida.pdf (16 pages, 381240 bytes).
+mbxi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
+lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtko10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on MatematicaNoVida.pdf (20 pages, 419296 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
+ 183 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

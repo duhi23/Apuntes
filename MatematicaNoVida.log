@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.31)  27 APR 2017 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.31)  27 APR 2017 17:21
 entering extended mode
 **./MatematicaNoVida.tex
 (MatematicaNoVida.tex
@@ -3371,7 +3371,7 @@ you left one out. Proceed, with fingers crossed.
 ! Undefined control sequence.
 <argument> ...T_n-Z_{T_n}\\ &=r_0+c\displasystyle 
                                                   \sum _{k=1}^{n}D_k-\displa...
-l.860 \end{align*}
+l.861 \end{align*}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3382,7 +3382,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...T_n}}X_k\\ &=r_0+\displaystyle \sym 
                                                   _{k=1}^{n}V_k,\ \text {whe...
-l.860 \end{align*}
+l.861 \end{align*}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3393,7 +3393,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...T_n-Z_{T_n}\\ &=r_0+c\displasystyle 
                                                   \sum _{k=1}^{n}D_k-\displa...
-l.860 \end{align*}
+l.861 \end{align*}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3404,7 +3404,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...T_n}}X_k\\ &=r_0+\displaystyle \sym 
                                                   _{k=1}^{n}V_k,\ \text {whe...
-l.860 \end{align*}
+l.861 \end{align*}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3413,19 +3413,149 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 874--876
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.880 Let n\in
+              \{0,1,...\}, h>0, t\in[nh,(n+1)h], then L_{nh}-h\leq L_t\leq L...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \end{lema} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.881 \end{lema}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.881 \end{lema}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.881 \end{lema}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.881 \end{lema}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[20]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.894 2.- L_
+            t\xrightarrow\infty, \ if \  \beta<0\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.895 3.- L_t\xirghtarrow
+                         {as}-\infty,\ \ if \beta>0\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Command \end{thm} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.897 \end{thm}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.897 \end{thm}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.897 \end{thm}
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.897 \end{thm}
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 893--899
+
+ []
+
+
 ! LaTeX Error: \begin{thm} on input line 568 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.880 \end{document}
+l.919 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[20] (MatematicaNoVida.aux) )
+[21] (MatematicaNoVida.aux) )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 568 (\begingroup)
@@ -3437,7 +3567,7 @@ Here is how much of TeX's memory you used:
  18999 multiletter control sequences out of 15000+200000
  77636 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,18n,68p,608b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,18n,68p,608b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/P
 rogram Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 
 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
@@ -3457,9 +3587,9 @@ ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX
 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtko10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on MatematicaNoVida.pdf (20 pages, 421705 bytes).
+Output written on MatematicaNoVida.pdf (21 pages, 426711 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
+ 186 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

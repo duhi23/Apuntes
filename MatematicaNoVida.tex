@@ -849,6 +849,7 @@ $$Y_t=r_0+ct-Z_t+\int_0^tY_sdR_s\ \forall t\geq 0$$ where $\{R_t\}$ is the stoch
 We can also consider the inhomogeneous Poisson process.
 
 \begin{thm}Consider the renewal risk process, then $\beta<0\Rightarrow\psi(r_0)=1$
+\end{thm}
 \begin{proof}
 FOr $n=1,2,...,$ 
 \begin{align*}
@@ -868,11 +869,49 @@ $$Y_{T_n}\xrightarrow{a.s}sgnE[V_1].\infty$$.
 \end{align*}
 
 Thus $Y_{T_n}\xrightarrow{a.s}-\infty$, which means that $\{Y_t\}_{t\geq 0}$ downcrosses the null line a.s, viz $\psi(r_0=1)$.
+\end{proof}
+
 Note that $E[D_1]<\infty$ is an assumption of the definition ot the renewal process.\\
 We will now show in detail that in compound Poisson risk process $\frac{Z_t}{t}\xrightarrow{a.s}\rho \ \ (as t\rightarrow \infty)$ and $\psi(r_0)=1$, if $\beta\leq 0$.\\
-We define the loss process as $L_t=Z_t-ct$
+
+We define the loss process as $L_t=Z_t-ct\ \ \forall t\geq 0$
+
+\begin{lema}
+Let n\in\{0,1,...\}, h>0, t\in[nh,(n+1)h], then L_{nh}-h\leq L_t\leq L_{(n+1)+h}
+\end{lema}
+\begin{proof}
+Let r,s>0
+\begin{align*}
+L_{r+s}-L_r&=Z_{r+s}-(r+s)-Z_r+r\\
+&=\underbrace{Z_{r+s}-Z_r}_{\geq 0}-s\\
+&=0\\
+\end{align*}
+When no claims occur during $[r,r+s]$ In this case, $L_{r+s}-L_r=-s$ viz $L_{r+s}\geq L_r-s$ . For $r=nh$, $t=r+s=nh+s$ and $s\in[0,h],$ we have $L_t\geq L_{nh}-s\geq L_{nh}-h$. The upper bound can be shown in the same way.
 \end{proof}
+
+\begin{thm}
+1.- $\frac{L_t}{t}\xrightarrow{a.s}\rho-1, \ \ \forall \beta\in\mathbb{R}$\\
+2.- L_t\xrightarrow\infty, \ if \  \beta<0\\
+3.- L_t\xirghtarrow{as}-\infty,\ \ if \beta>0\\
+4.- liminf_{t\rightarrow \infty} L_t=-\infty \ \ a.s \ \ and \ \ limsup_{t\rightarrow\infty}L_t=\infty \ \ a.s., \ \ if \ \ \beta=0\\ 
 \end{thm}
+\begin{proof}
+Let $h>0$, then $\{L_{nh}\}_{n\geq 0}$ is a random walk $(L_h,L_{2h}-L_h,L_{3h}-L_{2h},...)$ are i.i.d, which follows from the fact that $\{K_t\}_{t\geq 0}$ has stationary and independent increments and $X_1,X_2,...$ are independent.
+From the strong law of large numbers
+
+\begin{align*}
+\frac{L_{nh}}{n}\xrightarrow{as}E[L_h]&=E[Z_h]-h\\
+&=\lambda h \mu-h=h(\rho-1)\\
+ liminf_{t\rightarrow\infty}\frac{L_t}{t}&=\lim_{n\rightarrow\infty}inf_{t\geq nh}\frac{L_t}{t}\\
+&=\lim_{n\rightarrow\infty}inf_{k\geq n}\underbrace{inf_{kh\leq t\leq(k+1)h}\frac{L_t}{t}}_{\geq\frac{L_{kh}-h}{(k+1)h}}\\
+&\geq \frac{1}{h}\lim_{n\rightarrow\infty} inf\frac{L_{nh}}{n}=\frac{1}{h}h(\rho-1)\\
+&=\rho-1\\
+\end{align*}
+
+So $\rho-1\leq \lim inf_{t\rightarrow\infty}\frac{L_t}{t}$ and we can show in the same way that $limsup_{t\rightarrow\infty}\frac{L_t}{t}\leq \rho-1$. So (1) holds, (2) and (3) follow directly from (1), $L_t\xrightarrow{a.s}sgn(\rho-1)\infty$, (4) follows  from the result on random walks $liminf_{n\rightarrow\infty}L_{nh}=-\infty$ a.s and $limsup_{n\rightarrow\infty}=L_{nh}=\infty$ a.s (given that the summand have expectation 0)
+\end{proof}
+
+
  \end{section}
 
 

@@ -1,0 +1,70 @@
+\documentclass[11pt,a4paper,oneside]{article}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{pst-eucl,pstricks,pstricks-add,multido, pst-plot}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[spanish,activeacute]{babel}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{titlesec}
+\usepackage{url}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{lmodern}
+\usepackage{epstopdf}
+\parindent=0mm
+
+
+\title{?` A qué se dedica realmente un actuario en una entidad de seguros no vida ?}
+\author{Diego Paul Huaraca S.}
+\date{\today}
+
+
+\begin{document}
+\maketitle
+
+El seminario tuvo por objetivo mostrar a los estudiantes del Máster las diferentes áreas que conforman la estructura organizativa de una empresa de seguros, y a su vez, las actividades que desarrolla un actuario dentro de cada una de ellas, así como su importancia. Se hizo mucho énfasis en los sólidos conocimientos de estadística, riesgos, finanzas, etc, que debe adquirir un actuario a lo largo de su formación para responder a retos que se le presenten a lo largo de su vida profesional. \newline
+
+La estructura más común de una empresa de seguros es:
+\begin{figure}[H]
+\centering
+\begin{pspicture}[showgrid=false](8,3)
+\psframe[fillstyle=solid, fillcolor=blue!20](0,0)(3,1)
+\psframe[fillstyle=solid, fillcolor=red!20](5,0)(8,1)
+\psframe[fillstyle=solid, fillcolor=gray!20](2.5,2)(5.5,3)
+\rput(4,2.5){\scriptsize Dirección General}
+\rput(1.5,0.6){\scriptsize Áreas Funcionales}
+\rput(6.5,0.7){\scriptsize Áreas de Gobierno}
+\rput(6.5,0.3){\scriptsize Corporativo}
+\psline[linecolor=red]{->}(4,2)(4,1.5)(1.5,1.5)(1.5,1)
+\psline[linecolor=red]{->}(4,2)(4,1.5)(6.5,1.5)(6.5,1)
+\end{pspicture}
+\end{figure}
+
+Dentro de las áreas funcionales se encuentran los siguientes departamentos que serán descritos brevemente:
+\begin{itemize}
+      \item {\bf Comercial:} Es la encargada de las ventas de pólizas, los actuarios hacen las veces de \emph{suscriptores} en ésta área y se encargan de evalúar el riesgo que conlleva la venta de nuevos seguros. Por ejemplo: seguros para un nuevo tipo de buque.
+      \item {\bf Siniestros:} Esta área requiere de profesionales con sólidos conocimientos estadísticos, y es aquí donde ubicamos a los actuarios por su formación. Son los encargados de realizar cálculos de costes medios, de identificar los factores más relevantes que generan una alta siniestralidad, etc.
+      \item {\bf Financiero:} 
+      \item {\bf Informática:} Es la encargada del desarrollo de aplicaciones, plataformas y más productos informáticos, por tal razón, un actuario en ésta área evalúa el desarrollo de las mismas que contengan procedimientos actuariales.
+      \item {\bf Marketing:} Evalúa potenciales campañas de publicidad y realiza investigación de mercado. Identifica el perfil en el mercado de futuros clientes de la aseguradora.
+      \item Técnica-Actuarial: Marca las normas de contratación, pues se encarga de marcar el riesgo y el apetito de riesgo que va a recibir la identidad en base a análisis y estudios. Coloca filtros para que eventuales riesgos sean descartados de la cartera de nuevos o antiguos clientes. Realiza auditorías de suscripción ya que valida los nuevos clientes que el área comercial adquiere siempre con la intención que los riesgos se encuentren controlados. Canales son los distintos medios por los cuales se venden las pólizas, en esta área se analiza que medios son los más eficaces. Diseño de productos, identifica las nuevas necesidades que tiene el mercado para posteriormente crear las garantías y las coberturas.
+      En base a todo lo anterior se da un precio a los seguros, esta área es conocida como princing y es una de las más demandadas en la actualidad.
+      \item Legal RRHH: 
+\end{itemize}
+
+
+
+\begin{itemize}
+      \item Auditoria Interna: Controla los procesos actuariales, 
+      \item Cumplimiento Normativo: 
+      \item Gestión de Riesgos: Identifica, mide riesgos actuariales
+\end{itemize}
+
+\end{document}

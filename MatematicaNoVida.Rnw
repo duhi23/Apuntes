@@ -3,12 +3,14 @@
 \usepackage{pst-eucl,pstricks,pstricks-add,multido, pst-plot}
 \usepackage[utf8]{inputenc}
 %\usepackage[latin1]{inputenc}
-\usepackage[spanish,activeacute]{babel}
+\usepackage[english,activeacute]{babel}
 \usepackage[a4paper,margin=2.5cm]{geometry}
 \usepackage{times}
+\usepackage{mathtools}
 \usepackage[T1]{fontenc}
 \usepackage{titlesec}
 \usepackage{url}
+\usepackage{enumitem}  
 \usepackage{float}
 \usepackage{cite}
 \usepackage{graphicx}
@@ -21,8 +23,32 @@
 \parindent=0mm
 \usepackage{color, colortbl}
 \definecolor{azul}{rgb}{0.63, 0.79, 0.95}
-\newtheorem{exm}{Example}[subsection]
+
+\newtheorem{thm}{Theorem}[subsection]
 \newtheorem{defi}[subsection]{Definition}
+\newtheorem{exm}{Example}
+\newtheorem{lema}[thm]{Lemma}
+\newtheorem{coro}{Corollary}[thm]
+\newcommand{\threepartdef}[3]
+{
+	\left\{
+		\begin{array}{ll}
+			#1 \\
+			#2 \\
+			#3 \\
+		\end{array}
+	\right.
+}
+\newcommand{\ttwopartdef}[2]
+{
+	\left\{
+		\begin{array}{ll}
+			#1 \\
+			#2 \\
+		\end{array}
+	\right.
+}
+
 \newcommand*{\titleBOOK}{\begingroup
 %\raggedleft
 \centering
@@ -37,7 +63,7 @@ Insurance} \\ [\baselineskip]
 %{\large\scshape MS-PLUS, Inc.}\par
 \vfill
 \begin{center}
-{\scshape Switzerland-Spain-Ecuador}\\
+{\scshape Switzerland-Ecuador}\\
 \rule{\textwidth}{0.5pt}
 \end{center}
 \vspace*{\baselineskip}
@@ -46,7 +72,6 @@ Insurance} \\ [\baselineskip]
 
 
 \begin{document}
-%\SweaveOpts{concordance=TRUE}
 \titleBOOK
 \newpage
 
@@ -55,17 +80,18 @@ Insurance} \\ [\baselineskip]
 
 
 \section{Individual Risk and Distributions}
-A non negative random variable is called a \textbf{loss} and it its distribution a \textbf{loss distribution}.\\
+A non negative random variable is called a \textbf{loss} and it its distribution a \textbf{loss distribution}. One impotant classes of loss distributions are the following\\
+
 $X\sim Exponential(\alpha)$ means that $X$ has density $f_X(x)=\alpha e^{-\alpha x}$ and distribution function (d.f) $F_X(x)=1-e^{-\alpha x}$, $\forall x>0$ and $\alpha>0$.\\
 
-
+%Pareto Distribution
 Let $Y=e^x$, 
 \begin{align*}
-F_Y(Y) &= F_X(\log Y)\\
+F_Y(y) &= F_X(\log y)\\
 &=1-e^{\alpha \log (y)}\\
 &=1-y^{-\alpha}
 \end{align*}
-Is called the \textbf{Pareto Distribution}. If $Y$ follows a Pareto distribution, denoted  $Y\sim Pareto(\alpha)$
+Is called the \textbf{Pareto Distribution}. If $Y$ follows a Pareto distribution, denoted  $Y\sim Pareto(\alpha),\forall y>1$
 
 <<echo=FALSE, fig.align='center', fig.height=4.5, fig.width=5>>=
 x <- seq(0,8,0.01)
@@ -73,12 +99,12 @@ y <- exp(-0.5*x)
 y1 <- exp(-1.5*x)
 y2 <- exp(-1*x)
 
-plot(x,y,type="l",main=expression(paste("Exponential distribution with parameter ",alpha)), xlab='X', ylab='F(X)')
+plot(x,y,type="l",main=expression(paste("Pareto distribution with parameter ",alpha)), xlab='X', ylab='F(X)')
 lines(x,y1,type="l",col="red")
 lines(x,y2,type="l",col="blue")
 grid()
 @
-
+%Weibull Distribution
 $X\sim Exponential (\lambda)$ and $Y\sim X^{\frac{1}{\tau}}$, $\forall \tau>0$
 \begin{align*}
 F_Y(Y) &= F_X(Y^{\tau})\\
@@ -86,9 +112,192 @@ F_Y(Y) &= F_X(Y^{\tau})\\
 \end{align*}
 $Y$ follows the \textbf{Weibull distribution}, $\tau$ is called the Weibull index.\\ It is denoted by $Y\sim Weibull(\tau,\lambda)$
 
+<<echo=FALSE, fig.align='center', fig.height=4.5, fig.width=5>>=
+plot(seq(0,1,0.01),pweibull(seq(0,1,0.01),scale=10,shape=1,log=FALSE),
+     type = "n",main="Weibull Distribution",xlab="X",ylab="F(X)")
+lines(seq(0,1,0.01),pweibull(seq(0,1,0.01),scale=10,shape=1,log=FALSE),col="red")
+lines(seq(0,1,0.01),pweibull(seq(0,1,0.01),scale=100,shape=0.5,log=FALSE),col="blue")
+lines(seq(0,1,0.01),pweibull(seq(0,1,0.01),scale=4.7,shape=1.5,log=FALSE),col="black")
+grid()
+@
 
+
+% Extreme Value Distribution
+Let $X\sim Exponential(1)$ and $$Y=\frac{X^{-\gamma}-1}{\gamma} \ \ \ \forall \gamma\neq 0$$
+
+\begin{align*}
+F_Y(Y) &= P(Y\leq y)\\
+&=P[\frac{X^{-\gamma-1}}{\gamma}\leq Y]\\
+&=P[X\geq (1+\gamma x)^{-\frac{1}{\gamma}}]\\
+&=1-F_X(\{1+\gamma x\}^{-\frac{1}{\gamma}})\\
+&=exp\{-(1+\gamma x)^{-\frac{1}{\gamma}}\}\ \ \ for $1+\gamma x>0$
+\end{align*}
+ Y follows  the \textbf{Extreme Value Distribution}.
+ 
+ \begin{align*}
+ \displaystyle\lim_{\gamma\rightarrow 0}\frac{x^{-\gamma-1}}{\gamma}&=\displaystyle\lim_{\gamma\rightarrow 0}\frac{d}{d\gamma}x^{-\gamma}\\
+ &=\displaystyle\lim_{\gamma\rightarrow 0}\frac{d}{d\gamma}e^{-(log x )\gamma}\\
+ &=-log x
+ \end{align*}
+
+%Gumbel Distribution 
+ Let $Y=-log X$, 
+ \begin{align*}F_y(y)&=P[-log X\leq Y]\\
+ &=P[X\geq e^{-y}]\\
+ &=exp\{e^{-y}\} \ \ \forall x\in \mathbb{R}\\
+  \end{align*}
+$Y$ follows the \textbf{Gumbel} distribution.
+
+
+%Frechét Distribution
+Let $X\sim Exponential(1)$ and $Y=X^{-\frac{1}{\alpha}}$ for $\alpha>0$.
+\begin{algin*}
+F_Y(y)&=1-F_X(x^{-\alpha})\\
+&=1-\{1-e^{-x^{-\alpha}}\}\\
+&=exp\{-x^{-\alpha}\}\ \ \ \forall x>0\\
+\end{align*}
+
+$Y$ follows the \textbf{Fréchet} Distribution.
+
+%Burr Distribution
+
+$X\sim Pareto(\alpha)$ and $Y=\beta(X-1)$,  $Y=\{\beta(X-1)\}^{\frac{1}{\tau}}$
+\begin{align*}for \beta,\tau>0\\
+F_Y(y)&=F_x(1+\frac{Y^2}{\beta})\\
+\&=1-(1+\frac{Y^2}{\beta})^{-\alpha}\ \ \ \forall y>0 \\
+\end{align*}
+$Y$ follows the \textbf{Burr} distribution, we denote it as $$Y\sim Burr(\alpha,\beta,\tau)$$
+
+
+%Lognormal distribution
+Let $X\sim \mathcal{N}(\mu,\sigma^2)$ and $Y=e^x$
+$$f(y)=\frac{1}{\sqrt{2\pi}\sigma y}exp\{-\frac{1}{2}(\frac{log y-\mu}{\sigma})^2\}\ \ \ \forall y>0$$ $Y$ follows the \textbf{Lognormal} Distribution.
+$$Y\sim Lognormal(\mu,\sigma^2)$$
+
+%LogGamma Distribution
+Let $X\sim Gamma(\alpha,\beta)$ and $Y=e^x$
+$$f_x(x)=\frac{\beta^{\alpha}}{\Gamma(\alpha)}x^{\alpha-1}e^{-\beta x}\ \ \ \forall x>0  \ \ and \ \ \alpha,\beta>0$$ 
+$$f_y(y)=\frac{\beta^{\alpha}}{\Gamma(\alpha)}(log y)^{\alpha-1}y^{-\beta-1}\ \ \ \forall y>1 $$
+$Y$ follows the log-gamma distribution.
+$$Y\sim \textbf{log-gamma}(\alpha,\beta)$$
+
+Let $X\sim\mathcal{N}(0,1)$ and $Y=|X|$
+\begin{align*}
+F_Y(X)&=P[|X|\leq Y]\\
+&=2\phi (y)-1\ \ \forall y>0
+\end{align*}
+
+Where $\phi$ is the distribution function $\mathcal{N}(0,1)$
+\begin{defi}The distribution function $F_1$ has $\threepartdef{heavier}{equivalent}{lighter}$  right tail as the distribution function $F_2$ if 
+$$\displaystyle\lim_{x\rightarrow\infty}\frac{1-F_1(x)}{1-F_2(x)}\threepartdef{>}{=}{<} 1.$$
+\end{defi}
+\begin{exm}F_1 \  Pareto,\ \ F_2 \ Burr\\
+&=\displaystyle\lim_{x\rightarrow\infty}\frac{x^{-\alpha}}{\left(\frac{\beta}{\beta+x^\tau}\right)^{\alpha}}\\
+&=\left(\displaystyle\lim_{x\rightarrow\infty}\frac{\beta+x^{\tau}}{\beta x}\right)^{\alpha}\\
+&=\left(\frac{1}{\beta}\displaystyle\lim_{x\rightarrow\infty}x^{\tau-1}\right)^{\alpha}=\threepartdef{\infty \hspace{20pt} if \hspace{20pt}\tau>1}{\beta^{-\alpha}\hspace{12pt} if \hspace{20pt} \tau=1}{0 \hspace{25pt}if \hspace{20pt} \tau<1}\\
+\end{exm}
+
+\begin{defi}Moments\\
+\begin{align*}
+E(X^k)&=\displaystyle\int_0^\infty x^kdF(x)\\
+&=\displaystyle\int_0^\infty x^k f(x)dx
+\end{align*}
+\end{Defi}
+The existence of moments is a practical problem with heavy tailed distributions.
+
+
+\begin{lema}
+For any (real-valued) random variable $X$.
+
+\item{i. } E[|X|]=\displaystyle\int_0^{\infty}P[|X|>x]dx\\
+\item{ii.} E[|X|]<\infty\Rightarrow P[|X|>x]=o(x^{-1})\\
+
+\end{lema}
+
+\begin{proof}
+Let G be the d.f of |X| and c>0, then:\\
+\begin{align*}
+\displaystyle\int_{0}^cxdG(x)&=\int_0^c\{1-G(x)\}dx-\overbrace {c\{1-G(c)\}}^\text{>0}\\
+\text{Assume } E[|x|]&<\infty \text{ thus } E[|X|]=\displaystyle_{0}^{\infty}xdG(x)\<\infty\\
+0&=\displaystyle\lim_{c\rightarrow \infty}\displaystyle\int_{c}^{\infty}xdG(x)\geq \displaystyle\lim_{c\rightarrow \infty}c\displaystyle\int_{c}^{\infty}dG(x)\\
+&=\displaystyle\lim_{c\rightarrow \infty}c\{1-F(c)\}\\
+&\text{Thus }\displaystyle\int_{0}^{\infty}xdG(x)=\displaystyle\int_{0}^{\infty}\{1-G(x)\}dx\Leftrightarrow (i)\\
+\text{If }& \displaystyle\int_{0}^{\infty}P[|X|>x]dx<\infty, \text{ then } P[|X|>x]=o(x^{-1})\\
+&\text{as $x\rightarrow\infty$ and thus $ii$ holds}
+\end{align*}
+
+Assume $E[|X|]=\infty$, So $\infty=\displaystyle\int_{0}^{\infty}xdG(x)\leq \displaystyle\int_{0}^{\infty}\{1-G(x)\}dx $\\
+$=\int_0^{\infty}P[|X|>x]dx=\infty$ Thus (i) holds.
+\end{proof}
+
+\begin{coro}For any real valued random variable $X$ and $r>0$.
+\item{i.} E[|X|^r]=r\displaystyle\int_0^{\infty}x^{r-1}P[|X|>x]dx\\
+\item{ii.} E[|X|^r]<\infty\Rightarrow =P[|X|>x]=o(x^{-r})\\
+\end{coro}
+
+One could distinguish three main categories of loss distributions according to the importance of the (right) tail.\\
+Let $M(v)=E[e^{vX}]$ for $v\in\mathbb{R},$ denote the moment generating function (m.g.f) of $X$ of its distributions.
+
+\begin{enumerate}
+\item $M(v)<\infty$ $\forall v\in \mathbb{R}\\
+\text{These distributions are very light-tailed}\\
+\item $\exists \gamma\in(0,\infty)$ s.t $M(v)<\infty,\forall v<\gamma$\\
+\text{These distributions are light tailed of exponential type}\\
+\item $\exists k\in(0,\infty)$ s.t $E[x^p]<\infty$ $\forallp<k$ and $E[x^p]=\infty$ $\forall\geq k$
+\end{enumerate}
+
+\begin{exm}
+\begin{align*}X\sim Exponential(\lambda)\\
+M(v)&=\displaystyle\int_0^{\infty}e^{vx}\lambda e^{-\lambda x}dx\\
+&=\lambda\int_0^{\infty}e^{-(\lambda-v)x}dx\\
+&=\frac{\lambda}{\lambda-v},\ \ \ \text{if }  v<\lambda \text{and}\\
+&=\infty\ \ \ \text{if } v\geq \lambda
+\end{align*}
+\end{exm}
+
+
+\begin{exm}
+\begin{align*}X\sim Beta(\alpha,\beta)\\
+f(x)&=\frac{1}{B(\alpha,\beta)}x^{1-\alpha}(1-x)^{1-\beta}\ \ \forall x\in (0,1)\\
+Beta(\alpha,\beta)=\inf_0^1x^{1-\alpha(1-x)^{1-\beta}}dx\\
+&=\frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}
+\end{align*}
+$Beta(1,1)$ is Uniform(0,1)\\
+$X\sim Beta(\alpha,\beta)$ is in $(1)$.\\
+\text{The one sided normal is in }$(1)$\\
+$X\sim Pareto(\alpha)$ is in $(3)$.\\
+\text{Assume that $M(v)$ exists in a neighbourhood of the origin, then:}\\
+\begin{align*}
+M(v)&=E[e^{vx}]\\
+    &=E[\displaystyle\sum_{k=0}^{\infty}\frac{x^k}{k!}v^k]\\
+    &=\displaystyle\sum_{k=0}^{\infty}E[\frac{x^k}{k!}v^k]\ \text{ From Fubini theorem because $M(v)<\infty$}\\
+    &=\displaystyle\sum_{k=0}^{\infty}E[x^k]\frac{v^k}{k!}\\
+M(v)&=\displaystyle\sum_{k=0}^{\infty}  M^{(k)}(0)\frac{v^k}{k!}\\
+\end{align*}
+So, we find that $E[x^k]=M^{(k)}(0)$ for $k=1,2,...$
+\end{exm}
+
+%Friday 24-02-2017
+
+
+\begin{defi}Hazard Rate\\
+Let $F$ be a loss distriution with density $f$. The function $$h(x)=\frac{f(x)}{1-F(x)}$$ is the instantaneous hazard rate of $F$ and $$H(x,u)=\frac{F(x+u)-F(x)}{1-F(x)}$$ is the hazard rate of $F$, where $x,u>0$
+\end{defi}
+Thus $$h(x)dx=\frac{f(x)dx}{1-F(x)}=P[x\in(x,x+dx)|X>x]$$ and 
+$$H(x,u)=P[x\in(x,x+u)|X>x]$$
+Thus $H(x,u)=h(x)dx$.\\
+The hazard rate is also called failure rate of force of mortality.\\
+
+\begin{defi} The loss distribution has $\ttwopartdef{increasing}{decreasing}$ failure rate called $\ttwopartdef{IFR}{DFR}$ in x, if $H(x,u)$ is $\ttwopartdef{increasing}{decreasing}$ in $x$ $\forall u>0$
+\end{defi}
+Increasing and decreasing are meant in the weak sense, i.e not in the strict sense.
+
+\begin{lema} $F$ is $\ttwopartdef{IFR}{DFR}$ $\Leftrightarrow$ h is $\ttwopartdef{increasing}{decreasing}$
+\end{lema}
+\begin{proof}
+
+\end{proof}
 \section{Thursday 09/03/17}
-
 \subsection{Distribution of the largest claim amount}
 
 The distribution of the largest loss is very important in \textbf{risk management}.
@@ -210,7 +419,8 @@ We want to show that if the distribution of the individual losses is of Pareto t
 &=n\log F(a_nx+b_n)\\
 &\sim\{1-F(a_nx+b_n)\}
 \end{align*}
-<<echo=FALSE, fig.align='center', fig.height=4.5, fig.width=5>>=
+
+<<plot1,echo=FALSE,eval=TRUE, fig.align='center', fig.height=4.5, fig.width=5>>=
 x<-c(0:10)
 plot(x,log(x),type="l",ylim = c(-5,4))
 lines(x,x-1)
@@ -260,6 +470,184 @@ $$\lim_{x\rightarrow\infty}\frac{\log(tx)}{\log x}=\lim_{x\rightarrow\infty}\fra
 $$\log^{(0)}x=x, \log^{(1)}=\log x$$
 $\log^{(k)}=\log \log^{(k-1)}x$ for $k=1,2,\ldots$
 
-$$\lim_{x\rightarrow\infty}\frac{\log^{(k)tx}}{\log^{(k)}x}=\lim_{x\rightarrow\infty}\frac{2}{1}$$
+$$\lim_{x\rightarrow\infty}\frac{log^{(k)tx}}{log^{(k)}x}
+=\lim_{x\rightarrow\infty}\frac{\frac{t}{log^{(k-1)}tx...log tx tx}}{\frac{1}{log^{(k-1)}x...log x x}}=1$$
+Then $log^{(k)}\in R_0$
 
+\section{Thursday 16/03/17}
+\section{Pareto Type Distributions}
+\begin{defi}
+$F$ is of Pareto type if $1-F\in\mathbb{R}_{-\alpha}$ for some $\alpha>0$. Remember that $(f\in\mathbb{R}_{\delta),\delta\in\mathbb{R}$ if $\frac{f(tx)}{f(x)}\xrightarrow{t^{\delta}}$.
+Thus $1-F(x)=x^{-\alpha}l(x)$ where $l\in\mathbb{R_0}$.
+\end{defi}
+
+Some examples\\
+\begin{exm}Pareto\\
+\begin{align*}
+F(x)&=1-x^{-\alpha}\forall x >1\\
+F(x)&=x^{-\alpha}.1 (l(x)=1)\\
+\end{align*}
+\end{exm}
+
+\begin{exm}Burr\\
+F(x)=1-\left(\frac{\beta}{\beta+x^{\tau}}\right)^{\lambda}, \forall x>0\ \beta\lambda\tau>0\\
+\begin{align*}
+\lim_{x\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}&=(\lim_{x\rightarrow \infty}\frac{\beta+x^{\tau}}{\beta+(tx)^{\tau}}\)^{\lambda}\\
+&=(t^{-\tau})^{\lambda}=t^{-\lambda\tau}\\
+\end{align*}
+\text{ Thus } -\alpha=\lambda\tau \text{( is the index of regular variation )}\\
+l(x)=x^{\lambda\tau}(\frac{\beta}{\beta+x^{\tau}})^{\lambda}=(\frac{\beta x^{\tau}}{\beta+x^{\tau}})^{\lambda}\\
+\end{exm}
+
+\begin{exm}Fréchet\\
+F(x)=exp\{-x^{-\alpha}\}\ \ \forall x>0,\alpha>0\\
+\begin{align*}
+\lim_{x\rightarrow{\infty}}\frac{1-F(tx)}{1-F(x)}&=\lim_{x\rightarrow\infty}\frac{1-exp\{-(tx)^{-\alpha}\}}{1-exp^{-x^{-\alpha}}}\\
+
+&=\lim_{x\rightarrow\infty}\frac{\alpha(tx)^{-\alpha-1}t \ exp \{-(tx)^{-\alpha}\}}{\alpha x^{-\alpha-1}exp\{-x^{-\alpha}\}}\\
+&=t^{-\alpha}\\
+
+1-F(x)&=x^{-\alpha}l(x)$ \text{ where } $l(x)=x^{\alpha}(1-exp\{-x^{-\alpha}\})\\
+      &=x^{\alpha}(1-exp\{-x^{-\alpha}\})\\
+&=x^{\alpha}(1-[1-x^{-\alpha}+\frac{1}{2}x^{-2\alpha}-\frac{1}{3!}x^{-3\alpha}+...])\\
+&=1-\frac{1}{2}x^{-\alpha}+\frac{1}{3!}x^{-2\alpha}+...\\
+\end{align*}
+\end{exm}
+
+\begin{thm}Karamata\\
+
+
+
+%30-03-2017
+%Measures of Risk
+\begin{defi}
+$\rho:L_p(\Omega\rightarrow\mathbb{R}^+)$, is a measure of risk coherent. It hass the next properties:
+\begin{itemize}
+\item \rho(X+Y)\leq \rho(X)+\rho(Y)
+\item X\leq Y a.s \Rightarrow \rho(X)\leq \rho(Y)
+\item \rho(cX)=c\rho(X), \forall c>0
+\item \rho(c+X)=c+\rho(X), \forall c>0
+\end{itemize}
+\end{defi}
+Interpretations:\\
+(1) Aggregation of risks is beneficial\\
+(3) Scale invariance (e.g for change of currency) $X=0 a.s \Rightarrow \rho(0)=0$ \\
+(4) $X=0 a.s\Rightarrow \rho(c)=c+\rho(0)$\\
+                        $\Rightarrow \rho(c)=c $ from (3)\\
+                        
+\begin{exm} Standard Deviation Principle\\
+$\rho(X)=\mu_x+K\sigma_x$ for some $k>0$, where $\mu_x=E[X]$ and $\sigma_x=var(X)$\\
+(1) $\rho(X+Y)=\mu_x+\mu_y+k(\sigma^2_x+\sigma^2_y+2\sigma_{xy})$, where $\mu_Y=E[Y]$, $\sigma^2_Y=var(Y)$ and $\sigma_{XY}=cov(X,Y)$\\
+
+$\rho(X)+\rho(Y)=\mu_x+\mu_y+k(\sigma_x+\sigma_y)$\\
+$\rho(X+Y)\leq \rho(X)+\rho(Y)\Leftrightarrow$\\
+$(\sigma^2_X+\sigma^2_Y+2\sigma_{XY})^{1/2}\leq \sigma_x+\sigma_Y\Leftrightarrow$\\
+$\sigma^2_X+\sigma^2_Y+2\sigma_{XY}\leq \sigma_x+\sigma_Y+2\sigma_X\sigma_Y\Leftrightarrow$\\
+$\sigma_{XY}\leq \sigma_X\sigma_Y$\\
+Which is true from the Cauchy Schwarz inequality
+
+We  can easily show that (3) and (4) hold also 
+<<33,echo=FALSE,eval=TRUE, fig.align='center', fig.height=4.5, fig.width=5>>=
+x<-c(0:5)
+plot(x,x,type="n")
+lines(x,4,type = "b")
+grid()
+@
+
+$\mu_x=0\times 0.025+4\times0.75=3$\\
+$E[X^2]=0^2\times0.025+4^2\times 0.75=12$\\
+$\sigma^2_X=12-3^2=3$\\
+$\mu_Y=4,\sigma_Y=0$\\
+Let $k=1$, then $\rho(X)\leq\rho(Y)\Leftrightarrow 3+\sqrt(3)\leq 4\Leftrightarrow \sqrt(3)\leq 1$ which is false.
+\end{exm}
+                        
+\begin{defi} The $\alpha-th$ value-at-risk $(VaR)$ is the $\alpha-th$ quantile of the distribution of the loss $X$, $\forall \alpha\in(0,1)$\\
+
+The $\alpha -th$ quantile of the d.f F is any value $q_{\alpha}$\in\mathbb{R}$ s.t $\forall\alpha\in(0,1)$
+
+\begin{itemize}
+\item $F(X)\leq \alpha,\forall x<q_{\alpha}$
+\item $F(x)\geq \alpha \forall x>q_{\alpha}$
+\end{itemize}
+\end{defi}
+
+If $q_{\alpha}$ is not unique, one can choose for example:
+$$q_{\alpha}=F^{-1}(\alpha)=inf\{x\in\mathbb{R}|F(x)\geq \alpha\}$$
+
+
+Note that $(*)$ can be re-expressed as $F(q_{\alpha^-})\leq \alpha$ and $F(q_{\alpha})\geq \alpha$ because $F(q_{\alpha+})=F(q_{\alpha})$.\\
+The $Var$ is unfortunately not subadditive.\\
+Let $Z$ have d.f $F_Z$ (strictly) increasing and continuous with $F_z(1)=0.91$  $F_z(90)=0.95$ and $F_z(100)=0.96$\\
+
+%plot2
+
+
+Let $X=ZI\{Z\leq 100\}$ and  $Y=ZI\{Z\geq 100\}$. So $X+Y=Z(I\{Z\leq 100\}+\{Z>100\})=Z$\\
+
+\begin{align*}
+F_x(1)&=P[X\leq 1|Z\leq 100]P[Z\leq 100]+ P[X\leq 1|Z>100]P[Z>100]\\
+&=P[Z\leq 1]+P[Z>100]=0.91+0.04=0.95
+\end{align}
+Let us check that $F_x(x)$ is continuous at $x=1$ for $\delta$ sufficiently close to zero.
+
+\begin{align*}
+F_x(1+\delta)&=P[Z\leq 1+\delta]+ P[Z> 100]\\
+&=F_z(1+\delta)+0.04
+\end{align}
+and so $F_x$ is strictly increasing and continuous at $1$.\\
+
+Defining $VaR_{\alpha}(U)$ as the $\alpha-th$ quantile of the random loss $U$, we have $VaR_{0.95}(X)=1$
+
+\begin{align*}
+F_Y(0)&=P[Y\leq 0]\\
+&=P[Y\leq 0|Z\leq 100]P[Z\leq 100]+P[Y\leq 0|Z>100]P[Z>100]\\
+&=P[Z>\geq 100]+P[Z\leq 0|Z>100]P[Z>100]=0.96
+\end{align*}
+Thus $VaR_{0.95}(Y)\geq 0$ and so $VaR_{0.95}+VaR0.95(Y)\leq 1<90VaR_{0.95}(X+Y)$\\
+  
+  \begin{defi}
+  The $\alpha-th$ tile value at risk $(TVaR)$ of the random loss is:
+  $$TVaR_{\alpha}=E[X|X>q_{\alpha}],$$
+  where q_{\alpha} is the $\alpha-th$ quantile or $VaR$ of $X$, $\forall \alpha\in(0,1)$
+  \end{defi}
+ The TVaR makes good use of the information of the tail of the loss distribution and it is coherent.\\
+ If the d.f of $X$ $F_X$ is continuous at $q_{\alpha}$ then 
+ 
+ \begin{align*}
+ TVaR_{\alpha}(X)&=\frac{\int_{q_{\alpha}}^{\infty}xdF_x(x)}{1-F_x(q_{\alpha})}\\
+ &=\frac{\int_{q_{\alpha}}^{\infty}xdF_x(x)}{1-\alpha}
+  \end{align*}
+If $F_x$ is continuous and stricctly increasing, then:
+\begin{align*}
+\int_{q_{\alpha}}^{\infty}xdF_x(x)&=\int_{\alpha}^1 F_x^(-1)(u)du\\
+&=\int_{\alpha}^1 VaR_u(X)du\ \ \ \ (F_x(x)=u,x=F_x^{(-1)}(u))\\
+Thus \ \ \ TVaR_{\alpha}(X)&=\frac{\int_{\alpha}^{1}VaR_u(X)}{1-\alpha}
+\end{align*}
+which is the average of $VaR_u$ for $u\in[\alpha,1)$
+$$TVaR(X)=ex(q_{\alpha})+q_{\alpha}$$
+\begin{exm}X\sim Exponential(\theta)\\
+$F(x)=1-e^{-\theta x}=u\Leftrightarrow -\frac{1}{\theta}log(1-u)=x$\\
+so\\
+$VaR_{\alpha(X)=q_{\alpha}=-\frac{1}{\theta}log(1-\alpha)$\\
+$ex(a)=E[X]=\frac{1}{\theta}$, $\forall a\geq 0$\\
+$TVaR_{\alpha}(X)=\frac{1}{\theta}-\frac{1}{\theta}log(1-\alpha)=\frac{1}{\theta}\{1-log(1-\alpha)\}$
+\end{exm}
+
+
+\begin{exm}X\sim\cal{N(\mu,\sigma^2)}\\
+$VaR_{\alpha(X)}=\mu+\sigma\Phi ^{(-1)}(\alpha)$ ,\ where $\Phi$ is the d.f of $\cal{N}(0,1)$\\
+If $\Phi=\Phi^{'},$ then\\
+
+\int_{\alpha}^{\infty}x\Phi(x)dx=-\int_{a}^{\infty}\Phi^{'}(x)dx=-[0-\Phi(a)]=\Phi(a)\\
+\end{exm}
+
+$X$ has density $\frac{1}{\sigma}\Phi(\frac{x-\mu}{\sigma})$\\
+
+\begin{align*}
+TVaR_{\alpha}(X)&=\frac{\int_{q_{\alpha}}^{\infty}x\frac{1}{\sigma}\Phi(\frac{x-\mu}{\sigma})dx}{1-\alpha}\\
+&=\frac{1}{1-\alpha}\int_{\frac{q_{\alpha}-\mu}{\sigma}}^{\infty}(\mu+\sigma y)\frac{1}{\sigma}\phi(y)\sigma dy \ \ \ \ (y=\frac{x-\mu}{\sigma}, \mu+\sigma y=x)\\
+&=\frac{1}{1-\alpha}\{\mu[1-\phi\circ \phi^{-1}(\alpha)]+\sigma\int_{\phi^{(-1)}(\alpha)}^{\infty}y\phi(y)dy\}\\
+&=\frac{1}{1-\alpha}\{\mu(1-\alpha)+\sigma\phi\phi^{(-1)(\alpha)}\}\\
+&=\mu+\frac{\sigma}{1-\alpha} \phi\circ\phi^{-1}(\alpha)
+\end{align*}
 \end{document}

@@ -791,7 +791,7 @@ $$
  %falta plot
  
  $\psi(r_0)<1\Rightarrow T$ has a defective distribution.\\
- Some possible generalization of the basic risk procecss (of Lundberg). A Wiener Process is a stochastic process $\{W_t\}_{t\geq 0}$ with $W_0=0$ a.s, with continuous sample paths a.s, with independent increments and with $W_t-W_s\sim N(0,t-s)\ \ \ \forall0\leq s < t < \infty$
+ Some possible generalization of the basic risk procecss (of Lundberg). A Wiener Process is a stochastic process $\{W_t\}_{t\geq 0}$ with $W_0=0$ a.s, with continuous sample paths a.s, with independent increments and with $W_t-W_s\sim N(0,t-s)\ \ \ \forall 0\leq s < t < \infty$
  
  %falta grafico de wiener process%
  It is tiically used to add noise to a stochastic process.

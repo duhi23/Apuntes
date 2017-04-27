@@ -53,11 +53,12 @@ Dentro de las áreas funcionales se encuentran los siguientes departamentos que 
       \item {\bf Siniestros:} Esta área requiere de profesionales con sólidos conocimientos estadísticos, y es aquí donde ubicamos a los actuarios por su formación. Son los encargados de realizar cálculos de costes medios, de identificar los factores más relevantes que generan una alta siniestralidad, etc.
       \item {\bf Financiero:} 
       \item {\bf Informática:} Es la encargada del desarrollo de aplicaciones, plataformas y más productos informáticos, por tal razón, un actuario en ésta área evalúa el desarrollo de las mismas que contengan procedimientos actuariales.
-      \item Marketing: Evalúa potenciales campañas de publicidad y realiza investigación de mercado. Identifica el perfil en el mercado de futuros clientes de la aseguradora.
+      \item {\bf Marketing:} Evalúa potenciales campañas de publicidad y realiza investigación de mercado. Identifica el perfil en el mercado de futuros clientes de la aseguradora.
       \item Técnica-Actuarial: Marca las normas de contratación, pues se encarga de marcar el riesgo y el apetito de riesgo que va a recibir la identidad en base a análisis y estudios. Coloca filtros para que eventuales riesgos sean descartados de la cartera de nuevos o antiguos clientes. Realiza auditorías de suscripción ya que valida los nuevos clientes que el área comercial adquiere siempre con la intención que los riesgos se encuentren controlados. Canales son los distintos medios por los cuales se venden las pólizas, en esta área se analiza que medios son los más eficaces. Diseño de productos, identifica las nuevas necesidades que tiene el mercado para posteriormente crear las garantías y las coberturas.
       En base a todo lo anterior se da un precio a los seguros, esta área es conocida como princing y es una de las más demandadas en la actualidad.
       \item Legal RRHH: 
 \end{itemize}
+
 
 
 \begin{itemize}

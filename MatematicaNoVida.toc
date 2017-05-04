@@ -8,3 +8,4 @@
 \contentsline {section}{\numberline {5}Pareto Type Distributions}{12}
 \contentsline {section}{\numberline {6}Birth Processes}{16}
 \contentsline {section}{\numberline {7}Risk Process}{18}
+\contentsline {section}{\numberline {8}Risk Process}{21}

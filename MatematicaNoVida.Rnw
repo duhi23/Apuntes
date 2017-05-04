@@ -867,6 +867,71 @@ So $\rho-1\leq \lim inf_{t\rightarrow\infty}\frac{L_t}{t}$ and we can show in th
 
  \end{section}
 
-
-
-\end{document}
+%04/05/2017
+\section{Risk Process}
+$L_t=Z_t-ct,\ \ \forall t \geq 0,\ \ (loss \ \ process)$\\
+$Y_t=r_0-L_t=r_0+ct-Z_t,\ \ \forall t\geq 0$
+ risk or surplus process.\\
+ 
+ $\rho=\frac{E[X_1]}{E[D_1]}$\\
+ In the poisson case $\rho=\lambda\mu$ $\beta=\frac{c-\rho}{\rho}$\\ 
+ Poisson case:\\
+ $c=1$ w.l.o.g $L_{nh}-h\leq L_t\leq L_{(n+1)h}+h$
+ \begin{itemize}
+ \item (1)$\frac{L_t}{t}\xrightarrow{a.s}\rho-1$\\
+ \item (2)$\beta<0\RightarrowL_t\xrightarrow{a.s}\infty$\\
+ \item (3)$\beta<0\Rightarrow L_t \xrightarrow{a.s}-\infty$\\
+ \item (4)$\beta=0\Rightarrow \Rightarrow liminf_{t\rightarrow\infty} L_t$ $limsup_{t\rightarrow\infty}L_t=\infty$ a.s
+ \end{itemize}
+ 
+ Let $S=sup_{t\geq 0} L_t$ is the maximal (aggregate loss) \\
+ \begin{align*}
+ \psi(r_0)&=P[\inf_{t\geq 0} Y_t< 0]\\
+  R(r_0)&=1-\psi(r_0)=1-P[\inf_{t\geq 0} Y_t<0]\\
+ &=P[\inf_{t\geq0} Y_t\geq 0]\\ 
+  &=P[\inf_{t\geq 0} r_0-L_t\geq 0]\\
+  &=P[\inf_{t\geq 0}-L_t\geq-r_0]\\
+  &=P[-\sup_{t\geq 0}L_t\geq-r_0]\\
+  &=P[S\leq r_0]\\
+  L_0=0 &\Rightarrow \sup_{t\geq 0}L_t \geq 0\\
+\text{Consequently}\\
+R(0)&=P[S\leq 0]\\
+&=P[S=0]\\
+&>0 \text{iff}\\
+\psi(0)<1\\
+\end{align*}
+Therefore, in most cases, the distribution of $S$ is a mixture of an absolutely continuos distribution over $(0,\infty)$ and the Dirac probability at $0$ 
+%Plot%
+\begin{coro}
+Let $r_0\geq 0$, then $$\psi(r_0)=\left\{\begin{array}{ll}
+=1& if \beta\leq 0\\
+<1&if \beta>0\\
+\end{array}
+$$
+\end{coro}
+ \begin{proof}
+ Let $\beta<0$, then by $(2)$ of the theorem $S=\infty$ a.s.\\
+ $\psi(r_0)=1-R(r_0)=1-P[\infty\leq r_0]=1,\ \ \forall r_0\geq 0$. \\ Let $\beta=0,$ then by $(4)$ of the theorem $S\geq \limsup_{t\rightarrow\infty}L_t=\infty$ and so $\psi(r_0)=1,\ \ \forall r_0\geq 0$.\\
+ Let $\beta>0$, then from $\psi(r_0)\leq \psi(0)$ it is sufficient to show  $\psi(0)<1$. By contradiction, assume $\psi(0)=P[S>0]=1$
+ 
+ Then $\{L_t\}_{t\geq 0}$ upcrosses the null line a.s. and let $T_1$ denote the first upcrossing time.\\
+ Consider $\{L_t\}_{t\geq T_1}$, which downcrosses the null line a.s., from (3) of the theorem, and let $S_1$ denote the first downcrossing time.\\
+ THen $\{L_t\}_{t\geq S_1}$ upcrosses the null line a.s. and we can then define $T_2$ as before and iterate further in this way.\\
+ So $\{L_t\}_{t\geq 0}$ crosses the null line infinitely many times, which contradicts $(3)$ of the theorem.
+ \end{proof}
+ 
+ \begin{thm} As $t\rightarrow\infty$ 
+ $$U_t=t^{-\frac{1}{2}}\{L_t-t(\rho-1)\}\xrightarrow{d}\mathcal{N}(0,\lambda\mu_2),$$ where $\mu_2=E[X_1^2],$ assumed finite.
+ \end{thm}
+ \begin{proof}
+ $\{L_t\}_{t\geq 0}$ is a Lévy process $\Rightarrow \{L_{nh}_{n\geq 0}\}$ for any $h>0,$ is a random walk.
+ \begin{align*}
+ E[L_h]&=E[Z_h]-1=\lambda\mu h-1.h\\
+&=h(\rho-1)\\
+Var(L_h)&=Var(Z_h)=h\lambda\mu_2\\
+ \end{align*}
+ Thus, from the Central Limit theorem $$\frac{U_{nh}}{\sqrt{\lambda\mu_2}}=\frac{L_{nh}-nh(\rho-1)}{\sqrt{nh\lambda\mu_2}}\xrightarrow{d}\mathcal{N}(0,1)$$ Thus the theoremholds for $t\in\{nh\}_{n\geq 0}$. Let $t_n\in[nh,(n+1)h],$ then from the Lemma $$R_n=t_n^{-\frac{1}{2}}\{L_{nh}-h-t_n(\rho-1)\}\leq U_{t_n}$$ and $$S_n=t_n^{-\frac{1}{2}}\{(L_{(n+1)h}+h)-t_n(\rho-1)\}\leq U_{t_n}$$
+ We have again $R_n\xrightarrow{d}\mathcal{N}(0,\lambda\mu_2)$
+ \end{proof}
+ \end{document}
+ 

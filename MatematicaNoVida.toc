@@ -9,3 +9,4 @@
 \contentsline {section}{\numberline {6}Birth Processes}{16}
 \contentsline {section}{\numberline {7}Risk Process}{18}
 \contentsline {section}{\numberline {8}Risk Process}{21}
+\contentsline {section}{\numberline {9}Derivation of the integro-differential equation for the probability of ruin}{23}

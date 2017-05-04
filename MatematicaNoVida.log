@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.31)  4 MAY 2017 15:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.31)  4 MAY 2017 15:55
 entering extended mode
 **./MatematicaNoVida.tex
 (MatematicaNoVida.tex
@@ -3593,6 +3593,26 @@ l.974 ...is a Lévy process $\Rightarrow \{L_{nh}_
                                                   {n\geq 0}\}$ for any $h>0,...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
+! Undefined control sequence.
+l.991 =1-\lambdan
+                 +o(h), & if &n=0\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.995 $
+       $as $h\rightarrow\infty$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 
 ! LaTeX Error: \begin{thm} on input line 568 ended by \end{document}.
 
@@ -3600,8 +3620,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.982  \end{document}
-                     
+l.1001  \end{document}
+                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -3638,7 +3658,7 @@ ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX
 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtko10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on MatematicaNoVida.pdf (23 pages, 434215 bytes).
+Output written on MatematicaNoVida.pdf (23 pages, 439431 bytes).
 PDF statistics:
  192 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

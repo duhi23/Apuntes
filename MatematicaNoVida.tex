@@ -977,7 +977,26 @@ $$
 &=h(\rho-1)\\
 Var(L_h)&=Var(Z_h)=h\lambda\mu_2\\
  \end{align*}
- Thus, from the Central Limit theorem $$U_{nh}=\frac{L_{nh}-nh(\rho-1)}{\sqrt{nh\lambda\mu_2}}\xrightarrow{d}\mathcal{N}(0,1)$$ Thus the theoremholds for $t\in\{nh\}_{n\geq 0}$. Let $t_n\in[nh,(n+1)h],$ then from the Lemma $R_n=t_n^{-\frac{1}{2}}\{L_{nh}-h-t_n(\rho-1)\}\leq U_{t_n}$ and $S_n=t_n^{-\frac{1}{2}}\{(L_{(n+1)h}+h)-t_n(\rho-1)\}\leq U_{t_n}$
- \end{proof}
+ Thus, from the Central Limit theorem $$\frac{U_{nh}}{\sqrt{\lambda\mu_2}}=\frac{L_{nh}-nh(\rho-1)}{\sqrt{nh\lambda\mu_2}}\xrightarrow{d}\mathcal{N}(0,1)$$ Thus the theoremholds for $t\in\{nh\}_{n\geq 0}$. Let $t_n\in[nh,(n+1)h],$ then from the Lemma $$R_n=t_n^{-\frac{1}{2}}\{L_{nh}-h-t_n(\rho-1)\}\leq U_{t_n}$$ and $$S_n=t_n^{-\frac{1}{2}}\{(L_{(n+1)h}+h)-t_n(\rho-1)\}\leq U_{t_n}$$
+ 
+ We have again $R_n\xrightarrow{d}\mathcal{N}(0,\lambda\mu_2)$(*) and $S_n\xrightarrow{d}\mathcal{N}(0,\lambda\mu_2)$. Thus $\forall x\in\mathbb{R}$ 
+ $$\underbrace{P[S_n\leq x]}_{\xrightarrow{n\rightarrow\infty}\phi(\frac{x}{\sqrt{\lambda\mu_2}})}\leq P[U_{t_n}\leq x]\leq \underbrace{P[R_n\leq x]}_{\xrightarrow{n\rightarrow\infty}\phi(\frac{x}{\sqrt{\lambda\mu_2}})}$$
+ --------------
+ Detail of (*)
+ $$R_n=\underbrace{(\frac{nh}{t_n})^{\frac{1}{2}}}_{\xrightarrow{a.s}1}\underbrace{(nh)^{-\frac{1}{2}}\{L_{nh}-nh(\rho-1)\}}_{\xrightarrow{d}\mathcal{N}(0,\lambda\mu_2)}$$
+ $$\underbrace{t_n^{-\frac{1}{2}}\{(nh-t_n)(\rho-1)\}}_{\xrightarrow{n\rightarrow \infty}0}$$
+  \end{proof}
+ \section{Derivation of the integro-differential equation for the probability of ruin}
+ $$P[K_h=n]=\left\{\begin{array}{lll}
+=1-\lambdan+o(h), & if &n=0\\
+\lambda h + o(h), & if& n=1\\
+o(h), &if & n=2,3,..,\\
+\end{array}
+$$as $h\rightarrow\infty$
+Assume one claim in $[0,h]$
+%%PLOT2 falta
+$X_1>r_0\Rightarrow$ no ruin in $[0,h]$\\
+ $X_1>r_o+ch\Rightarrow$ ruin certain in $[0,h]$\\
+ $r_0\leq X_1 < r_0+ch\Rightarrow$ ruin certain in $[0,s(x)]$ and no ruin $[s(x),h]$, where $X_1=x$, Thus $s(x)=\frac{x-r_0}{h}$, $r_0+s(x)h=x$
  \end{document}
  

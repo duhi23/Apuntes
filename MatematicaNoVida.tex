@@ -136,7 +136,7 @@ $X\sim Exponential(\alpha)$ means that $X$ has density $f_X(x)=\alpha e^{-\alpha
 Let $Y=e^x$, 
 \begin{align*}
 F_Y(y) &= F_X(\log y)\\
-&=1-e^{\alpha \log (y)}\\
+&=1-e^{-\alpha \log (y)}\\
 &=1-y^{-\alpha}
 \end{align*}
 Is called the \textbf{Pareto Distribution}. If $Y$ follows a Pareto distribution, denoted  $Y\sim Pareto(\alpha),\forall y>1$
@@ -176,7 +176,7 @@ Let $X\sim Exponential(1)$ and $$Y=\frac{X^{-\gamma}-1}{\gamma} \ \ \ \forall \g
 
 \begin{align*}
 F_Y(Y) &= P(Y\leq y)\\
-&=P[\frac{X^{-\gamma-1}}{\gamma}\leq Y]\\
+&=P[\frac{X^{-\gamma}-1}{\gamma}\leq Y]\\
 &=P[X\geq (1+\gamma x)^{-\frac{1}{\gamma}}]\\
 &=1-F_X(\{1+\gamma x\}^{-\frac{1}{\gamma}})\\
 &=exp\{-(1+\gamma x)^{-\frac{1}{\gamma}}\}\ \ \ for $1+\gamma x>0$
@@ -184,7 +184,7 @@ F_Y(Y) &= P(Y\leq y)\\
  Y follows  the \textbf{Extreme Value Distribution}.
  
  \begin{align*}
- \displaystyle\lim_{\gamma\rightarrow 0}\frac{x^{-\gamma-1}}{\gamma}&=\displaystyle\lim_{\gamma\rightarrow 0}\frac{d}{d\gamma}x^{-\gamma}\\
+ \displaystyle\lim_{\gamma\rightarrow 0}\frac{x^{-\gamma}-1}{\gamma}&=\displaystyle\lim_{\gamma\rightarrow 0}\frac{d}{d\gamma}x^{-\gamma}\\
  &=\displaystyle\lim_{\gamma\rightarrow 0}\frac{d}{d\gamma}e^{-(log x )\gamma}\\
  &=-log x
  \end{align*}
@@ -287,13 +287,9 @@ $=\int_0^{\infty}P[|X|>x]dx=\infty$ Thus (i) holds.
 One could distinguish three main categories of loss distributions according to the importance of the (right) tail.\\
 Let $M(v)=E[e^{vX}]$ for $v\in\mathbb{R},$ denote the moment generating function (m.g.f) of $X$ of its distributions.
 
-\begin{enumerate}
-\item $M(v)<\infty$ $\forall v\in \mathbb{R}\\
-\text{These distributions are very light-tailed}\\
-\item $\exists \gamma\in(0,\infty)$ s.t $M(v)<\infty,\forall v<\gamma$\\
-\text{These distributions are light tailed of exponential type}\\
-\item $\exists k\in(0,\infty)$ s.t $E[x^p]<\infty$ $\forallp<k$ and $E[x^p]=\infty$ $\forall\geq k$
-\end{enumerate}
+1.- M(v)<\infty \ \forall v\in \mathbb{R} \text{ These distributions are very light-tailed.}\\
+2.- \exists \gamma\in(0,\infty)\ \ s.t \ \ M(v)<\infty,\forall v<\gamma \text{ These distributions are light tailed of exponential type.}\\
+3.- \exists k\in(0,\infty) \ s.t \ E[x^p]<\infty \ \ \forallp<k \ \ and \ \ E[x^p]=\infty \ \ \forall\geq k \text{ These distributions are heavy tailed}
 
 \begin{exm}
 \begin{align*}X\sim Exponential(\lambda)\\
@@ -344,9 +340,66 @@ Increasing and decreasing are meant in the weak sense, i.e not in the strict sen
 \begin{lema} $F$ is $\ttwopartdef{IFR}{DFR}$ $\Leftrightarrow$ h is $\ttwopartdef{increasing}{decreasing}$
 \end{lema}
 \begin{proof}
+($\Rightarrow$) h(x)=\lim_{u\rightarrow 0}\frac{H(x,u)}{u}\ttwopartdef{increasing \text{ if F is IFR}}{decreasing \text{ if F is DFR}}\\
 
+\text{Because the monotonocity holds $\forall u>0$, thus as $u\rightarrow 0$ as well}\\
+($\Leftarrow$) We assume h increasing and let $u>0$ and $0<x_1<x_2$, then
+
+\begin{align*}
+\int_{x_1}^{x_1+u}h(v)dv&\leq \int_{x_2}^{x_2+u}h(v)dv\\
+exp\{-\int_{x_1}^{x_1+u}h(v)dv\}&\geq exp\{ -\int_{x_2}^{x_2+u}h(v)dv\}\\
+exp\{-\int_{x_1}^{x_1+u}\frac{d\{1-F(v)\}}{1-F(v)}\}&\geq exp\{ -\int_{x_2}^{x_2+u}\frac{d\{1-F(v)\}}{1-F(v)}\}\\
+exp\{[log\{1-F(v)\}]_{x_1}^{x_1+u}\}&\geq exp\{[log\{1-F(v)\}]_{x_2}^{x_2+u}\}\\
+\frac{1-F(x_1+u)}{1-F(x_1)}&\geq \frac{1-F(x_2+u)}{1-F(x_2)}\\
+\frac{1-F(x_1)+F(x_1)-F(x_1+u)}{1-F(x_1)}&\geq \frac{1-F(x_2)+F(x_2)-F(x_2+u)}{1-F(x_2)}\\
+H(x_1,u)&\leq H(x_2,u)\\
+\end{align*}
 \end{proof}
-\section{Thursday 09/03/17}
+Result: 
+$$\frac{f(x+u)}{f(x)}\ \ is \ \ \ttwopartdef{Increasing}{Decreasing}in \ \ x>0,\ \forall u>0\Rightarrow F\ \ is \ \ttwopartdef{DFR}{IFR}$$
+Proof Result:
+$$\frac{1}{h(x)}=\frac{1-F(x)}{f(x)}=\frac{\int_x^{\infty}f(v)dv}{f(x)}=
+\int_0^{\infty}\underbrace{\frac{f(v+x)}{f(x)}dv}_{\text{increasing in $x$}}
+$$
+Assuming the integrand increasing in $x$, we have an increasing integral and thus decreasing $h$.
+
+\begin{thm}Let $F$ a loss distribution function 
+$$\text{F is }\ttwopartdef{IFR}{DFR}\Leftrightarrow log(1-F) is\ttwopartdef{concave}{onvex}$$
+\end{thm}
+\begin{proof}Let $H(x)=\int_0^xh(v)dv$
+\begin{align*}
+\Rightarrow H(x)&=\int_0^x\frac{f(v)}{1-F(v)}\\
+&=-[log(1-F(v))]_0^x\\
+&=-log(1-F(x))\\
+\text{So, }1-F(x)&=exp\{-H(x)\}\\
+\text{Then, }H(x,u)=\frac{F(x+u)-F(x)}{1-F(x)}\
+&=1-\frac{1-F(x+u)}{1-F(x)}\\
+&=1-exp\{-(H(x+u)-H(x))\}\\
+F \ \ is \ttwopartdef{IFR}{DFR} &\Leftrightarrow H(x,u) \ \ is \ttwopartdef{increasing}{decreasing}\forall u>0\\
+&\Leftrightarrow H(x+u)-H(x) \ \ is \ttwopartdef{increasing}{decreasing}\forall u>0\\
+&\Leftrightarrow H(x)\ \  is \ttwopartdef{convex}{concave}\\
+\end{align*}
+\end{proof}
+\begin{thm}If $F$ is \ttwopartdef{IFR}{DFR}, then \ ${1-F(x)\}^{\frac{1}{x}}$ is \ttwopartdef{decreasing}{increasing} in \ \ $x$
+\end{thm}
+\begin{proof}
+F is IFR $\Leftrightarrow log(1-F)$ is concave, therefore for any $x>o$ we have that 
+$$\frac{log(1-F(x)-log(1-F(0)))}{x-0}$$ is decreasing, which is equal to $\{1-F(x)\}^{\frac{1}{x}}$.
+\end{proof}
+
+Let $F$ be $IFR$ and $0<t<x$ such that $1-F(t)<1$.\\
+$1-F(x)\leq \{1-F(x)\}^{\frac{x}{t}}$ from the previous theorem and so, for any $r>0$
+$$\int_t^{\infty}x^r\{1-F(x)\}dx\leq\int_t^{\infty}x^r(\{1-F(x)\}^{\frac{1}{t}})^xdx<\infty \ \ (1)$$
+This implies also that $\lim_{x\rightarrow\infty}x^r\{1-F(x)\}=0$\ \ \ (2)\\
+$$\underbrace{\int_0^{\infty}x^r\{1-F(x)\}dx}_{<\infty \ \ by (1)}=\underbrace{\int_0^{\infty}\frac{x^{r+1}}{r+1}f(x)dx}_{=\frac{1}{r+1}E[x^{r+1}]}+\underbrace{[\frac{x^{r+1}}{r+1}.\{1-F(x)\}]_0^{\infty}}_{=0\ \ by (2)}$$
+$$=\frac{1}{r+1}E[x^{r+1}]$$
+\subsection{Excess Function}
+\begin{defi}The Excess (loss) Functionof the integrable random loss $X$ is 
+$$ex(a)=E(X-a|X>a)\ \forall a\geq 0$$
+This is also called the \textbf{Mean Residual Lifetime}
+\end{defi}
+
+\section{Thursday 09/03/17} 
 \subsection{Distribution of the largest claim amount}
 
 The distribution of the largest loss is very important in \textbf{risk management}.
@@ -998,5 +1051,112 @@ Assume one claim in $[0,h]$
 $X_1>r_0\Rightarrow$ no ruin in $[0,h]$\\
  $X_1>r_o+ch\Rightarrow$ ruin certain in $[0,h]$\\
  $r_0\leq X_1 < r_0+ch\Rightarrow$ ruin certain in $[0,s(x)]$ and no ruin $[s(x),h]$, where $X_1=x$, Thus $s(x)=\frac{x-r_0}{h}$, $r_0+s(x)h=x$
- \end{document}
+ 
+ %%%%%11/05/2017
+$\psi(r_0)=(1-\lambda h)\psi(r_0+ch)+\lambdah \{\int_0^{r_0}\psi(r_0+ch-x)dF(x)+\int_{r_0}^{r_0+h}[\int_0^{s(x)}1\lambda e^{-\lambda t}dt+\int_{s(x)}^h\psi(r_0+ct-x)\lambda e^{-\lambda t}dt]dF(x)+\int_{r_0+ch}^{\infty}1dF(x)\}+o(h)$\\
+$\psi(r_0)-\psi(r_0+ch)=-\lambda h\{\psi(r_0+ch)-\int_0^{r_0}\psi(r_0+ch-x)dF(x)-\int_{r_0}^{r_0+ch}[...]dF(x)-[1-F(r_0+ch)]\}+o(h)\Rightarrow \psi'(r_0)=\frac{\lambda}{c}\{\psi(r_0)-\int_0^{r_0}\psi(r_0-x)dF(x)-[1-F(r_0)]\}$
+\begin{thm}
+The general solution of the linear homogeneous differential equation of the second order $$y''(x)+by'(x)+cy(x)=0$$ has the form $$y(x)=a_1e^{r_1x}+a_2e^{r_2x},$$ where $a_1,a_2\in\mathbb{R}$ and $r_1,r_2\in\mathbb{R}$ satisfy auxiliary equation $r^2+br+c=0$ when $r_1\neq r_2$. If $r_1=r_2$ is the solution of the auxiliary equation, then the solution has the form $$y(x)=(a_1x+a_2)e^{r_1x}$$ We can obtain $a_1$ and $a_2$ with two boundary conditions.
+Let $R(r_0)=1-\psi(r_0)$ be the survival probability, viz. the probability of non ruin with initial capital $r_0$.\\
+Thus 
+\begin{align*}
+-R'(r_0)&=\frac{\lambda}{c}\{1-R(r_0)-\int\{1-R(r_0-x)\}dF(x)-1+F(r_0)\}\\
+&=\frac{\lambda}{c}\{-R(r_0)+\int_0^{r_0}R(r_0-x)dF(x)\}\\
+\text{Thus} R'(r_0)&=\frac{\lambda}{c}\{R(r_0)-\int_0^{r_0}R(r_0-x)dF(x)\}\\
+\end{align*}
+\end{thm}
+\begin{exm}Linear combination of exponentials individual claim amount distribution
+$$f(x)=e^{-3x}+\frac{10}{3}e^{-5x},\forall x>0$$
+\beta=\frac{4}{11}\\
+\mu=\int_0^{\infty}f(x)dx=\frac{1}{3}\frac{1}{3}+\frac{2}{3}\frac{1}{5}=\frac{1}{3}\frac{5+6}{15}=\frac{11}{45}\\
+...
+\end{exm}
+\section{Adjustment Coefficient}
+ \begin{defi}The adjustment coefficient is the positive solution w.r.t $v$ of $$E[e^{vL_1}]=1$$ where $L_1=Z_{1-c}$ is the loss process at time $1$. It is denoted $r>0$
+ \end{defi}
+ Thus $E[e^{vZ_1}]e^{-vZ_1}=1$ viz . $$exp\{\lambda[M_x(v)-1]=e^{vc},\}$$ i.e
+$$M_x(v)=1+\frac{c}{\lambda}v=1+(1+\beta)\mu v$$, where $M_x$ is the M.g.f of $X_1$ at $\mu$ its expectation.
+
+
+\begin{exm}
+\begin{align*}
+
+f(x)&=\sqrt{\frac{\theta}{2\pi x^3}}exp\{-\frac{\theta}{2x}(\frac{x-\mu}{\mu})^2\}\\
+\forall x>0, \text{ expectation }  \mu>0,\theta>0\\
+
+M_x(v)&=\int_0^{\infty}e^{vx}f(x)dx\\
+&=exp\{\frac{\theta}{\mu}[1-\sqrt{1-2\frac{\mu^2}{\theta}v}]\},\\
+\forall v\leq \frac{1}{2}\frac{\theta}{\mu^2}
+\end{align*}
+\end{exm}
+
+$M_x$ is not steep, so the adjustment coefficient may not exist, if $\beta$ is nor large enough.
+\begin{thm}
+In the compound Poisson risk process, if the adjustment coefficient $r$ exists, then, $\orall r_0\geq 0$
+$$\psi(r_0)=\frac{e^{rr_0}}{E[exp\{-rY_T\}|T<\infty]}$$
+\end{thm}
+A simple proof of this result is based on the theory of martingales.
+This formula is inappropiate for numerical evaluations.\\
+\begin{coro}
+Lundberg inequailtiy $$\forall r_0\geq 0,\psi(r_0)\leq e^{-rr_0}$$
+\begin{proof}
+This follows directly from $r>0$ and $Y_T<0$, then $\frac{\delta r}{\delta\beta}>0\Rightarrow \lim_{\beta\rightarrow 0,\beta>0} r=0\Rightarrow \lim_{\beta\rightarrow 0,\beta>0}\psi(r_0)=\lim_{r\rightarrow 0,r>0}\psi(r_0)=\lim_{r\rightarrow 0,r>0}\frac{e^{-rr_0}}{E[exp\{-rY_T|T<\infty\}]}=\frac{1}{1}=1$ (by monotone convergence.)\\
+\end{proof}
+\end{coro}
+In the following case, the expectation of the last theorem can be evaluated.
+\begin{exm}Erlang model
+This is the compound Poisson risk process with $X_1\sim Exponential (\frac{1}{\mu})$
+%%%Falta plot aqui
+
+Let $C(r_0)=Y_{T-}$ is the surplus prior to ruin, defined over $\{T<\infty\}$ and let $X(r_0)$ be the claim amount leading to ruin. Thus $$-Y_T=X(r_0)-C(r_0)$$
+Define $X\sim Exponential(\frac{1}{\mu})$ independent of $\{Z_t\}_{t\geq 0}$. Given $T<\infty$, $X(r_0)$ has some distribution as $X$ given $X>C(r_0)$ .
+\end{exm}
+ Let $y>0$, then 
+ \begin{align*}
+ P[Y_T<-y|T<\infty]&=P[X(r_0)-C(r_0)>y|T<\infty]\\
+ &=P[X(r_0)-C(r_0)>y|T<\infty]\\
+&=P[X(r_0>C(r_0)+y|T<\infty]\\
+&=P[X>c(r_0)+y|X>C(r_0,T<\infty)]\\
+&=P[X>y|T<\infty]\\
+&=P[X>y|T<\infty]\\
+&=P[X>y]=e^{-\frac{y}{\mu}},\forall y>0, 
+\end{align*}
+from the memoryless property of the exponential distribution 
+\begin{align*}
+E[exp\{-rY_T\}|T<\infty]=\int_0^{\infty}e^{ry}\frac{1}{\mu}e^{-\frac{y}{\mu}dy}\\
+&=\frac{\frac{1}{\mu}}{\frac{1}{\mu}-r}(\frac{1}{\mu}-r)\int_0^{\infty}e^{-(\frac{1}{\mu}-r)y}dy\\
+\end{align*}
+$$=\frac{1}{1-\mu r}if $\frac{1}{\mu}-r>0$ }\Leftrightarrow $r<\frac{1}{\mu}$$ which holds because $\frac{1}{\mu}-\frac{\lambda}{c}(=\frac{\beta}{(1+\beta)\mu})$\\
+$$\psi(r_0)=\frac{e^{-rr_0}}{\frac{1}{1-\mu r}}$$
+$$\frac{e^{\frac{\beta}{(1+\beta)\mu}r_0}}{\frac{1}{1-\frac{\beta}{1+\beta}}}$$
+$$\frac{e^{-\frac{\beta}{(1+\beta)\mu}r_0}}{1+\beta}$$
+
+First result under initial capital
+
+\begin{thm}
+In the compound Poisson risk process with $r_0=0$ $\forall y\geq 0,$
+$$P[Y_T<-y|T<\infty]\psi(o)=\frac{\lambda}{c}\int_y^{\infty}\{1-F(x)\}dx$$
+This can be reformulated as $$P[-y-dy<Y_T<-y,T<\infty]=\frac{\lambda}{c}\{1-F(y)\}dy$$
+We can consider any $r_0\geq 0 and define.
+$$T_0=\left\{\begin{array}{ll}
+=inf\{t\geq 0|Y_t<r_0\}& \text{ if the infimum is finite}\\
+\infty &  \text{otherwise}\\
+\end{array}$$
+\end{thm}
+i.e the first time that $\{\Y_t\}_{t\geq 0}$ goes below $r_0$\\
+From shift invariance $$P[r_0-y-dy<T_{T_0}<r_0-y,T_0<\infty]=\frac{\lambda}{c}\int_0^{\infty}\{1-F(x)\}dx$$
+$$\Leftrightarrow P[T<\infty]=\frac{\lambda\mu}{c}$$
+$$\psi(0)=\frac{1}{1+\beta}$$
+
+Let $R_1=r_0-Y_{T_0}=L_{T_0},$ over $\{T_0<\infty\},$ be the overshoot.\\
+Let $y\geq 0$ the density of $R_1$ is 
+\begin{align*}
+f_R(y)dy&=P[y<R_1<y+dy|T_0<\infty]\\
+&=P[y<r_0-Y_{T_0}<y+dy|T_0<\infty]\\
+&=P[-r_0+y<-Y_{T_0}<-r_0+y+dy|T_0<\infty]\\
+&=P[r_0-y-dy<Y_{T_0}<r_0-y|T_0<\infty]\\
+&=\frac{\lambda}{c}\{1-F(y)\}dy\\
+\end{align*}
+\end{document}
+
  

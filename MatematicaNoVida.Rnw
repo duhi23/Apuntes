@@ -10,6 +10,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{titlesec}
 \usepackage{url}
+\usepackage{bbm}
 \usepackage{enumitem}  
 \usepackage{float}
 \usepackage{cite}
@@ -349,7 +350,19 @@ $$=\frac{1}{r+1}E[x^{r+1}]$$
 $$ex(a)=E(X-a|X>a)\ \forall a\geq 0$$
 This is also called the \textbf{Mean Residual Lifetime}
 \end{defi}
-
+\begin{align*}
+\int_a^{\infty}xdF(x)&=-\int_a^{\infty}xd\{1-F(x)\}\\
+                     &=\int_a^{\infty}\{1-F(x)\}dx-[x\{1-F(x)\}]_a^{\infty}\\
+\text{So, }\int_a^{\infty} xdF(x)&=\int_a^{\infty}\{1-F(x)\}dx+a.\{1-F(a)\}\\
+\text{Thus, }e_x(a)&=\int_a^{\infty}(x-a).\underbrace{P[X\in(x,x+dx)|X>a]}_{=\frac{dF(x)}{1-F(a)}}\\
+&=\frac{1}{1-F(a)}\(\int_a^{\infty}xdf(x)-a\{1-F(a)\}\)\\
+&=\frac{1}{1-F(a)}\(\int_a^{\infty}\{1-F(x)\}dx+a\{1-F(x)\}-a\{1-F(a)\}\)\\
+&=\frac{\int_a^{\infty}\{1-F(x)\}dx}{1-F(a)}\\
+\end{align*}
+Let $X_1,X_2,...,X_n$ be $n$ random variables with distribution function $F$, then $$\hat{F}_n(x)=\frac{1}{n}\sum_{j=1}^n\mathbbm{1}_{\{x_j\leq x\}}\ \ \forall x\in\mathbb{R}$$ is the \textbf{empirical distribution function }.
+The Empirical Excess Function is defined as 
+$$\frac{\int_a^{\infty}\{1-\hat{F}_n(x)\}dx}{1-\hat{F}_n(a)}$$
+$1-\hat{F}_n(a)=\frac{1}{n}\sum_{j=1}^n\{X_j\geq a\}$ where $X_1,...,X_n$ are random losses with the same distribution.
 \section{Thursday 09/03/17} 
 \subsection{Distribution of the largest claim amount}
 

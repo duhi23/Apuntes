@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.31)  7 JUN 2017 02:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.31)  7 JUN 2017 03:21
 entering extended mode
 **./MatematicaNoVida.tex
 (MatematicaNoVida.tex
@@ -864,6 +864,13 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\bbm\bbm.sty"
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip58
@@ -1207,26 +1214,26 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 (MatematicaNoVida.aux)
 \openout1 = `MatematicaNoVida.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 122.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 122.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 123.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 122.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 123.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1334,17 +1341,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout3 = `MatematicaNoVida.toc'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
 
-Overfull \hbox (17.7625pt too wide) in paragraph at lines 141--143
+Overfull \hbox (17.7625pt too wide) in paragraph at lines 142--144
 \T1/lmr/m/n/10.95 Is called the \T1/lmr/bx/n/10.95 Pareto Dis-tri-bu-tion\T1/lm
 r/m/n/10.95 . If $\OML/lmm/m/it/10.95 Y$ \T1/lmr/m/n/10.95 fol-lows a Pareto di
 s-tri-bu-tion, de-noted $\OML/lmm/m/it/10.95 Y \OMS/lmsy/m/n/10.95  \OML/lmm/m
@@ -1353,29 +1360,29 @@ ML/lmm/m/it/10.95 ; \OMS/lmsy/m/n/10.95 8\OML/lmm/m/it/10.95 y >
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 145.
+Package xcolor Warning: Incompatible color definition on input line 146.
 
 <figure/unnamed-chunk-1-1.pdf, id=13, 361.35pt x 325.215pt>
 File: figure/unnamed-chunk-1-1.pdf Graphic file (type pdf)
 
 <use figure/unnamed-chunk-1-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-1-1.pdf used on input line 147.
+Package pdftex.def Info: figure/unnamed-chunk-1-1.pdf used on input line 148.
 (pdftex.def)             Requested size: 361.34912pt x 325.2142pt.
 
 
-Package xcolor Warning: Incompatible color definition on input line 163.
+Package xcolor Warning: Incompatible color definition on input line 164.
 
 <figure/unnamed-chunk-2-1.pdf, id=14, 361.35pt x 325.215pt>
 File: figure/unnamed-chunk-2-1.pdf Graphic file (type pdf)
 
 <use figure/unnamed-chunk-2-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf used on input line 165.
+Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf used on input line 166.
 (pdftex.def)             Requested size: 361.34912pt x 325.2142pt.
  [3 <./figure/unnamed-chunk-1-1.pdf>]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.183 \end{align*}
+l.184 \end{align*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1386,7 +1393,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.183 \end{align*}
+l.184 \end{align*}
                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1394,7 +1401,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.183 \end{align*}
+l.184 \end{align*}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1403,7 +1410,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <recently read> }
                  
-l.183 \end{align*}
+l.184 \end{align*}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1414,7 +1421,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.183 \end{align*}
+l.184 \end{align*}
                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1422,7 +1429,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.183 \end{align*}
+l.184 \end{align*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1433,7 +1440,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.183 \end{align*}
+l.184 \end{align*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1444,7 +1451,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.183 \end{align*}
+l.184 \end{align*}
                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1452,7 +1459,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> }
                  
-l.183 \end{align*}
+l.184 \end{align*}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1463,7 +1470,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.183 \end{align*}
+l.184 \end{align*}
                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1471,7 +1478,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.183 \end{align*}
+l.184 \end{align*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1482,7 +1489,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.183 \end{align*}
+l.184 \end{align*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1493,7 +1500,7 @@ my insertion and my current dilemma will both disappear.
 ! Misplaced \omit.
 \math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
                                                   \kern -\alignsep@ \iftag@ ...
-l.183 \end{align*}
+l.184 \end{align*}
                   
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -1501,7 +1508,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.183 \end{align*}
+l.184 \end{align*}
                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1510,7 +1517,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <recently read> }
                  
-l.183 \end{align*}
+l.184 \end{align*}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1521,7 +1528,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.183 \end{align*}
+l.184 \end{align*}
                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1533,7 +1540,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.203 \begin{algin*}
+l.204 \begin{algin*}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1542,13 +1549,13 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.204 F_
+l.205 F_
         Y(y)&=1-F_X(x^{-\alpha})\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.204 F_Y(y)&
+l.205 F_Y(y)&
              =1-F_X(x^{-\alpha})\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1560,7 +1567,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.205 &
+l.206 &
        =1-\{1-e^{-x^{-\alpha}}\}\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1572,7 +1579,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.206 &
+l.207 &
        =exp\{-x^{-\alpha}\}\ \ \ \forall x>0\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1584,7 +1591,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \cr.
 \math@cr@@@ ->\cr 
                   
-l.207 \end{align*}
+l.208 \end{align*}
                   
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -1595,7 +1602,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
                                                   {\vskip #1\relax }
-l.207 \end{align*}
+l.208 \end{align*}
                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -1603,7 +1610,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.207 \end{align*}
+l.208 \end{align*}
                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1611,7 +1618,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.207 \end{align*}
+l.208 \end{align*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1623,7 +1630,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \math@cr@@ ...th@cr@@@ \noalign {\vskip #1\relax }
                                                   
-l.207 \end{align*}
+l.208 \end{align*}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1634,7 +1641,7 @@ deleted material, e.g., by typing `I$}'.
 ! Misplaced \noalign.
 \black@ #1->\noalign 
                      {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
-l.207 \end{align*}
+l.208 \end{align*}
                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -1642,7 +1649,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Extra }, or forgotten \endgroup.
 \endalign ->\math@cr \black@ \totwidth@ \egroup 
                                                 \ifingather@ \restorealignst...
-l.207 \end{align*}
+l.208 \end{align*}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1657,7 +1664,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.207 \end{align*}
+l.208 \end{align*}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1666,7 +1673,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.207 \end{align*}
+l.208 \end{align*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1677,7 +1684,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.207 \end{align*}
+l.208 \end{align*}
                   
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -1685,7 +1692,7 @@ So I shall assume that you typed `$$' both times.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.243 \begin{exm}F_
+l.244 \begin{exm}F_
                    1 \  Pareto,\ \ F_2 \ Burr\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1693,7 +1700,7 @@ you left one out. Proceed, with fingers crossed.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.244 &
+l.245 &
        =\displaystyle\lim_{x\rightarrow\infty}\frac{x^{-\alpha}}{\left(\frac...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1705,7 +1712,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.245 &
+l.246 &
        =\left(\displaystyle\lim_{x\rightarrow\infty}\frac{\beta+x^{\tau}}{\b...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1717,7 +1724,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.246 &
+l.247 &
        =\left(\frac{1}{\beta}\displaystyle\lim_{x\rightarrow\infty}x^{\tau-1...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1733,7 +1740,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247 \end{exm}
+l.248 \end{exm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1745,7 +1752,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247 \end{exm}
+l.248 \end{exm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1757,7 +1764,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247 \end{exm}
+l.248 \end{exm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1765,7 +1772,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.247 \end{exm}
+l.248 \end{exm}
                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1774,23 +1781,23 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--248
+Underfull \hbox (badness 10000) in paragraph at lines 244--249
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
 
-! LaTeX Error: \begin{defi} on input line 249 ended by \end{Defi}.
+! LaTeX Error: \begin{defi} on input line 250 ended by \end{Defi}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.254 \end{Defi}
+l.255 \end{Defi}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1799,7 +1806,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.261 \item{i. } E[|X|]=\displaystyle
+l.262 \item{i. } E[|X|]=\displaystyle
                                      \int_0^{\infty}P[|X|>x]dx\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1811,7 +1818,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262 \item
+l.263 \item
            {ii.} E[|X|]<\infty\Rightarrow P[|X|>x]=o(x^{-1})\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1823,7 +1830,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262 \item{
+l.263 \item{
             ii.} E[|X|]<\infty\Rightarrow P[|X|>x]=o(x^{-1})\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1835,7 +1842,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262 \item{
+l.263 \item{
             ii.} E[|X|]<\infty\Rightarrow P[|X|>x]=o(x^{-1})\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1843,7 +1850,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.263 
+l.264 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1851,7 +1858,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.263 
+l.264 
       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1862,7 +1869,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.263 
+l.264 
       
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1871,14 +1878,14 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
 
 ! Undefined control sequence.
 <argument> ...\displaystyle _{0}^{\infty }xdG(x)\<
                                                   \infty \\ 0&=\displaystyle...
-l.276 \end{align*}
+l.277 \end{align*}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1889,7 +1896,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...\displaystyle _{0}^{\infty }xdG(x)\<
                                                   \infty \\ 0&=\displaystyle...
-l.276 \end{align*}
+l.277 \end{align*}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1900,7 +1907,7 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.283 \item{i.} E[|X|^
+l.284 \item{i.} E[|X|^
                       r]=r\displaystyle\int_0^{\infty}x^{r-1}P[|X|>x]dx\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1912,7 +1919,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.284 \item
+l.285 \item
            {ii.} E[|X|^r]<\infty\Rightarrow =P[|X|>x]=o(x^{-r})\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1924,7 +1931,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.284 \item{
+l.285 \item{
             ii.} E[|X|^r]<\infty\Rightarrow =P[|X|>x]=o(x^{-r})\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1936,7 +1943,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.284 \item{
+l.285 \item{
             ii.} E[|X|^r]<\infty\Rightarrow =P[|X|>x]=o(x^{-r})\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1948,7 +1955,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.285 \end{coro}
+l.286 \end{coro}
                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1960,7 +1967,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.285 \end{coro}
+l.286 \end{coro}
                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1972,7 +1979,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.285 \end{coro}
+l.286 \end{coro}
                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1980,7 +1987,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.285 \end{coro}
+l.286 \end{coro}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1989,20 +1996,20 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--286
+Underfull \hbox (badness 10000) in paragraph at lines 284--287
 
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.290 1.- M(v)<\infty
+l.291 1.- M(v)<\infty
                       \ \forall v\in \mathbb{R} \text{ These distributions a...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.292 ...infty) \ s.t \ E[x^p]<\infty \ \ \forallp
+l.293 ...infty) \ s.t \ E[x^p]<\infty \ \ \forallp
                                                   <k \ \ and \ \ E[x^p]=\inf...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2013,25 +2020,25 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.293 
+l.294 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 309--315
+Underfull \hbox (badness 10000) in paragraph at lines 310--316
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 332--335
+Underfull \hbox (badness 10000) in paragraph at lines 333--336
 
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.343 ($\Rightarrow$) h(x)=\lim
+l.344 ($\Rightarrow$) h(x)=\lim
                                _{u\rightarrow 0}\frac{H(x,u)}{u}\ttwopartdef...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2039,7 +2046,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.344 
+l.345 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2047,7 +2054,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.344 
+l.345 
       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2058,7 +2065,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.344 
+l.345 
       
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2070,7 +2077,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.383 \begin{thm}If $F$ is \ttwopartdef{IFR}{DFR}
+l.384 \begin{thm}If $F$ is \ttwopartdef{IFR}{DFR}
                                                  , then \ ${1-F(x)\}^{\frac{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2078,7 +2085,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.383 ...ttwopartdef{IFR}{DFR}, then \ ${1-F(x)\}^
+l.384 ...ttwopartdef{IFR}{DFR}, then \ ${1-F(x)\}^
                                                   {\frac{1}{x}}$ is \ttwopar...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2086,7 +2093,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.383 ...$ is \ttwopartdef{decreasing}{increasing}
+l.384 ...$ is \ttwopartdef{decreasing}{increasing}
                                                    in \ \ $x$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2098,7 +2105,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.384 \end{thm}
+l.385 \end{thm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2110,7 +2117,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.384 \end{thm}
+l.385 \end{thm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2122,7 +2129,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.384 \end{thm}
+l.385 \end{thm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2130,7 +2137,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.384 \end{thm}
+l.385 \end{thm}
                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2141,7 +2148,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.384 \end{thm}
+l.385 \end{thm}
                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2150,15 +2157,347 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
 
  []
 
 [9]
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.410 \end{align*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.410 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.410 \end{align*}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.410 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.410 \end{align*}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.410 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.410 \end{align*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.410 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.410 \end{align*}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.410 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.410 \end{align*}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.410 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.410 \end{align*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.410 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.410 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.410 \end{align*}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.410 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.410 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.410 \end{align*}
+                  
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.410 \end{align*}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.410 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.410 \end{align*}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.410 \end{align*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.410 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.410 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.410 \end{align*}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.410 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.410 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.410 \end{align*}
+                  
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.410 \end{align*}
+                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.410 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.410 \end{align*}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    Try loading font information for U+bbm on input line 411.
+("C:\Program Files\MiKTeX 2.9\tex\latex\bbm\ubbm.fd"
+File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
+)
 ! Undefined control sequence.
 <argument>  P[M_n\leq n] &= P[X_1\leqx 
                                        ,..,X_n\leq x]\\ &=F^n(x), \quad \for...
-l.415 \end{align*}
+l.428 \end{align*}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2169,7 +2508,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument>  P[M_n\leq n] &= P[X_1\leqx 
                                        ,..,X_n\leq x]\\ &=F^n(x), \quad \for...
-l.415 \end{align*}
+l.428 \end{align*}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2178,12 +2517,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--424
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
 
  []
 
-
-Overfull \hbox (18.80702pt too wide) in paragraph at lines 429--430
+[10]
+Overfull \hbox (18.80702pt too wide) in paragraph at lines 442--443
 \T1/lmr/m/n/10.95 The dis-tri-bu-tion of the monthly largest loss is Gum-bel $\
 OML/lmm/m/it/10.95 F\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95
  ) = \OML/lmm/m/it/10.95 G\OT1/lmr/m/n/10.95 ([])$ \T1/lmr/m/n/10.95 where $\OM
@@ -2199,7 +2538,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.436 ...}, \ x>0$, we have $F^{12}(x)=\exp\{-12\(
+l.449 ...}, \ x>0$, we have $F^{12}(x)=\exp\{-12\(
                                                   \frac{x-\mu}{\sigma}\)^{-\...
 
 Your command was ignored.
@@ -2209,16 +2548,16 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.436 ...12}(x)=\exp\{-12\(\frac{x-\mu}{\sigma}\)^
+l.449 ...12}(x)=\exp\{-12\(\frac{x-\mu}{\sigma}\)^
                                                   {-\alpha}\}=\exp\{-(\frac{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[10] [11]
+[11]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.490 F(x)=1-x^
+l.503 F(x)=1-x^
                {-\alpha}\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2230,7 +2569,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.492 \end{exm}
+l.505 \end{exm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2242,7 +2581,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.492 \end{exm}
+l.505 \end{exm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2254,7 +2593,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.492 \end{exm}
+l.505 \end{exm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2262,7 +2601,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.492 \end{exm}
+l.505 \end{exm}
                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2271,7 +2610,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Undefined control sequence.
-l.500  Notation $f\in\R
+l.513  Notation $f\in\R
                        _{\delta}$ Thus $F$ is of Pareto-type if and only if ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2279,27 +2618,27 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-Package xcolor Warning: Incompatible color definition on input line 526.
-
-<figure/plot1-1.pdf, id=69, 361.35pt x 325.215pt>
-File: figure/plot1-1.pdf Graphic file (type pdf)
- <use figure/plot1-1.pdf>
-Package pdftex.def Info: figure/plot1-1.pdf used on input line 528.
-(pdftex.def)             Requested size: 361.34912pt x 325.2142pt.
-
 [12]
 
-LaTeX Warning: Command \' invalid in math mode on input line 544.
+Package xcolor Warning: Incompatible color definition on input line 539.
+
+<figure/plot1-1.pdf, id=73, 361.35pt x 325.215pt>
+File: figure/plot1-1.pdf Graphic file (type pdf)
+ <use figure/plot1-1.pdf>
+Package pdftex.def Info: figure/plot1-1.pdf used on input line 541.
+(pdftex.def)             Requested size: 361.34912pt x 325.2142pt.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 557.
 
 [13 <./figure/plot1-1.pdf>]
 
-LaTeX Warning: Command \' invalid in math mode on input line 563.
+LaTeX Warning: Command \' invalid in math mode on input line 576.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.584 ...n\mathbb{R}_{\delta),\delta\in\mathbb{R}$
+l.597 ...n\mathbb{R}_{\delta),\delta\in\mathbb{R}$
                                                    if $\frac{f(tx)}{f(x)}\xr...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2308,19 +2647,20 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--589
+Underfull \hbox (badness 10000) in paragraph at lines 601--602
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 589--590
+Underfull \hbox (badness 10000) in paragraph at lines 602--603
 
  []
 
+[14]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.597 F(x)=1-\left
+l.610 F(x)=1-\left
                   (\frac{\beta}{\beta+x^{\tau}}\right)^{\lambda}, \forall x>...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2332,7 +2672,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.598 \begin{align*}
+l.611 \begin{align*}
                     
 You've lost some text.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2340,7 +2680,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Argument of \align* has an extra }.
 <inserted text> 
                 \par 
-l.599 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
+l.612 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
                                                   &=(\lim_{x\rightarrow \inf...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -2354,7 +2694,7 @@ Runaway argument?
 ! Paragraph ended before \align* was complete.
 <to be read again> 
                    \par 
-l.599 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
+l.612 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
                                                   &=(\lim_{x\rightarrow \inf...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -2363,7 +2703,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.599 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
+l.612 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
                                                   &=(\lim_{x\rightarrow \inf...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2371,7 +2711,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.599 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
+l.612 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
                                                   &=(\lim_{x\rightarrow \inf...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2382,7 +2722,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.599 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
+l.612 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
                                                   &=(\lim_{x\rightarrow \inf...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2393,7 +2733,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.599 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
+l.612 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
                                                   &=(\lim_{x\rightarrow \inf...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2404,7 +2744,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.599 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
+l.612 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
                                                   &=(\lim_{x\rightarrow \inf...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2415,7 +2755,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten \endgroup.
 <recently read> }
                  
-l.599 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
+l.612 ...\rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}
                                                   &=(\lim_{x\rightarrow \inf...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2424,7 +2764,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Misplaced alignment tab character &.
-l.599 ...rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}&
+l.612 ...rightarrow\infty}\frac{1-F(tx)}{1-F(x)}}&
                                                   =(\lim_{x\rightarrow \inft...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2436,7 +2776,7 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.599 ...rrow\infty}\frac{1-F(tx)}{1-F(x)}}&=(\lim
+l.612 ...rrow\infty}\frac{1-F(tx)}{1-F(x)}}&=(\lim
                                                   _{x\rightarrow \infty}\fra...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2444,7 +2784,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.599 ...rac{\beta+x^{\tau}}{\beta+(tx)^{\tau}}\)^
+l.612 ...rac{\beta+x^{\tau}}{\beta+(tx)^{\tau}}\)^
                                                   {\lambda}\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2452,7 +2792,7 @@ you left one out. Proceed, with fingers crossed.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.600 &
+l.613 &
        =(t^{-\tau})^{\lambda}=t^{-\lambda\tau}\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2464,7 +2804,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \cr.
 \math@cr@@@ ->\cr 
                   
-l.601 \end{align*}
+l.614 \end{align*}
                   
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -2475,7 +2815,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
                                                   {\vskip #1\relax }
-l.601 \end{align*}
+l.614 \end{align*}
                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -2483,7 +2823,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.601 \end{align*}
+l.614 \end{align*}
                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2491,7 +2831,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.601 \end{align*}
+l.614 \end{align*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2502,7 +2842,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \math@cr@@ ...th@cr@@@ \noalign {\vskip #1\relax }
                                                   
-l.601 \end{align*}
+l.614 \end{align*}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2513,7 +2853,7 @@ deleted material, e.g., by typing `I$}'.
 ! Misplaced \noalign.
 \black@ #1->\noalign 
                      {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
-l.601 \end{align*}
+l.614 \end{align*}
                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -2521,7 +2861,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Extra }, or forgotten \endgroup.
 \endalign ->\math@cr \black@ \totwidth@ \egroup 
                                                 \ifingather@ \restorealignst...
-l.601 \end{align*}
+l.614 \end{align*}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2530,13 +2870,13 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-! LaTeX Error: \begin{exm} on input line 596 ended by \end{align*}.
+! LaTeX Error: \begin{exm} on input line 609 ended by \end{align*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.601 \end{align*}
+l.614 \end{align*}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2545,7 +2885,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.601 \end{align*}
+l.614 \end{align*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2556,7 +2896,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.601 \end{align*}
+l.614 \end{align*}
                   
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -2564,7 +2904,7 @@ So I shall assume that you typed `$$' both times.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.602 \text{ Thus } -\alpha
+l.615 \text{ Thus } -\alpha
                            =\lambda\tau \text{( is the index of regular vari...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2576,7 +2916,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.604 \end{exm}
+l.617 \end{exm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2588,7 +2928,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.604 \end{exm}
+l.617 \end{exm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2600,7 +2940,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.604 \end{exm}
+l.617 \end{exm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2612,7 +2952,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.604 \end{exm}
+l.617 \end{exm}
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2621,7 +2961,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.604 \end{exm}
+l.617 \end{exm}
                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2632,20 +2972,19 @@ my insertion and my current dilemma will both disappear.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.604 \end{exm}
+l.617 \end{exm}
                
 Things are pretty mixed up, but I think the worst is over.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--605
+Underfull \hbox (badness 10000) in paragraph at lines 614--618
 
  []
 
-[14]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.607 F(x)=exp\{-x^
+l.620 F(x)=exp\{-x^
                    {-\alpha}\}\ \ \forall x>0,\alpha>0\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2657,7 +2996,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.608 \begin{align*}
+l.621 \begin{align*}
                     
 You've lost some text.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2668,7 +3007,7 @@ C.
 ! Paragraph ended before \align* was complete.
 <to be read again> 
                    \par 
-l.610 
+l.623 
       
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -2677,7 +3016,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.610 
+l.623 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2685,7 +3024,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.610 
+l.623 
       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2696,7 +3035,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.610 
+l.623 
       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2707,7 +3046,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.610 
+l.623 
       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2718,7 +3057,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.610 
+l.623 
       
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2727,7 +3066,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Misplaced alignment tab character &.
-l.611 &
+l.624 &
        =\lim_{x\rightarrow\infty}\frac{\alpha(tx)^{-\alpha-1}t \ exp \{-(tx)...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2739,7 +3078,7 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.611 &=\lim
+l.624 &=\lim
             _{x\rightarrow\infty}\frac{\alpha(tx)^{-\alpha-1}t \ exp \{-(tx)...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2747,7 +3086,7 @@ you left one out. Proceed, with fingers crossed.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.612 &
+l.625 &
        =t^{-\alpha}\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2759,7 +3098,7 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.613 
+l.626 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2767,7 +3106,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.613 
+l.626 
       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2778,7 +3117,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.613 
+l.626 
       
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2787,7 +3126,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Misplaced alignment tab character &.
-l.614 1-F(x)&
+l.627 1-F(x)&
              =x^{-\alpha}l(x)$ \text{ where } $l(x)=x^{\alpha}(1-exp\{-x^{-\...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2799,7 +3138,7 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.614 1-F(x)&=x^
+l.627 1-F(x)&=x^
                 {-\alpha}l(x)$ \text{ where } $l(x)=x^{\alpha}(1-exp\{-x^{-\...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2807,7 +3146,7 @@ you left one out. Proceed, with fingers crossed.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.615       &
+l.628       &
              =x^{\alpha}(1-exp\{-x^{-\alpha}\})\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2819,7 +3158,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.616 &
+l.629 &
        =x^{\alpha}(1-[1-x^{-\alpha}+\frac{1}{2}x^{-2\alpha}-\frac{1}{3!}x^{-...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2831,7 +3170,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.617 &
+l.630 &
        =1-\frac{1}{2}x^{-\alpha}+\frac{1}{3!}x^{-2\alpha}+...\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2843,7 +3182,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \cr.
 \math@cr@@@ ->\cr 
                   
-l.618 \end{align*}
+l.631 \end{align*}
                   
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -2854,7 +3193,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
                                                   {\vskip #1\relax }
-l.618 \end{align*}
+l.631 \end{align*}
                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -2862,7 +3201,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.618 \end{align*}
+l.631 \end{align*}
                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2870,7 +3209,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.618 \end{align*}
+l.631 \end{align*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2881,7 +3220,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \math@cr@@ ...th@cr@@@ \noalign {\vskip #1\relax }
                                                   
-l.618 \end{align*}
+l.631 \end{align*}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2892,7 +3231,7 @@ deleted material, e.g., by typing `I$}'.
 ! Misplaced \noalign.
 \black@ #1->\noalign 
                      {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
-l.618 \end{align*}
+l.631 \end{align*}
                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -2900,7 +3239,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Extra }, or forgotten \endgroup.
 \endalign ->\math@cr \black@ \totwidth@ \egroup 
                                                 \ifingather@ \restorealignst...
-l.618 \end{align*}
+l.631 \end{align*}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2909,13 +3248,13 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-! LaTeX Error: \begin{exm} on input line 606 ended by \end{align*}.
+! LaTeX Error: \begin{exm} on input line 619 ended by \end{align*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.618 \end{align*}
+l.631 \end{align*}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2924,7 +3263,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.618 \end{align*}
+l.631 \end{align*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2935,7 +3274,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.618 \end{align*}
+l.631 \end{align*}
                   
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -2947,7 +3286,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.619 \end{exm}
+l.632 \end{exm}
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2956,16 +3295,16 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.619 \end{exm}
+l.632 \end{exm}
                
 Things are pretty mixed up, but I think the worst is over.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--622
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 630.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 643.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2973,7 +3312,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.630 \item \rho
+l.643 \item \rho
                 (X+Y)\leq \rho(X)+\rho(Y)
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2985,7 +3324,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.631 \item
+l.644 \item
             X\leq Y a.s \Rightarrow \rho(X)\leq \rho(Y)
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2997,7 +3336,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.631 \item X
+l.644 \item X
              \leq Y a.s \Rightarrow \rho(X)\leq \rho(Y)
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3009,7 +3348,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.631 \item X
+l.644 \item X
              \leq Y a.s \Rightarrow \rho(X)\leq \rho(Y)
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3021,7 +3360,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.632 \item
+l.645 \item
             \rho(cX)=c\rho(X), \forall c>0
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3029,7 +3368,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.632 \item \rho
+l.645 \item \rho
                 (cX)=c\rho(X), \forall c>0
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3037,7 +3376,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.632 \item \rho
+l.645 \item \rho
                 (cX)=c\rho(X), \forall c>0
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3048,7 +3387,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.632 \item \rho
+l.645 \item \rho
                 (cX)=c\rho(X), \forall c>0
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3059,7 +3398,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.632 \item \rho
+l.645 \item \rho
                 (cX)=c\rho(X), \forall c>0
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3071,7 +3410,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.633 \item
+l.646 \item
             \rho(c+X)=c+\rho(X), \forall c>0
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3083,7 +3422,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.633 \item \rho
+l.646 \item \rho
                 (c+X)=c+\rho(X), \forall c>0
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3095,7 +3434,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.633 \item \rho
+l.646 \item \rho
                 (c+X)=c+\rho(X), \forall c>0
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3107,7 +3446,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.634 \end{itemize}
+l.647 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3119,7 +3458,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.634 \end{itemize}
+l.647 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3131,7 +3470,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.634 \end{itemize}
+l.647 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3139,7 +3478,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.634 \end{itemize}
+l.647 \end{itemize}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3148,98 +3487,99 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 636--641
+Underfull \hbox (badness 10000) in paragraph at lines 649--654
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 642--645
+Underfull \hbox (badness 10000) in paragraph at lines 655--658
 
  []
 
+[15]
 
-Package xcolor Warning: Incompatible color definition on input line 655.
+Package xcolor Warning: Incompatible color definition on input line 668.
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 658.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 671.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `T1/lmtt/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 658.
+(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 671.
 
 
-Package xcolor Warning: Incompatible color definition on input line 658.
+Package xcolor Warning: Incompatible color definition on input line 671.
 
-<figure/33-1.pdf, id=85, 361.35pt x 325.215pt>
+<figure/33-1.pdf, id=90, 361.35pt x 325.215pt>
 File: figure/33-1.pdf Graphic file (type pdf)
  <use figure/33-1.pdf>
-Package pdftex.def Info: figure/33-1.pdf used on input line 660.
+Package pdftex.def Info: figure/33-1.pdf used on input line 673.
 (pdftex.def)             Requested size: 361.34912pt x 325.2142pt.
- [15]
-Underfull \hbox (badness 10000) in paragraph at lines 675--676
+
+Underfull \hbox (badness 10000) in paragraph at lines 688--689
 
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.677 ...of the d.f F is any value $q_{\alpha}$\in
+l.690 ...of the d.f F is any value $q_{\alpha}$\in
                                                   \mathbb{R}$ s.t $\forall\a...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 689--692
+Underfull \hbox (badness 10000) in paragraph at lines 702--705
 
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 696--697
-
- []
-
-
-! LaTeX Error: \begin{align*} on input line 698 ended by \end{align}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.701 \end{align}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{align*} on input line 704 ended by \end{align}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.707 \end{align}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 [16 <./figure/33-1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 707--709
+Underfull \hbox (badness 10000) in paragraph at lines 709--710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 716--718
+! LaTeX Error: \begin{align*} on input line 711 ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.714 \end{align}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{align*} on input line 717 ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.720 \end{align}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 720--722
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--731
 
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.722   where q_
+l.735   where q_
                 {\alpha} is the $\alpha-th$ quantile or $VaR$ of $X$, $\fora...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3247,7 +3587,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.722   where q_{\alpha} is the $\alpha
+l.735   where q_{\alpha} is the $\alpha
                                        -th$ quantile or $VaR$ of $X$, $\fora...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3255,7 +3595,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.739 \begin{exm}X\sim
+l.752 \begin{exm}X\sim
                        Exponential(\theta)\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3263,7 +3603,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.740 $F(x)=1-e^
+l.753 $F(x)=1-e^
                 {-\theta x}=u\Leftrightarrow -\frac{1}{\theta}log(1-u)=x$\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3271,7 +3611,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.742 ..._{\alpha}=-\frac{1}{\theta}log(1-\alpha)$
+l.755 ..._{\alpha}=-\frac{1}{\theta}log(1-\alpha)$
                                                   \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3279,10 +3619,11 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
+[17]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.748 \begin{exm}X\sim
+l.761 \begin{exm}X\sim
                       \cal{N(\mu,\sigma^2)}\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3290,20 +3631,20 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.749 $VaR_
+l.762 $VaR_
            {\alpha(X)}=\mu+\sigma\Phi ^{(-1)}(\alpha)$ ,\ where $\Phi$ is th...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 748--751
+Underfull \hbox (badness 10000) in paragraph at lines 761--764
 
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.752 \int
+l.765 \int
           _{\alpha}^{\infty}x\Phi(x)dx=-\int_{a}^{\infty}\Phi^{'}(x)dx=-[0-\...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3315,7 +3656,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.753 \end{exm}
+l.766 \end{exm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3327,7 +3668,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.753 \end{exm}
+l.766 \end{exm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3339,7 +3680,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.753 \end{exm}
+l.766 \end{exm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3347,7 +3688,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.753 \end{exm}
+l.766 \end{exm}
                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3356,18 +3697,17 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 752--754
+Underfull \hbox (badness 10000) in paragraph at lines 765--767
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 755--756
+Underfull \hbox (badness 10000) in paragraph at lines 768--769
 
  []
 
-[17]
 ! Undefined control sequence.
-l.790 ...\lambda(t-s)\}^n}{n!}\ \ \ \forall 0\leqs
+l.803 ...\lambda(t-s)\}^n}{n!}\ \ \ \forall 0\leqs
                                                   >t,k,n\geq 0$$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3379,25 +3719,25 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.805 ...ich is obtained by $\lambda_0(t)$=\lambda
+l.818 ...ich is obtained by $\lambda_0(t)$=\lambda
                                                   _1(t)=...=\lambda(t)$ has ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Package xcolor Warning: Incompatible color definition on input line 820.
+Package xcolor Warning: Incompatible color definition on input line 833.
 
-<figure/06/4-1.pdf, id=105, 361.35pt x 325.215pt>
+<figure/06/4-1.pdf, id=106, 361.35pt x 325.215pt>
 File: figure/06/4-1.pdf Graphic file (type pdf)
  <use figure/06/4-1.pdf>
-Package pdftex.def Info: figure/06/4-1.pdf used on input line 822.
+Package pdftex.def Info: figure/06/4-1.pdf used on input line 835.
 (pdftex.def)             Requested size: 361.34912pt x 325.2142pt.
 
 [19]
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.835 $
+l.848 $
        $
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3408,7 +3748,7 @@ my insertion and my current dilemma will both disappear.
 ! Undefined control sequence.
 <argument> ...ta }+k+n}{n+1}\beta (n+1)e^{-(\alha 
                                                   +\beta k)(t-s)}\int _s^t\{...
-l.845 \end{align*}
+l.858 \end{align*}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3419,7 +3759,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...ta }+k+n}{n+1}\beta (n+1)e^{-(\alha 
                                                   +\beta k)(t-s)}\int _s^t\{...
-l.845 \end{align*}
+l.858 \end{align*}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3428,12 +3768,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [20 <./figure/06/4-1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 860--864
+Underfull \hbox (badness 10000) in paragraph at lines 873--877
 
  []
 
 ! Undefined control sequence.
-l.865 ......$ are independent exponential $(\lamda
+l.878 ......$ are independent exponential $(\lamda
                                                   )$, $(\lambda e^{-\lambda ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3444,7 +3784,7 @@ and I'll forget about whatever was undefined.
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.888 $
+l.901 $
        $
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3455,7 +3795,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.889  Thus $\psi
+l.902  Thus $\psi
                  (r_0,t^{\dagger})=P[T\leq t^{\dagger}]\xrightarrow{t^{\dagg...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3464,7 +3804,7 @@ you left one out. Proceed, with fingers crossed.
 ! Undefined control sequence.
 <argument> ...T_n-Z_{T_n}\\ &=r_0+c\displasystyle 
                                                   \sum _{k=1}^{n}D_k-\displa...
-l.914 \end{align*}
+l.927 \end{align*}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3475,7 +3815,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...T_n}}X_k\\ &=r_0+\displaystyle \sym 
                                                   _{k=1}^{n}V_k,\ \text {whe...
-l.914 \end{align*}
+l.927 \end{align*}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3486,7 +3826,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...T_n-Z_{T_n}\\ &=r_0+c\displasystyle 
                                                   \sum _{k=1}^{n}D_k-\displa...
-l.914 \end{align*}
+l.927 \end{align*}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3497,7 +3837,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...T_n}}X_k\\ &=r_0+\displaystyle \sym 
                                                   _{k=1}^{n}V_k,\ \text {whe...
-l.914 \end{align*}
+l.927 \end{align*}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3506,14 +3846,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--929
+Underfull \hbox (badness 10000) in paragraph at lines 940--942
 
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.933 Let n\in
+l.946 Let n\in
               \{0,1,...\}, h>0, t\in[nh,(n+1)h], then L_{nh}-h\leq L_t\leq L...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3525,7 +3865,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.934 \end{lema}
+l.947 \end{lema}
                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3537,7 +3877,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.934 \end{lema}
+l.947 \end{lema}
                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3549,7 +3889,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.934 \end{lema}
+l.947 \end{lema}
                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3557,7 +3897,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.934 \end{lema}
+l.947 \end{lema}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3569,13 +3909,13 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.947 2.- L_
+l.960 2.- L_
             t\xrightarrow\infty, \ if \  \beta<0\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.948 3.- L_t\xirghtarrow
+l.961 3.- L_t\xirghtarrow
                          {as}-\infty,\ \ if \beta>0\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3590,7 +3930,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.950 \end{thm}
+l.963 \end{thm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3602,7 +3942,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.950 \end{thm}
+l.963 \end{thm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3614,7 +3954,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.950 \end{thm}
+l.963 \end{thm}
                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3622,7 +3962,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.950 \end{thm}
+l.963 \end{thm}
                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3631,22 +3971,22 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 946--952
+Underfull \hbox (badness 10000) in paragraph at lines 959--965
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 972--975
+Underfull \hbox (badness 10000) in paragraph at lines 985--988
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 981--982
+Underfull \hbox (badness 10000) in paragraph at lines 994--995
 
  []
 
 ! Undefined control sequence.
-l.982  \item (2)$\beta<0\RightarrowL
+l.995  \item (2)$\beta<0\RightarrowL
                                     _t\xrightarrow{a.s}\infty$\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3655,24 +3995,24 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 982--983
+Underfull \hbox (badness 10000) in paragraph at lines 995--996
 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 983--984
+Underfull \hbox (badness 10000) in paragraph at lines 996--997
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 987--988
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1001
 
  []
 
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.1010 $
+l.1023 $
         $
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3682,12 +4022,12 @@ my insertion and my current dilemma will both disappear.
 
 [24]
 ! Double subscript.
-l.1027 ...s a Lévy process $\Rightarrow \{L_{nh}_
+l.1040 ...s a Lévy process $\Rightarrow \{L_{nh}_
                                                   {n\geq 0}\}$ for any $h>0,...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Undefined control sequence.
-l.1044 =1-\lambdan
+l.1057 =1-\lambdan
                   +o(h), & if &n=0\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3698,7 +4038,7 @@ and I'll forget about whatever was undefined.
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.1048 $
+l.1061 $
         $as $h\rightarrow\infty$
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3707,7 +4047,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Undefined control sequence.
-l.1056 ...(r_0)=(1-\lambda h)\psi(r_0+ch)+\lambdah
+l.1069 ...(r_0)=(1-\lambda h)\psi(r_0+ch)+\lambdah
                                                    \{\int_0^{r_0}\psi(r_0+ch...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3719,7 +4059,7 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1070 \beta
+l.1083 \beta
             =\frac{4}{11}\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3731,7 +4071,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1073 \end{exm}
+l.1086 \end{exm}
                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3743,7 +4083,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1073 \end{exm}
+l.1086 \end{exm}
                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3755,7 +4095,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1073 \end{exm}
+l.1086 \end{exm}
                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3763,7 +4103,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1073 \end{exm}
+l.1086 \end{exm}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3776,7 +4116,7 @@ Runaway argument?
 ! Paragraph ended before \align* was complete.
 <to be read again> 
                    \par 
-l.1083 
+l.1096 
        
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -3785,7 +4125,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1083 
+l.1096 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3793,7 +4133,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1083 
+l.1096 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3804,7 +4144,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.1083 
+l.1096 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3815,7 +4155,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \@@par 
-l.1083 
+l.1096 
        
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -3823,7 +4163,7 @@ So I shall assume that you typed `$$' both times.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.1083 
+l.1096 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3832,7 +4172,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Misplaced alignment tab character &.
-l.1084 f(x)&
+l.1097 f(x)&
             =\sqrt{\frac{\theta}{2\pi x^3}}exp\{-\frac{\theta}{2x}(\frac{x-\...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3844,7 +4184,7 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1084 f(x)&=\sqrt{
+l.1097 f(x)&=\sqrt{
                    \frac{\theta}{2\pi x^3}}exp\{-\frac{\theta}{2x}(\frac{x-\...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3852,7 +4192,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1086 
+l.1099 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3860,7 +4200,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1086 
+l.1099 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3871,7 +4211,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.1086 
+l.1099 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3882,13 +4222,13 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1087 M_
+l.1100 M_
          x(v)&=\int_0^{\infty}e^{vx}f(x)dx\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.1087 M_x(v)&
+l.1100 M_x(v)&
               =\int_0^{\infty}e^{vx}f(x)dx\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3900,7 +4240,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.1088 &
+l.1101 &
         =exp\{\frac{\theta}{\mu}[1-\sqrt{1-2\frac{\mu^2}{\theta}v}]\},\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3912,7 +4252,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \cr.
 \math@cr@@@ ->\cr 
                   
-l.1090 \end{align*}
+l.1103 \end{align*}
                    
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -3923,7 +4263,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
                                                   {\vskip #1\relax }
-l.1090 \end{align*}
+l.1103 \end{align*}
                    
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3931,7 +4271,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1090 \end{align*}
+l.1103 \end{align*}
                    
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3939,7 +4279,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1090 \end{align*}
+l.1103 \end{align*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3950,7 +4290,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \math@cr@@ ...th@cr@@@ \noalign {\vskip #1\relax }
                                                   
-l.1090 \end{align*}
+l.1103 \end{align*}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3961,7 +4301,7 @@ deleted material, e.g., by typing `I$}'.
 ! Misplaced \noalign.
 \black@ #1->\noalign 
                      {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
-l.1090 \end{align*}
+l.1103 \end{align*}
                    
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3969,7 +4309,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Extra }, or forgotten \endgroup.
 \endalign ->\math@cr \black@ \totwidth@ \egroup 
                                                 \ifingather@ \restorealignst...
-l.1090 \end{align*}
+l.1103 \end{align*}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3980,7 +4320,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1090 \end{align*}
+l.1103 \end{align*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3991,7 +4331,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.1090 \end{align*}
+l.1103 \end{align*}
                    
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -3999,7 +4339,7 @@ So I shall assume that you typed `$$' both times.
 ! Undefined control sequence.
 <recently read> \orall 
                        
-l.1095 ...nt coefficient $r$ exists, then, $\orall
+l.1108 ...nt coefficient $r$ exists, then, $\orall
                                                    r_0\geq 0$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4008,12 +4348,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 1098--1100
+Underfull \hbox (badness 10000) in paragraph at lines 1111--1113
 
  []
 
 
-Overfull \hbox (6.23988pt too wide) in paragraph at lines 1107--1110
+Overfull \hbox (6.23988pt too wide) in paragraph at lines 1120--1123
 []\T1/lmr/bx/n/10.95 Example 14. []\T1/lmr/m/it/10.95 Er-lang model This is the
  com-pound Pois-son risk pro-cess with $\OML/lmm/m/it/10.95 X[] \OMS/lmsy/m/n/1
 0.95  \OML/lmm/m/it/10.95 Exponential\OT1/lmr/m/n/10.95 ([])$ 
@@ -4022,7 +4362,7 @@ Overfull \hbox (6.23988pt too wide) in paragraph at lines 1107--1110
 ! Display math should end with $$.
 <to be read again> 
                    \protect 
-l.1129 $$=\frac{1}{1-\mu r}if $\frac
+l.1142 $$=\frac{1}{1-\mu r}if $\frac
                                     {1}{\mu}-r>0$ }\Leftrightarrow $r<\frac{...
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -4030,7 +4370,7 @@ So I shall assume that you typed `$$' both times.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1129 $$=\frac{1}{1-\mu r}if $\frac{1}{\mu}
+l.1142 $$=\frac{1}{1-\mu r}if $\frac{1}{\mu}
                                             -r>0$ }\Leftrightarrow $r<\frac{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4038,7 +4378,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \frac  #1#2->{\begingroup #1\endgroup \@@over #2}
                                                  
-l.1129 $$=\frac{1}{1-\mu r}if $\frac{1}{\mu}
+l.1142 $$=\frac{1}{1-\mu r}if $\frac{1}{\mu}
                                             -r>0$ }\Leftrightarrow $r<\frac{...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4049,7 +4389,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1129 ...}if $\frac{1}{\mu}-r>0$ }\Leftrightarrow
+l.1142 ...}if $\frac{1}{\mu}-r>0$ }\Leftrightarrow
                                                    $r<\frac{1}{\mu}$$ which ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4057,7 +4397,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1129 ...}-r>0$ }\Leftrightarrow $r<\frac{1}{\mu}
+l.1142 ...}-r>0$ }\Leftrightarrow $r<\frac{1}{\mu}
                                                   $$ which holds because $\f...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4065,7 +4405,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \frac  #1#2->{\begingroup #1\endgroup \@@over #2}
                                                  
-l.1129 ...}-r>0$ }\Leftrightarrow $r<\frac{1}{\mu}
+l.1142 ...}-r>0$ }\Leftrightarrow $r<\frac{1}{\mu}
                                                   $$ which holds because $\f...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4076,7 +4416,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1129 ...mu}$$ which holds because $\frac{1}{\mu}
+l.1142 ...mu}$$ which holds because $\frac{1}{\mu}
                                                   -\frac{\lambda}{c}(=\frac{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4084,7 +4424,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \frac  #1#2->{\begingroup #1\endgroup \@@over #2}
                                                  
-l.1129 ...mu}$$ which holds because $\frac{1}{\mu}
+l.1142 ...mu}$$ which holds because $\frac{1}{\mu}
                                                   -\frac{\lambda}{c}(=\frac{...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4093,7 +4433,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1129--1130
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1143
 
  []
 
@@ -4101,7 +4441,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1129--1130
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.1144 \end{array}$
+l.1157 \end{array}$
                    $
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -4116,7 +4456,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1145 \end{thm}
+l.1158 \end{thm}
                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4128,7 +4468,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1145 \end{thm}
+l.1158 \end{thm}
                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4140,7 +4480,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1145 \end{thm}
+l.1158 \end{thm}
                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4148,7 +4488,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1145 \end{thm}
+l.1158 \end{thm}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -4157,7 +4497,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Undefined control sequence.
-l.1146 i.e the first time that $\{\Y
+l.1159 i.e the first time that $\{\Y
                                     _t\}_{t\geq 0}$ goes below $r_0$\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4166,13 +4506,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: \begin{thm} on input line 621 ended by \end{document}.
+! LaTeX Error: \begin{thm} on input line 634 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1160 \end{document}
+l.1173 \end{document}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4181,40 +4521,42 @@ or  <return>  to continue without it.
 [28] (MatematicaNoVida.aux) )
 (\end occurred inside a group at level 3)
 
-### simple group (level 3) entered at line 1129 ({)
-### simple group (level 2) entered at line 1129 ({)
-### semi simple group (level 1) entered at line 621 (\begingroup)
+### simple group (level 3) entered at line 1142 ({)
+### simple group (level 2) entered at line 1142 ({)
+### semi simple group (level 1) entered at line 634 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 15843 strings out of 493334
- 260676 string characters out of 3139249
- 506064 words of memory out of 3000000
- 18995 multiletter control sequences out of 15000+200000
- 77636 words of font info for 57 fonts, out of 3000000 for 9000
+ 15880 strings out of 493334
+ 261533 string characters out of 3139249
+ 506225 words of memory out of 3000000
+ 19022 multiletter control sequences out of 15000+200000
+ 78032 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,18n,68p,608b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/P
-rogram Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 
-2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
-ps/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.e
-nc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
-mbxi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
-lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtko10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on MatematicaNoVida.pdf (28 pages, 466496 bytes).
+rogram Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc} <C:\Users\lenovo\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\public\bbm\dpi657\bbm10.pk>{C:/Program Files/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/
+enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-m
+athit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmbxi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
+/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmt
+ko10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm1
+0.pfb>
+Output written on MatematicaNoVida.pdf (28 pages, 469504 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
+ 213 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

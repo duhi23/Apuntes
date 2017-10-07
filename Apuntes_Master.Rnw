@@ -32,7 +32,7 @@
 
 \begin{document}
 
-\chapter{Matemática Actuarial de las operaciones de Seguro de Vida}
+\chapter{Matemática Actuarial para Seguros de Vida}
 
 \section{Modelo básico de mortalidad}
 
@@ -135,22 +135,69 @@ otras identidades que se verifican son:
   \item $ _{u|t}q_x = _up_x . _{x+u+t}q_{x+u}$
   \item $ _{t+u}p_x = _tp_x . _up_{x+t}$
   \item $\displaystyle _tp_x=\exp\left(-\int_{0}^{t} \mu_{x+s} ds\right)$
-  %\item $\displaystyle _tq_x=\int_{0}^{t} _sp_x \mu_{x+s} ds$
-  %\item $\displaystyle E[T_x] = e^{o}_x = \int_{0}^{\infty} \quad _tp_x dt$
-  %\item $\displaystyle E[T_x^2] = 2\int_{0}^{\infty} t . _tp_x dt$
+  \item $\displaystyle _tq_x=\int_{0}^{t}$ $_sp_x \mu_{x+s} ds$
+  \item $\displaystyle E[T_x] = e^{o}_x = \int_{0}^{\infty}$ $_tp_x dt$
+  \item $\displaystyle E[T_x^2] = 2\int_{0}^{\infty}$ $t . _tp_x dt$
   \item $V[T_x]=E[T_x^2]-(e^{o}_x)^2$
 \end{itemize}
 
+\subsection{Tablas de mortalidad}
+Reflejan la distribución completa de la mortalidad desde la edad 0 hasta $\omega$. Si suponemos un número positivo $l_{x}$ de personas vivas de edad $x$, con el transcurso del tiempo algunas personas morirán, por tanto, el número de sobrevivientes tras $t$ años viene dado por la expresión:
+\[l_{x +t}=l_{x} . _tp_x\]
+
+En virtud de lo anterior, a partir de los registros de sobrevivientes anotados en una tabla de mortalidad podemos obtener las probabilidades de fallecimiente o supervivencia:
+\[_tp_x=\frac{l_{x+t}}{l_{x}}\]
+\[_tq_x=\frac{l_{x}-l_{x+t}}{l_{x}}\]
 
 
+\subsection{Hipótesis para fracciones de año}
+Puesto que las tablas de mortalidad registran las probabilidades de fallecimiente o supervivencia para años enteros, debemos poner ciertas hipótesis para poder hallar las probabilidades para fracciones de año.
+\begin{enumerate}
+  \item {\bf Interpolación lineal}: También conocida como hipótesis de uniformidad, asume que $\mu_x$ se distribuye de manera uniforme.
+  \[l_{x+t} = (1-t)l_x + t.l_{x+1}\]
+  \[_tq_x=t.q_x\]
+  \[_tp_x=1-t.q_x\]
+  \[\mu_{x+t}=\frac{q_x}{1-t.q_x}\]
+  
+  \item {\bf Interpolación exponencial}: Se establece que el tanto instantáneo de mortalidad es constante.
+  \[l_{x+t} = l_{x}^{(1-t)}.l_{x+1}^{t}\]
+  \[_tq_x = 1-(p_x)^t\]
+  \[_tp_x = (p_x)^t\]
+  \[\mu_{x}=\mu \quad \text{(constante)}\]
+  
+  \item {\bf Interpolación armónica}: También conocidad como hipótesis de Balducci.
+  \[l_{x+t}=\frac{1}{\displaystyle\frac{1-t}{l_x} + \frac{t}{l_{x+1}}}\]
+  \[_tq_x = \frac{t. q_x}{1-(1-t)q_x}\]
+  \[_tp_x = \frac{1-q_x}{1-(1-t)q_x}\]
+\end{enumerate}
 
-\section{Clasificación}
+\subsection{Leyes de mortalidad}
+
+Una alternativa a las tablas de mortalidad son las funciones paramétricas dependientes de la edad $t$.
+\begin{center}
+\begin{tabular}{|c|c|c|}\hline\hline
+Ley & $\mu_x$ & $_tp_x$\\ \hline \hline
+Moivre   & $\frac{1}{w-x}$ & $1-\frac{t}{w-x}$\\
+Gompertz & $B.C^x$ & $\exp\left[-\frac{B}{\ln C} C^x(C^t-1)\right]$\\
+Makeham  & $A+B.C^x$ & $\exp\left[-At-\frac{B}{\ln C}C^x(C^t-1)\right]$\\
+Weibull  & $k.x^n$ & $\exp\left[-\frac{k}{n+1}\left((x+t)^{n+1}-x^{n+1}\right)\right]$\\ \hline
+\end{tabular}
+\end{center}
+
+
+\section{Clasificación de los Seguros y las Rentas}
 \begin{itemize}
   \item {\bf Seguro de vida:} Aseguran el pago de una indemnización o prestación en caso del fallecimiento del asegurado.
   \begin{itemize}
     \item {\bf Seguro de vida entera:} La duración del contrato es {\bf infinita}, se garantiza la prestación con independencia del momento de fallecimiento del asegurado.
     \item {\bf Seguros temporales:} La duración del contrato es {\bf determinada}, sólo se garantiza la prestación si el fallecimiento se produce durante la vigencia de la póliza.
   \end{itemize}
+  
+  \item {\bf Seguro de supervivencia:} Segura el pago de una indemnización o prestación en caso de que el asegurado permanezca vivo en una fecha determinanda (fin de póliza).
+  
+  \item {\bf Seguros mixtos:} Aseguran el pago de una indemnización o prestación en el caso que asegurado fallezca durante un determinado periodo de tiempo, pero también garantizan el cobro de dicha prestación en caso de supervivencia del asegurado.
+  
+  
 \end{itemize}
 
 

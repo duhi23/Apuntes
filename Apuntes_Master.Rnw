@@ -1,0 +1,157 @@
+\documentclass[11pt,a5paper,oneside]{book}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{pst-eucl,pstricks,pstricks-add,multido, pst-plot}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[spanish,activeacute]{babel}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{titlesec}
+\usepackage{color}
+\usepackage{url}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{lmodern}
+\usepackage{epstopdf}
+\usepackage{colortbl}
+\usepackage{fp,siunitx}
+\newcommand{\code}[1]{\fcolorbox{white}{gray!15}{#1}}
+\definecolor{lila}{rgb}{0.82, 0.62, 0.91}
+\definecolor{rosa}{rgb}{0.99, 0.76, 0.8}
+\definecolor{tomate}{rgb}{0.98, 0.84, 0.65}
+\definecolor{celeste}{rgb}{0.69, 0.88, 0.9}
+\definecolor{gris}{rgb}{0.7, 0.75, 0.71}
+\parindent=0mm
+
+
+\begin{document}
+
+\chapter{Matemática Actuarial de las operaciones de Seguro de Vida}
+
+\section{Modelo básico de mortalidad}
+
+% \begin{figure}[H]
+% \centering
+% \begin{pspicture}[showgrid=true](4,2)
+% \psline[linewidth=1.2pt](0,1)(4,1)
+% \end{pspicture}
+% \end{figure}
+
+La función de distribución de la edad de fallecimiento de un individuo se define por:
+\begin{align*}
+Pr[T_x \leq t] &= Pr[T_0 \leq x+t| T_0>x]\\
+               &= \frac{Pr[x<T_0<x+t]}{Pr[T_0>x]}\\
+               &= \frac{Pr[T_0<x+t]-Pr[T_0<x]}{Pr[T_0>x]}\qquad \text{haciendo}\quad F_x(t)=Pr[T_x\leq t]\\
+               &= \frac{F_0(x+t)-F_0(x)}{1-F_0(x)}
+\end{align*}
+además, si definimos la función de supervivencia como el complemento de la anterior:
+\begin{align*}
+Pr[T_x >t] &= 1-F_x(t)\\ 
+           &= 1-\frac{F_0(x+t)-F_0(x)}{1-F_0(x)}\\
+           &= \frac{1-F_0(x+t)}{1-F_0(x)}\qquad \text{haciendo}\quad S_x(t)=1-F_x(t)=Pr[T_x> t]\\
+           &= \frac{S_0(x+t)}{S_0(x)}
+\end{align*}
+de la última relación obtenemos:
+\[S_x(t)=\frac{S_0(x+t)}{S_0(x)} \qquad \to \qquad S_0(x+t)=S_0(x).S_x(t)\]
+
+% \begin{figure}[H]
+% \centering
+% \begin{pspicture}[showgrid=true](5,2)
+% \psframe[fillstyle=solid,fillcolor=gray!20,linecolor=white](-0.5,-0.3)(5.7,2.4)
+% \pstGeonode[PointName=none,PointSymbol=*]
+%            (0,1){A}(5,1){B}(3,1){C}
+% \pstLineAB[linewidth=1.5pt,linecolor=cyan!80]{A}{B}
+% \nccurve[angleA=35,angleB=145,linecolor=magenta!60]{<->}{A}{B}
+% \nccurve[angleA=-35,angleB=215,linecolor=blue!80]{<->}{A}{C}
+% \nccurve[angleA=-40,angleB=220,linecolor=red!90]{<->}{C}{B}
+% %\rput(2.5,2){$\nd{x+t}{p}{0}$}
+% \rput(0,0.7){\scriptsize $0$}
+% \rput(3,0.7){\scriptsize $x$}
+% \rput(5.1,0.7){\scriptsize $x+t$}
+% %\rput(1.5,0.3){$\nd{x}{p}{0}$}
+% %\rput(4,0.3){$\nd{t}{p}{x}$}
+% \end{pspicture}
+% \label{fig:1.3}
+% \caption{Esquema función de supervivencia}
+% \end{figure}
+
+
+\subsection{Propiedades de la función de supervivencia}
+\begin{enumerate}
+  \item $S_x(0)=1$
+  \item $\displaystyle \lim_{t\to +\infty} S_x(t)=0$
+  \item Función no creciente en función de t (decreciente o constante)
+\end{enumerate}
+
+\subsection{Propiedades de la función de mortalidad}
+\begin{enumerate}
+  \item $F_x(0)=0$
+  \item $\displaystyle \lim_{t\to +\infty} F_x(t)=1$
+  \item Función no decreciente en función de t (creciente o constante)
+\end{enumerate}
+
+además, se establecen las siguientes condiciones sobre la función de supervivencia para garantizar la convergencia de sus integrales:
+\begin{enumerate}
+  \item $S_x(t)$ debe ser diferenciable $\forall t>0$, $\displaystyle \frac{d}{dt}S_x(t)\leq 0$
+  \item La media debe ser constante $\displaystyle \lim_{t\to +\infty} t S_x(t)=0$
+  \item Su varianza es acotada $\displaystyle \lim_{t\to +\infty} t^2 S_x(t)=0$
+\end{enumerate}
+
+
+\subsection{Tanto instantáneo de mortalidad}
+Se define como:
+\begin{align*}
+\mu_x &= \lim_{dx\to 0^+} \frac{1}{dx}Pr[T_0\leq x+dx| T_0>x]\\
+      &= \lim_{dx\to 0^+} \frac{1}{dx}Pr[T_x\leq dx]\\
+      &= \lim_{dx\to 0^+} \frac{1}{dx}\left(1-S_x(dx)\right), \text{considerando que} \quad S_x(dx)=\frac{S_0(x+dx)}{S_0(x)}\\
+      &= \frac{1}{S_0(x)} \lim_{dx\to 0^+} \left[\frac{S_0(x)-S_0(x+dx)}{dx}\right]\\
+      &= \frac{1}{S_0(x)} \left(-\frac{d}{dx}S_0(x)\right), \text{dado que} \quad f_x(t)=\frac{d}{dt}F_x(t)=-\frac{d}{dt}S_x(t)\\
+      &= \frac{f_0(x)}{S_0(x)}
+\end{align*}
+de lo anterior, se deduce además que:
+\[\mu_{x+t}=-\frac{1}{S_x(t)}\frac{d}{dx}S_x(t)\quad \to \quad S_x(t)=\exp\left(-\int_{x}^{x+t} \mu_r dr\right)\]
+
+\subsection{Notación Actuarial}
+
+Es habitual emplear las siguientes expresiones en el ámbito actuarial:
+\[_tp_x=Pr[T_x>t]=S_x(t)\]
+\[_tq_x=Pr[T_x\leq t]=F_x(t)\]
+con la nomenclatura anterior, la probabilidad diferida se puede expresar como:
+\begin{align*}
+_{u|t}q_x &= Pr[u<T_x<u+t]\\
+          &= Pr[T_x<u+t]-Pr[Tx<u]\\
+          &= _{u+t}q_x - _uq_x\\
+          &= _up_x - _{u+t}p_x
+\end{align*}
+otras identidades que se verifican son:
+\begin{itemize}
+  \item $ _tp_x + _tq_x = 1$
+  \item $ _{u|t}q_x = _up_x . _{x+u+t}q_{x+u}$
+  \item $ _{t+u}p_x = _tp_x . _up_{x+t}$
+  \item $\displaystyle _tp_x=\exp\left(-\int_{0}^{t} \mu_{x+s} ds\right)$
+  %\item $\displaystyle _tq_x=\int_{0}^{t} _sp_x \mu_{x+s} ds$
+  %\item $\displaystyle E[T_x] = e^{o}_x = \int_{0}^{\infty} \quad _tp_x dt$
+  %\item $\displaystyle E[T_x^2] = 2\int_{0}^{\infty} t . _tp_x dt$
+  \item $V[T_x]=E[T_x^2]-(e^{o}_x)^2$
+\end{itemize}
+
+
+
+
+\section{Clasificación}
+\begin{itemize}
+  \item {\bf Seguro de vida:} Aseguran el pago de una indemnización o prestación en caso del fallecimiento del asegurado.
+  \begin{itemize}
+    \item {\bf Seguro de vida entera:} La duración del contrato es {\bf infinita}, se garantiza la prestación con independencia del momento de fallecimiento del asegurado.
+    \item {\bf Seguros temporales:} La duración del contrato es {\bf determinada}, sólo se garantiza la prestación si el fallecimiento se produce durante la vigencia de la póliza.
+  \end{itemize}
+\end{itemize}
+
+
+\end{document}

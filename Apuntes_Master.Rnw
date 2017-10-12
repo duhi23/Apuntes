@@ -228,4 +228,33 @@ Asumimos que el pago de la indemnización se realiza al finalizar el periodo en 
 \subsubsection{Caso fraccionado}
 
 
+
+\section{Símbolos de conmutación}
+% Texto copiado 
+En las tablas actuariales, que se utilizan en seguros, es habitual encontrar una serie de columnas encabezadas con letras mayúsculas. Cada una de ellas representa un símbolo de conmutación que, como se ha visto, no es más que una función matemática que combina alguno de los elementos de la tabla con factores financieros. Su objeto es facilitar la comprensión y el cálculo de las operaciones actuariales.\newline
+
+Los principales símbolos de conmutación que pueden obtenerse, a cada edad, en una tabla actuarial son los siguientes:
+\begin{itemize}
+  \item $v=(1+i)^{-1}$
+  \item $D_x=v^x.l_x$
+  \item $N_x=\displaystyle\sum_{k=0}^{w-x} D_{x+k}$
+  \item $S_x=\displaystyle\sum_{k=0}^{w-x} N_{x+k}$
+  \item $C_x=v^{x+1/2}.d_x$
+  \item $M_x=\displaystyle\sum_{k=0}^{w-x} C_{x+k}$
+  \item $R_x=\displaystyle\sum_{k=0}^{w-x} M_{x+k}$
+  \item $\overline{C}_x=v^{x+1}.d_x$
+  \item $\overline{M}_x=\displaystyle\sum_{k=0}^{w-x} \overline{C}_{x+k}$
+  \item $\overline{R}_x=\displaystyle\sum_{k=0}^{w-x} \overline{M}_{x+k}$
+\end{itemize}
+
+Según que la prestación sea pagadera a mitad o a final del periodo, en lo que se refiere a las dos últimas filas.\newline
+
+Asimismo, se adjuntan algunas operaciones de seguros y rentas expresadas mediante símbolos de conmutación:
+\begin{itemize}
+  \item $_{t-x}E_x = \displaystyle\frac{D_t}{D_x}$
+  \item $\ddot{a}_x = \displaystyle\frac{N_x}{D_x}$
+  \item $a_x = \displaystyle\frac{N_{x+1}}{D_x}$
+\end{itemize}
+
+
 \end{document}

@@ -197,8 +197,35 @@ Weibull  & $k.x^n$ & $\exp\left[-\frac{k}{n+1}\left((x+t)^{n+1}-x^{n+1}\right)\r
   
   \item {\bf Seguros mixtos:} Aseguran el pago de una indemnización o prestación en el caso que asegurado fallezca durante un determinado periodo de tiempo, pero también garantizan el cobro de dicha prestación en caso de supervivencia del asegurado.
   
+  \item {\bf Rentas de supervivencia:} Asegura el pago de una prestación periódica en caso de que el asegurado permanezca vivo, pudiendo ser por un periodo determinado (temporales) o cubrir toda la vida del asegurado (vitalicia).
   
+  \item {\bf Seguros o rentas de invalidez o enfermedad:} Se asegura el pago de una prestación o una renta si el asegurado se invalida o enferma.
+  
+  \item {\bf Seguros o rentas de dependencia:} Se asegura el pago de una prestación o una renta si el asegurado obtiene un determinado grado de dependencia (problema a futuro).
 \end{itemize}
+
+\subsection{Factor de actualización actuarial}
+
+La valoración actual de capitales futuros cuya cuantía y/o vencimiento dependen del acaecimiento de un suceso aleatorio se realiza considerando las bases técnicas que informen de la ley financiera y tipo de interés empleado, así como también las probabilidades de los sucesos.\newline
+
+En cuanto a la ley financiera, emplearemos la de capitalización compuesta; el tipo de interés utilizado en los cálculos actuariales se denomina interés técnico, que no coincide necesariamente con el tipo de interés de mercado y es la rentabilidad que el segurador garantiza en sus operaciones de seguro; por último, las tablas de mortalidad nos proporcionarán las citadas probabilidades.
+
+\[_nE_x = _np_x . (1+i)^{-n}\]
+
+\subsection{Seguro de vida entera}
+
+\subsubsection{Caso continuo}
+Asumimos que se el pago de la indemnización se realiza en el instante que se produce el fallecimiento.
+
+\[E(z)=E\left(e^{-\delta T_x}\right) = \int_0^{\infty} e^{-\delta t} . _tp_x . \mu_{x+t} dt = \overline{A}_x\]
+
+
+\subsubsection{Caso discreto}
+Asumimos que el pago de la indemnización se realiza al finalizar el periodo en el que se produce el fallecimiento
+
+\[E(z)=E\left(v^{K_x+1}\right)=\sum_{k=0}^{\infty} v^{k+1} . _kp_x . q_{x+k} = \sum_{k=0}^{\infty} v^{k+1} .  _{k|}q_x\]
+
+\subsubsection{Caso fraccionado}
 
 
 \end{document}

@@ -32,6 +32,8 @@
 
 \begin{document}
 
+\tableofcontents
+
 \chapter{Matemática Actuarial para Seguros de Vida}
 
 \section{Modelo básico de mortalidad}
@@ -255,6 +257,73 @@ Asimismo, se adjuntan algunas operaciones de seguros y rentas expresadas mediant
   \item $\ddot{a}_x = \displaystyle\frac{N_x}{D_x}$
   \item $a_x = \displaystyle\frac{N_{x+1}}{D_x}$
 \end{itemize}
+
+
+
+\chapter{Renta Fija y sus derivados}
+
+Recordemos que los bonos y obligaciones no son más que títulos-valor representativos de la parte alícuota de un préstamo. Nos centraremos en aquellos bonos y obligaciones en los que los flujos de caja están predeterminados, es decir, aquellos títulos que salvo insolvencia del emisor tienen fijados de antemano cuáles van a ser los pagos en concepto de intereses o amortización del nominal que va a recibir el propietario de los mismos. Quedan excluido los bonos indizados, con cláusulas de convertibilidad y más.\newline
+
+A los bonos y obligaciones vamos a clasificarlos de acuerdo a la modalidad en el pago de intereses:
+\begin{itemize}
+  \item {\bf Periódico:} Títulos que pagan sus intereses de forma periódica en forma de cupones.
+  \item {\bf Cupón Cero:} Título que generan un único flujo de caja al vencimiento.
+\end{itemize}
+
+\section{Valoración de bonos y obligaciones}
+
+El valor en el mercado de cualquier activo financiero se deriva del derecho a recibir los flujos de caja futuros que dicho título prometer generar. En el caso particular de los bonos y obligaciones, estos flujos de caja vienen determinados por los siguientes elementos:
+\begin{itemize}
+  \item {\bf Nominal:} es la cuantía de referencia a partir de la cual se determinan los flujos de caja.
+  \item {\bf Cupón:} se establece como un porcentaje del nominal y se paga periódicamente.
+  \item {\bf Frecuencia en el pago:} normalmente los cupones suelen pagarse con frecuencia anual o semestral aunque en menor medida puede ser también trimestral o incluso mensual.
+  \item {\bf Fecha de vencimiento:} es la fecha en la que se devuelve en principal o nominal del título al inversor.
+  \item {\bf Prima de amortización:} Se establece como un porcentaje sobre el nominal y se paga al inversor al vencimiento o amortización del título (aplica a los bonos cupón cero).
+\end{itemize}
+
+El método de valoración es, en general, capitalización compuesta y año natural.\newline
+
+Así, un bono recién emitido genera la siguiente corriente de pagos:
+
+% Gráfico cupones y nominal
+
+Si suponemos que el tipo de interés al que se negocia el bono es un tipo de interés anual igual a R, el precio del bono, P, podemos obtenerlo descontando a fecha de hoy $t=0$ el valor de los flujos de caja futuros que generará dicho título.\newline
+
+El precio del bono será, por tanto:
+\begin{align*}
+P &= \frac{C}{(1+R)}+\frac{C}{(1+R)^2}+\frac{C}{(1+R)^3}+\cdots+\frac{C}{(1+R)^{n-1}}+\frac{C+N}{(1+R)^n}\\
+&= C\left(\frac{1-(1+R)^{-n}}{R}\right) + \frac{N}{(1+R)^n}
+\end{align*}
+
+Un resultado fundamental en finanzas y que se puede observar directamente analizando la ecuación anterior es que a mayor tipo de interés corresponde un menor precio de los bonos y viceversa. Existe una relación inversa entre tipos de interés y precio. Téngase en cuenta que mientras los flujos de caja generados por el bono (cupones y devolución del nominal) son cantidades fijas que no varían, el valor de R, el tipo de interés de valoración del bono, fluctúa continuamente en función de las condiciones del mercado, haciendo cambiar en sentido inverso el precio del bono en el mercado secundario.\newline
+
+Así pues, el precio de un bono puede ser menor, igual o mayor que el nominal del mismo en cuyo caso decimos que el bono cotiza por debajo de la par, a la par o por encima de la par respectivamente. No resulta difícil demostrar que se verifica (en la fecha de emisión o inmediatamente después del pago de un cupón) la siguiente relación:
+\begin{itemize}
+  \item Si $R < C/N$ entonces $P > N$, es decir, el bono cotizará por encima de la par.
+  \item Si $R = C/N$ entonces $P = N$, es decir, el bono cotizará a la par.
+  \item Si $R > C/N$ entonces $P < N$, es decir, el bono cotizará por debajo de la par.
+\end{itemize}
+
+Hay que recalcar que esta relación sólo se verifica en la fecha de emisión o inmediatamente después del pago de cupones.
+
+\section{La estructura temporal de los tipos de interés}
+
+Una creencia generalizada es suponer que, el tipo de interés es mayor cuanto mayor es el plazo de la operación o del título negociado. Sin embargo, es fácil comprobar cómo la relación entre tipos de interés y plazo ha adoptado a lo largo del tiempo formas y niveles muy dispares. 
+
+% Gráficos del tipo de interés versus el plazo
+
+Pues bien en esta sección nos vamos a centrar en la pregunta de por qué en un determinado momento esta relación entre tipo de interés y plazo adopta una forma u otra y de qué depende dicha relación.\newline
+
+Para poder comprender las teorías que han sido desarrolladas para explicar esta relación es necesario comenzar por definir una serie de conceptos entre los que destacamos el concepto de tipo de interés cupón cero (o al contado) y un concepto fundamental no ya sólo para entender de qué depende la relación entre tipos de interés y plazo sino en general para todo lo relacionado con la gestión de carteras de renta fija: el concepto de tipo de interés forward (o a plazo).
+
+\subsection{Tipos de interés al contado}
+
+Introducimos este concepto para poder determinar cuál es, en un momento dado, el precio de la forma más \emph{pura} posible en el sentido de medir adecuadamente ese precio por diferir la disponibilidad del dinero durante un periodo de tiempo determinado.\newline
+
+El tipo de interés al contado referido a un plazo determinado es la tasa interna de rentabilidad (anual) que proporcionaría una operación financiera consistente en la compra hasta el vencimiento de un bono de la máxima calidad crediticia y liquidez con vencimiento al final de dicho plazo.
+
+\section{Gestión del riesgo de interés}
+
 
 
 \end{document}
